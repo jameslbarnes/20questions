@@ -1,0 +1,36 @@
+{
+  "game_id": "8ab324f5-f3fa-492d-acf1-c096ed4f69c7",
+  "timestamp": "2025-03-21T21:08:30.933317",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-5-sonnet-20241022",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object (something you can touch)?",
+    "Is it a human-made/manufactured object (as opposed to something found in nature)?",
+    "Is it primarily used for food or eating?",
+    "Can you eat/consume this object directly?",
+    "Is it a sweet/dessert item?",
+    "Is it a naturally occurring food item (like a fruit) rather than something that needs to be prepared/manufactured?",
+    "Is it a type of berry?",
+    "Is it a type of tropical fruit (like banana, mango, pineapple)?",
+    "Is it a type of apple?"
+  ],
+  "answers": [
+    "Yes.",
+    "Maybe.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 9,
+  "final_guess": "apple",
+  "success": true,
+  "max_questions": 20
+}

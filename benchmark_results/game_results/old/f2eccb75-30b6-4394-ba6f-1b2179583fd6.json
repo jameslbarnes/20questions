@@ -1,0 +1,36 @@
+{
+  "game_id": "f2eccb75-30b6-4394-ba6f-1b2179583fd6",
+  "timestamp": "2025-03-21T00:57:00.906207",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "Is the entity you're thinking of a living thing (i.e., does it have life)?",
+    "Question 2: Is the entity you're thinking of man-made?",
+    "Question 3: Is the entity a tangible physical object (something you can physically touch)?",
+    "Question 4: Does the object require electricity to operate?",
+    "Question 5: Is this object typically found in households?",
+    "Question 6: Is the object's primary function to provide entertainment?",
+    "Question 7: Is the object primarily used in the kitchen?",
+    "Question 8: Does this kitchen appliance primarily function to heat or cook food?",
+    "Question 9: Does this appliance rely on microwave radiation to heat or cook food?"
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 9,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

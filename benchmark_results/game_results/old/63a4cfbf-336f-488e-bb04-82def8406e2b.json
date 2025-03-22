@@ -1,0 +1,22 @@
+{
+  "game_id": "63a4cfbf-336f-488e-bb04-82def8406e2b",
+  "timestamp": "2025-03-21T09:54:13.073348",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions with you! Let me ask my first question to start narrowing down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is this physical object larger than a microwave oven?"
+  ],
+  "answers": [
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 2,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

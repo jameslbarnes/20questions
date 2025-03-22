@@ -1,0 +1,37 @@
+{
+  "game_id": "0ee161d7-726d-474c-8eeb-128393fe270b",
+  "timestamp": "2025-03-21T22:05:42.463841",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-5-sonnet-20241022",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "car",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object (something you can touch)?",
+    "Is it larger than a microwave oven?",
+    "Is it manufactured/made by humans?",
+    "Is it commonly found inside buildings/homes?",
+    "Is it used for transportation of people or goods?",
+    "Does it primarily travel on roads/highways?",
+    "Is it larger than a standard passenger car?",
+    "Is it primarily designed to carry passengers (rather than cargo)?",
+    "Can it typically seat more than 2 people?",
+    "Based on all the information - it's a passenger road vehicle, not larger than a standard car, can seat more than 2 people, primarily for passengers - I'm reasonably confident this is a typical passenger car.\n\n<guess>Car (sedan/hatchback)</guess>\n\nThe pattern of answers strongly suggests a standard passenger automobile: it's a manufactured object, used for transportation on roads, designed for multiple passengers, and of the appropriate size category."
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 10,
+  "final_guess": "Car (sedan/hatchback)",
+  "success": true,
+  "max_questions": 20
+}

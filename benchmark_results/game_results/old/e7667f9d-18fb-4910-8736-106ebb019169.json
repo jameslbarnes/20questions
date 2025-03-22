@@ -1,0 +1,38 @@
+{
+  "game_id": "e7667f9d-18fb-4910-8736-106ebb019169",
+  "timestamp": "2025-03-21T10:05:30.360765",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions! Let me ask my first question to begin narrowing down what you're thinking of.\n\nIs it a physical object (as opposed to a concept, idea, or place)?",
+    "Question 2: Is it something that can be held in one hand?",
+    "Question 3: Is it larger than a car?",
+    "Question 4: Is it a piece of furniture?",
+    "Question 5: Is it a household appliance or commonly found in homes?",
+    "Question 6: Is it used for cooking or food preparation?",
+    "Question 7: Is it an electric appliance?\nAnswer: Yes",
+    "Question 8: Is it primarily used for cooking (as opposed to just food preparation)?",
+    "Question 9: Is it a stove or oven?",
+    "Question 10: Is it a microwave?"
+  ],
+  "answers": [
+    "Yes",
+    "No",
+    "No",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 10,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

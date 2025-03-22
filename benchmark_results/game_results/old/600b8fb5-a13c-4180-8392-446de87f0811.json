@@ -1,0 +1,34 @@
+{
+  "game_id": "600b8fb5-a13c-4180-8392-446de87f0811",
+  "timestamp": "2025-03-21T11:01:06.773494",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dolphin",
+  "category": "animals",
+  "questions": [
+    "I'll start with a broad question to help narrow down the possibilities.\n\nQuestion 1: Is it a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object (as opposed to something naturally occurring)?",
+    "Question 3: Is it a living thing or part of a living thing?",
+    "Question 4: Is it an animal (as opposed to a plant or fungus)?",
+    "Question 5: Is it a vertebrate animal (having a backbone, like mammals, birds, reptiles, amphibians, or fish)?",
+    "Question 6: Is it a mammal?",
+    "Question 7: Is it a land-dwelling mammal (as opposed to primarily aquatic or flying)?",
+    "Question 8: Is it an aquatic mammal (like a whale, dolphin, or seal)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "CORRECT! You've guessed the entity: dolphin"
+  ],
+  "question_count": 8,
+  "final_guess": "dolphin",
+  "success": true,
+  "max_questions": 20
+}

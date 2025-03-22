@@ -1,0 +1,337 @@
+{
+  "game_id": "ef2c7fa5-c504-4ae6-bb02-527c5d705b1e",
+  "timestamp": "2025-03-22T13:46:52.848880",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "unicorn",
+  "category": "fictional",
+  "questions": [
+    "Is it a physical/tangible object that you can touch?",
+    "Is it something that exists in reality (not fictional or imaginary)?",
+    "Is it from an established work of fiction (like a book, movie, TV show, or video game)?",
+    "Is it an entity (like a character, creature, or being) as opposed to a concept, event, or process?",
+    "Is it humanoid in form (has human-like characteristics such as a head, torso, arms, legs)?",
+    "Is it an animal-like creature (resembling an existing or prehistoric animal)?",
+    "Is it a mammal-like creature (as opposed to a reptile, bird, fish, or insect-like creature)?",
+    "Does it have any magical, supernatural, or special powers?",
+    "Does it have wings or can it fly?",
+    "Is it a quadrupedal creature (walks on four legs)?",
+    "Does it have a horn (or horns) on its head?",
+    "Is it horse-like in appearance (similar to a horse, pony, or equine)?",
+    "Does it have a white or predominantly white coat/body?",
+    "<guess>Unicorn</guess>"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 14,
+  "final_guess": "Unicorn",
+  "success": true,
+  "max_questions": 20,
+  "questioner_thinking": [
+    {
+      "question_index": 0,
+      "thinking": "I'm playing 20 Questions. My goal is to identify what the answerer is thinking of by asking strategic yes/no questions. I need to be methodical and efficient with my questions to maximize information gain.\n\nI'll start with the most fundamental divisions to establish the basic nature of what we're looking for:\n\nQuestion 1: I should ask whether it's a physical/tangible object. This divides the universe of possibilities into physical things vs. concepts/ideas/abstract entities.\n\n\"Is it a physical/tangible object?\""
+    },
+    {
+      "question_index": 1,
+      "thinking": "So far I know:\n- It's not a physical/tangible object that you can touch.\n\nThis means it could be:\n- A concept, idea, or abstract notion\n- A feeling or emotion\n- A service or experience\n- A digital entity or virtual item\n- A historical event\n- A process or phenomenon\n- A fictional character or place\n\nLet me now try to narrow down these possibilities further. I should determine if it's something concrete (though intangible) or completely abstract.\n\nMy next question should effectively divide this space of possibilities. I could ask:\n1. If it's something that exists in reality (vs. purely fictional/imaginary)\n2. If it's something that happens/occurs (vs. a static concept)\n3. If it's something associated with humans specifically\n4. If it has a temporal dimension\n\nI think asking if it exists in reality is a good next question as it will help me determine if we're dealing with something fictional or imaginary versus something that has a real existence even if intangible."
+    },
+    {
+      "question_index": 2,
+      "thinking": "Let's analyze what we know so far:\n1. It's not a physical/tangible object that can be touched.\n2. It's not something that exists in reality (it is fictional or imaginary).\n\nSo I'm dealing with something that's:\n- Fictional/imaginary\n- Not physical/tangible\n\nThis could include:\n- Fictional characters\n- Fictional places\n- Fictional concepts\n- Imaginary beings\n- Mythological entities\n- Abstract concepts from fiction\n- Fictional events\n\nLet me try to narrow this down further. A good question would be to determine if it's something from established fiction (books, movies, TV shows, etc.) versus something purely imaginary or from mythology/folklore.\n\nI'll ask if it's from an established work of fiction like a book, movie, TV show, or video game."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me analyze what I know so far:\n1. It's not a physical/tangible object.\n2. It doesn't exist in reality (it's fictional or imaginary).\n3. It's not from an established work of fiction.\n\nSo we're dealing with something:\n- Intangible/non-physical\n- Fictional/imaginary\n- Not from existing media\n\nThis suggests it could be:\n- A concept or idea someone made up\n- A hypothetical scenario\n- Something from the answerer's imagination\n- A mythical or legendary entity not associated with established fiction\n- A made-up character or creature\n\nI should try to narrow down whether it's a being/entity or more of an abstract concept.\n\nLet me ask if it's an entity (being, character, creature) as opposed to an abstract concept, event, or process."
+    },
+    {
+      "question_index": 4,
+      "thinking": "So far I know:\n1. It's not a physical/tangible object\n2. It doesn't exist in reality (it's fictional or imaginary)\n3. It's not from an established work of fiction \n4. It is an entity (character, creature, or being) rather than a concept, event, or process\n\nThis suggests we're dealing with an imaginary entity that isn't from any established fictional universe. This could be:\n- A mythological or folkloric creature not considered \"established fiction\"\n- A made-up character or being created by the person answering\n- A hypothetical or theoretical entity\n- A religious or spiritual entity (though these might be considered \"real\" by some)\n\nLet me ask about whether it's humanoid or not - this would divide the search space effectively."
+    },
+    {
+      "question_index": 5,
+      "thinking": "Let's summarize what I know so far:\n1. It's not a physical/tangible object\n2. It doesn't exist in reality (it's fictional or imaginary)\n3. It's not from an established work of fiction\n4. It is an entity (character, creature, or being)\n5. It is not humanoid in form\n\nSo we're dealing with a fictional or imaginary entity that's not from an established work of fiction and doesn't have human-like characteristics. This suggests it could be:\n- A mythical/legendary creature that doesn't have human form (not from a specific work)\n- An imaginary being someone might have made up\n- Some kind of abstract entity or being\n- A supernatural/religious entity that's not humanoid\n\nLet me continue narrowing this down:"
+    },
+    {
+      "question_index": 6,
+      "thinking": "So far, I've learned the following:\n1. It's not a physical/tangible object you can touch\n2. It doesn't exist in reality (it's fictional or imaginary)\n3. It's not from an established work of fiction\n4. It is an entity (character, creature, or being)\n5. It's not humanoid in form\n6. It is animal-like (resembling an existing or prehistoric animal)\n\nSo we're dealing with a fictional animal-like creature that's not from an established work of fiction. This suggests it might be a mythical creature, something from folklore, an internet creation, or something the person made up themselves.\n\nLet me continue narrowing down by asking about some major animal categories. I should try to eliminate broad categories to narrow the search space efficiently.\n\nI think I'll ask if it's mammalian in nature, as that would split the animal kingdom into a meaningful division."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me summarize what I know so far:\n1. It's not a physical/tangible object\n2. It doesn't exist in reality (it's fictional/imaginary)\n3. It's not from an established work of fiction\n4. It is an entity (like a character, creature, or being)\n5. It's not humanoid in form\n6. It's an animal-like creature\n7. It's a mammal-like creature\n\nSo I'm dealing with a fictional mammal-like creature that's not from an established work of fiction. This suggests it could be:\n- A mythological or legendary creature\n- A creature from folklore\n- A creature someone made up\n- A creature from lesser-known fiction\n\nLet me continue narrowing down with some key questions about its characteristics.\n\nSince it's mammal-like, I should figure out if it's based on a specific type of mammal or a hybrid/chimera type creature. I'll also need to determine if it has any magical or supernatural attributes, since many fictional creatures do.\n\nNext logical question could be about size, whether it's more like a predator or prey animal, or whether it has any supernatural/magical qualities."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me summarize what I know so far:\n1. It's not a physical/tangible object that can be touched\n2. It doesn't exist in reality (it's fictional or imaginary)\n3. It's not from an established work of fiction (book, movie, TV show, video game)\n4. It is an entity (character, creature, or being)\n5. It's not humanoid in form\n6. It is an animal-like creature\n7. It is mammal-like (not reptile, bird, fish, or insect)\n8. It has magical, supernatural, or special powers\n\nSo I'm looking for a fictional mammal-like creature with magical powers that isn't from an established work of fiction. This suggests it could be:\n- A mythological creature (though many are from established works)\n- A made-up creature that the person has created or imagined\n- A creature from folklore or legend (though these might be considered established works)\n\nLet me ask more specific questions to narrow this down further:\n\nI could ask about:\n- Size (is it large/small)\n- Habitat (land, water, air)\n- Specific mammalian features (fur, wings, horns, etc.)\n- Nature of its powers\n- Whether it's good/evil/neutral\n- Whether it's a hybrid/combination of different animals\n\nI think understanding more about its form and powers would be useful:"
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not a physical/tangible object\n2. Not something that exists in reality (it's fictional/imaginary)\n3. Not from an established work of fiction\n4. It is an entity (character, creature, or being)\n5. Not humanoid in form\n6. It is an animal-like creature\n7. It is mammal-like\n8. It has magical, supernatural, or special powers\n9. It doesn't have wings and cannot fly\n\nSo I'm dealing with a fictional, mammal-like magical creature that isn't from an established work of fiction. This suggests it might be a mythological creature or something from folklore, or perhaps something more obscure or personal.\n\nGiven that it's mammal-like with magical powers but can't fly, I should narrow down what kind of mammal it resembles and what kinds of powers it has.\n\nGood next questions could be:\n- Is it quadrupedal (walks on four legs)?\n- Is it associated with a particular element (fire, water, earth, air)?\n- Is it known for its intelligence or wisdom?\n- Does it have any distinctive features like horns, multiple heads, or unusual size?\n\nI think asking about its physical form would be most efficient right now."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let me review what I know so far:\n1. Not a physical/tangible object\n2. Not something that exists in reality (fictional/imaginary)\n3. Not from an established work of fiction\n4. It is an entity (character, creature, or being)\n5. Not humanoid in form\n6. Animal-like creature\n7. Mammal-like creature\n8. Has magical, supernatural, or special powers\n9. Does not have wings and cannot fly\n10. Is quadrupedal (walks on four legs)\n\nSo I'm looking for an imaginary, mammal-like, quadrupedal creature with magical/supernatural powers that isn't from an established work of fiction.\n\nThis narrows it down significantly. Let me think about some possibilities:\n- Mythical creatures like unicorns\n- Fantasy creatures like griffins (though these have wings)\n- Magical beasts like chimeras\n- Legendary creatures like qilins/kirins\n- Made-up creatures that aren't from established fiction but might be from folklore or mythology\n\nI should try to narrow this down further. Let me ask about distinct physical features first."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not physical/tangible\n2. Not something that exists in reality (it's fictional/imaginary)\n3. Not from an established work of fiction\n4. Is an entity (character, creature, being)\n5. Not humanoid in form\n6. Animal-like creature resembling existing or prehistoric animals\n7. Mammal-like creature\n8. Has magical/supernatural/special powers\n9. Does not have wings/cannot fly\n10. Is quadrupedal (walks on four legs)\n11. Has a horn or horns on its head\n\nThis is starting to sound like a unicorn or some variation of a horned, magical quadrupedal creature. Unicorns are the most famous example of magical horned quadrupeds, but there are other possibilities like:\n\n- Unicorn (single horn, horse-like)\n- Kirin/Qilin (Chinese mythology, sometimes depicted with one or more horns)\n- Bicorn/Bicornus (two-horned mythical creature)\n- Some kind of magical rhinoceros\n- Some kind of magical antelope/deer/elk with special powers\n\nSince unicorns are the most commonly known magical horned quadrupeds, I should ask questions to narrow down if it's a unicorn or something else.\n\nLet me ask about its primary body type - specifically if it's horse-like, as this would strongly point to a unicorn."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me review what I know so far:\n\n1. Not a physical/tangible object\n2. Not something that exists in reality (it's fictional/imaginary)\n3. Not from an established work of fiction\n4. It is an entity/being (not a concept, event, or process)\n5. Not humanoid in form\n6. Animal-like creature resembling an existing animal\n7. Mammal-like creature\n8. Has magical/supernatural powers\n9. Cannot fly and doesn't have wings\n10. Quadrupedal (walks on four legs)\n11. Has horn(s) on its head\n12. Horse-like in appearance\n\nBased on these characteristics, I'm thinking of a unicorn or some unicorn-like creature. The description fits perfectly:\n- Horse-like mammal (quadrupedal equine)\n- Has a horn on its head\n- Magical/supernatural creature\n- Not from an established fiction work (unicorns are general mythological creatures)\n- Not real/tangible\n\nI'm fairly confident this is a unicorn, but I should ask one or two more questions to be absolutely sure before guessing.\n\nLet me ask about its color to confirm:"
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me analyze what I know so far:\n- Not a physical/tangible object\n- Not something that exists in reality (fictional/imaginary)\n- Not from an established work of fiction\n- Is an entity (character, creature, or being)\n- Not humanoid in form\n- Is an animal-like creature\n- Is a mammal-like creature\n- Has magical/supernatural powers\n- Cannot fly/no wings\n- Is quadrupedal (walks on four legs)\n- Has a horn or horns on its head\n- Is horse-like in appearance\n- Has a white or predominantly white coat/body\n\nThis is strongly pointing toward a unicorn. The creature is:\n- Horse-like\n- Has a horn\n- Is white\n- Is magical/supernatural\n- Is quadrupedal\n- Is a mammal-like creature\n- Is not from an established work of fiction (it's a general mythological creature)\n- Is not real\n\nAt this point, I'm quite confident this is a unicorn. All the characteristics match perfectly. I should make my guess rather than asking more questions."
+    }
+  ],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "Let me carefully think about whether a unicorn is a physical/tangible object you can touch.\n\nA unicorn is a mythological creature - a horse-like animal with a single horn protruding from its forehead. Unicorns aren't real creatures that exist in the physical world. They are legendary/mythical beings that appear in various stories, artwork, and folklore, but they don't physically exist in reality.\n\nSince unicorns don't physically exist in the real world, they're not tangible objects that can be touched. They exist as concepts, in stories, in imagination, and in representations (like toys, pictures, etc.), but not as actual physical beings.\n\nSo the accurate answer to \"Is it a physical/tangible object that you can touch?\" should be \"no\" because a unicorn itself is a mythical creature, not a real physical entity."
+    },
+    {
+      "question_index": 2,
+      "thinking": "I need to determine if a unicorn exists in reality or is fictional.\n\nA unicorn is a mythical horse-like creature with a single pointed horn projecting from its forehead. Unicorns are legendary creatures that appear in various mythologies and folklore. They do not exist as real animals in the natural world.\n\nWhile there are some animals that have horn-like features (like narwhals or rhinoceros), an actual unicorn as traditionally depicted (horse with a single horn) does not exist in reality.\n\nSo to answer if a unicorn exists in reality - no, unicorns are fictional, mythical creatures that exist in stories, legends, and popular culture, but not in the actual natural world.\n\nThe answer should be \"no\" since unicorns are fictional/imaginary creatures."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me think about this question carefully.\n\nThe question is asking if a unicorn is from an established work of fiction (like a book, movie, TV show, or video game).\n\nUnicorns appear in many works of fiction, but they are a mythological creature that predates any specific modern fictional work. Unicorns appear in ancient Greek accounts, medieval European mythology, and across many cultures. They weren't created for or by any specific book, movie, TV show, or video game.\n\nRather than originating from a specific fictional work, unicorns are part of general mythology and folklore that has been incorporated into countless works of fiction over the centuries.\n\nSo the most accurate answer would be \"no\" - unicorns aren't from an established work of fiction, they're a mythological creature that has appeared in many works rather than originating from one."
+    },
+    {
+      "question_index": 4,
+      "thinking": "The current question is asking if a unicorn is an entity (like a character, creature, or being) as opposed to a concept, event, or process.\n\nA unicorn is certainly a mythical creature or being - it's typically depicted as a horse-like creature with a single horn protruding from its forehead. It's not a concept (like \"love\" or \"justice\"), it's not an event (like \"battle\" or \"celebration\"), and it's not a process (like \"photosynthesis\" or \"digestion\").\n\nSo yes, a unicorn is definitely an entity - specifically, a mythical creature/being.\n\nThe answer should be \"yes\"."
+    },
+    {
+      "question_index": 5,
+      "thinking": "The question is asking if a unicorn is humanoid in form, with human-like characteristics such as a head, torso, arms, and legs.\n\nA unicorn is traditionally depicted as a horse-like creature with a single horn on its forehead. It has:\n- A head (though horse-like, not human-like)\n- A torso (though it's a horse body)\n- Four legs (not two legs and two arms like humans)\n\nUnicorns are not humanoid - they are equine (horse-like) in form. They don't have human-like characteristics like arms. They have four legs, a horse body, a horse head (with the addition of a horn), etc.\n\nSo the answer is clearly no - a unicorn is not humanoid in form."
+    },
+    {
+      "question_index": 6,
+      "thinking": "I need to determine whether a unicorn is an animal-like creature that resembles an existing or prehistoric animal.\n\nUnicorns are typically depicted as:\n- Horse-like creatures with a single horn protruding from their forehead\n- Having four legs, a mane, a tail, and a general equine body structure\n- Strongly resembling horses with the addition of the horn\n\nSince unicorns very closely resemble horses (which are existing animals) with just the addition of a magical horn, they would definitely qualify as \"animal-like creatures resembling an existing animal.\"\n\nThe answer should be yes."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me think about the characteristics of a unicorn:\n\nA unicorn is typically depicted as a horse-like creature with a single horn on its forehead. Horses are mammals, and unicorns are based on horses with some magical additions. They are warm-blooded, would presumably give birth to live young, and would nurse their young with milk - all characteristics of mammals.\n\nSo yes, a unicorn is definitely a mammal-like creature. It's not reptile-like, bird-like, fish-like, or insect-like. It's most closely related to horses, which are mammals.\n\nI should answer \"yes\" to this question."
+    },
+    {
+      "question_index": 8,
+      "thinking": "I am thinking of a unicorn and need to answer whether it has any magical, supernatural, or special powers.\n\nUnicorns in mythology and folklore are typically depicted as having magical properties. Their horns are often said to have healing powers or the ability to purify water. In many stories, unicorn horns (sometimes called \"alicorns\") were believed to be able to neutralize poisons. Some legends also attribute other magical abilities to unicorns, such as the power to bless, heal, or grant wishes.\n\nSo the answer to whether a unicorn has magical, supernatural, or special powers would be:"
+    },
+    {
+      "question_index": 9,
+      "thinking": "I need to answer accurately about whether a unicorn has wings or can fly.\n\nTraditional unicorns:\n- Are horse-like creatures with a single horn on their forehead\n- Do NOT have wings (creatures with wings would be pegasus or alicorns, which combine unicorn and pegasus features)\n- Cannot fly (as they don't have wings)\n\nSome modern interpretations might blend unicorns with pegasi features, but the classic unicorn doesn't have wings and cannot fly.\n\nThe question asks about wings OR flying ability. Since unicorns don't have wings and cannot fly, the answer is no."
+    },
+    {
+      "question_index": 10,
+      "thinking": "I need to determine if a unicorn is a quadrupedal creature.\n\nFacts about unicorns:\n- Unicorns are typically depicted as horse-like creatures with a single horn on their forehead\n- They are quadrupedal (they walk on four legs)\n- They are mythical/fictional creatures\n- They are generally portrayed as white horses with a single spiral horn\n\nSince unicorns are depicted as horse-like creatures that walk on four legs, the answer is yes."
+    },
+    {
+      "question_index": 11,
+      "thinking": "The question is whether a unicorn has a horn (or horns) on its head.\n\nUnicorns are mythical horse-like creatures that are most distinctively characterized by having a single horn protruding from their forehead. This single horn is the defining feature of unicorns and what their name refers to (\"uni\" meaning \"one\").\n\nSo the answer to whether unicorns have a horn is definitely yes."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let's think about unicorns:\n\nUnicorns are typically depicted as horse-like creatures with a single horn protruding from their foreheads. They are usually portrayed as white horses with a long, spiral horn.\n\nThe current question asks if what I'm thinking of (unicorn) is horse-like in appearance. Since unicorns are essentially horses with a horn, this is definitely true.\n\nI should answer \"yes\" to this question."
+    },
+    {
+      "question_index": 13,
+      "thinking": "I need to consider if a unicorn traditionally has a white coat.\n\nIn most common depictions and mythology, unicorns are typically portrayed as white or predominantly white horse-like creatures with a single horn on their forehead. The white color is a significant part of their traditional imagery, symbolizing purity and grace.\n\nWhile some modern interpretations might show unicorns in different colors, the classic and most widely recognized depiction is of a white unicorn.\n\nSo the answer to whether a unicorn has a white or predominantly white coat/body would be:"
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 558,
+      "output_tokens": 160,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1171,
+      "output_tokens": 255,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1793,
+      "output_tokens": 223,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2455,
+      "output_tokens": 228,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3155,
+      "output_tokens": 215,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3888,
+      "output_tokens": 208,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4639,
+      "output_tokens": 244,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5438,
+      "output_tokens": 288,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 6271,
+      "output_tokens": 340,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 7120,
+      "output_tokens": 312,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7998,
+      "output_tokens": 282,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8900,
+      "output_tokens": 361,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9838,
+      "output_tokens": 294,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10790,
+      "output_tokens": 262,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 277,
+      "output_tokens": 220,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 301,
+      "output_tokens": 210,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 333,
+      "output_tokens": 229,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 368,
+      "output_tokens": 163,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 402,
+      "output_tokens": 216,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 428,
+      "output_tokens": 150,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 465,
+      "output_tokens": 177,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 487,
+      "output_tokens": 175,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 506,
+      "output_tokens": 164,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 530,
+      "output_tokens": 125,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 554,
+      "output_tokens": 109,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 584,
+      "output_tokens": 116,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 606,
+      "output_tokens": 154,
+      "total_tokens": 0
+    }
+  ]
+}

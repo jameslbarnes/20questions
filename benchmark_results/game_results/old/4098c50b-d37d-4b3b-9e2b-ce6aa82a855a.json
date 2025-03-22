@@ -1,0 +1,34 @@
+{
+  "game_id": "4098c50b-d37d-4b3b-9e2b-ce6aa82a855a",
+  "timestamp": "2025-03-21T10:31:07.616157",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "table",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the category.\n\nIs it a physical object (as opposed to a concept, idea, or abstract entity)?",
+    "Question 2: Is it man-made?",
+    "Question 3: Can you hold it in one hand?",
+    "Question 4: Is it typically found inside a home?",
+    "Question 5: Is it a piece of furniture?",
+    "Question 6: Is it primarily used for sitting or lying down?",
+    "Question 7: Is it primarily used for storage (like a cabinet, bookshelf, or dresser)?",
+    "Question 8: Is it primarily used as a surface to put things on (like a table or desk)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "CORRECT! You've guessed the entity: table"
+  ],
+  "question_count": 8,
+  "final_guess": "table",
+  "success": true,
+  "max_questions": 20
+}

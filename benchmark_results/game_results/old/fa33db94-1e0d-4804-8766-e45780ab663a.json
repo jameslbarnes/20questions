@@ -1,0 +1,42 @@
+{
+  "game_id": "fa33db94-1e0d-4804-8766-e45780ab663a",
+  "timestamp": "2025-03-21T10:07:01.102472",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the category.\n\nIs this entity a physical object (as opposed to a person, place, or abstract concept)?",
+    "Question 2: Is this entity a man-made object (as opposed to something that occurs naturally)?",
+    "Question 3: Is this object small enough to hold in one hand?",
+    "Question 4: Is this object typically found in a home or residential setting?",
+    "Question 5: Is this object primarily used for sitting or lying on?",
+    "Question 6: Is this object primarily used in the kitchen?",
+    "Question 7: Is this object used for food storage?",
+    "Question 8: Is this object an electrical appliance?",
+    "Question 9: Is this appliance primarily used for cooking or heating food?",
+    "Question 10: Is this appliance typically built into cabinetry or walls (as opposed to standing freely on a countertop)?",
+    "Question 11: Does this appliance have a door that you open to access its contents?",
+    "Question 12: Does this appliance use electromagnetic radiation (microwaves) to heat food?"
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "I don't know. I don't know",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 12,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

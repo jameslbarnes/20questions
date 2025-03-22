@@ -1,0 +1,394 @@
+{
+  "game_id": "6570aeb4-e67d-4ba3-8732-8fd6f6d63c1f",
+  "timestamp": "2025-03-22T12:51:12.973446",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "collective unconscious",
+  "category": "complex",
+  "questions": [
+    "Is it something physical/tangible?",
+    "Is it a concept or an idea?",
+    "Is it related to human emotions or feelings?",
+    "Is it generally considered a positive emotion?",
+    "Is it considered one of the basic or primary negative emotions (like anger, fear, sadness)?",
+    "Is it a complex emotional state that involves interpersonal relationships?",
+    "Is it related to mental health or psychological states?",
+    "Is it a specific mental health disorder or condition?",
+    "Is it a temporary emotional state rather than a long-term condition?",
+    "Is it a trait or characteristic of someone's personality?",
+    "Is it a concept that describes a negative psychological state that many people experience in life?",
+    "Is it a field or branch of psychology or mental health study?",
+    "Is it a theory or framework used to understand human psychology?",
+    "Is it a theory that was developed by Sigmund Freud?",
+    "Is it a theory that involves stages or levels of psychological development?",
+    "Is this theory specifically focused on understanding how humans process or respond to emotions?",
+    "Is this theory related to cognitive psychology or how people think and process information?",
+    "Is this theory related to behavioral psychology or understanding human behavior?",
+    "Is this theory more focused on unconscious processes or the subconscious?",
+    "<guess>The Unconscious Mind or Subconscious</guess>"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes."
+  ],
+  "question_count": 20,
+  "final_guess": "The Unconscious Mind or Subconscious",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "Let me think about whether the collective unconscious is something physical/tangible.\n\nThe collective unconscious is a concept introduced by Carl Jung. It refers to structures of the unconscious mind which are shared among beings of the same species. According to Jung, the collective unconscious contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious and are the psychic counterpart of instinct.\n\nThe collective unconscious is not a physical or tangible thing. It's a psychological concept or theoretical construct. It's not something you can touch, see, or physically interact with. It's an abstract concept describing shared unconscious elements of the human psyche.\n\nSo the answer to the question \"Is it something physical/tangible?\" is clearly no."
+    },
+    {
+      "question_index": 2,
+      "thinking": "Let me think about whether the \"collective unconscious\" is a concept or an idea.\n\nThe collective unconscious is a psychological concept proposed by Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's personal unconscious. \n\nSo yes, the collective unconscious is definitely a concept or an idea in psychology. It's not something physical or tangible (as I already answered \"no\" to the first question). It's a theoretical construct that Jung developed to explain certain aspects of human psychology, particularly patterns that seem to appear across different cultures.\n\nSo the answer is clearly \"yes\" - the collective unconscious is a concept or idea."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me analyze if the collective unconscious is related to human emotions or feelings.\n\nThe collective unconscious is a concept introduced by Swiss psychiatrist Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the personal unconscious, which arises from the individual's experience.\n\nThe collective unconscious contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious and are the psychic counterpart of instinct. These archetypes can manifest in dreams, myths, literature, and art across different cultures and time periods.\n\nAre emotions or feelings related to the collective unconscious? Yes, they certainly are. The archetypes within the collective unconscious often manifest as emotional responses and feelings. For example:\n- The mother archetype is associated with feelings of nurturing and protection\n- The shadow archetype relates to repressed feelings and emotions\n- The anima/animus archetypes relate to our feelings about the opposite gender\n\nJung believed that these archetypes help shape our emotional responses to situations, and that many universal emotional patterns derive from the collective unconscious.\n\nSo yes, the collective unconscious is definitely related to human emotions and feelings, as it contains universal patterns that shape and influence our emotional responses."
+    },
+    {
+      "question_index": 4,
+      "thinking": "I need to determine if the collective unconscious is generally considered a positive emotion.\n\nFirst, let's clarify what the collective unconscious is. The collective unconscious is a concept developed by psychiatrist Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's personal unconscious. It contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious and are the psychic counterpart of instinct.\n\nThe question asks if the collective unconscious is \"generally considered a positive emotion.\" There are a few issues with this question:\n\n1. The collective unconscious is not an emotion. It's a theoretical construct or concept in Jungian psychology that refers to a part of the unconscious mind.\n\n2. The collective unconscious itself is not generally categorized as positive or negative. It's a neutral psychological concept that contains various elements (archetypes) that can manifest in both positive and negative ways.\n\nSince the question mischaracterizes the collective unconscious as an emotion, I should clarify this misconception in my answer. The collective unconscious is related to emotions and can influence them through archetypes, but it is not itself an emotion."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I need to carefully analyze this question about the collective unconscious.\n\nThe collective unconscious is a concept introduced by psychologist Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's personal unconscious. It contains archetypes, which are universally recognized symbols and patterns.\n\nIs the collective unconscious considered one of the basic or primary negative emotions (like anger, fear, sadness)?\n\nNo, the collective unconscious is not an emotion at all - it's a theoretical construct in psychology. It's a proposed structure of the mind that contains shared ancestral experiences and universal archetypes. It's not classified as an emotion, whether positive or negative.\n\nIn the previous question, I answered \"No\" to \"Is it generally considered a positive emotion?\" which might have been misleading. The collective unconscious isn't an emotion at all, so it's neither a positive nor a negative emotion. I should clarify this in my answer to the current question."
+    },
+    {
+      "question_index": 6,
+      "thinking": "I need to determine if the collective unconscious is a complex emotional state involving interpersonal relationships.\n\nThe collective unconscious is a concept developed by Carl Jung that refers to structures of the unconscious mind which are shared among beings of the same species. According to Jung, the collective unconscious contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious and are the psychic counterpart of instinct.\n\nIs it a complex emotional state? Not exactly. While the collective unconscious can influence emotions through archetypes and shared unconscious content, it's not an emotional state itself. It's more accurately described as a theoretical psychological construct or a shared repository of universal human experiences and patterns.\n\nDoes it involve interpersonal relationships? While the collective unconscious can influence how we relate to others (through archetypes like the anima/animus, the shadow, etc.), it's not specifically about interpersonal relationships. It's about shared unconscious content across all humans, regardless of their relationships.\n\nSo the answer to \"Is it a complex emotional state that involves interpersonal relationships?\" would be:"
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me think about whether the collective unconscious is related to mental health or psychological states.\n\nThe collective unconscious is a concept developed by psychiatrist Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's personal unconscious. Jung believed that the collective unconscious contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious and are the psychic counterpart of instinct.\n\nIs this related to mental health or psychological states? \n\nYes, it is. The collective unconscious is a psychological concept that Jung used to explain certain aspects of the human psyche and psychological development. It's fundamental to Jungian psychology and psychoanalysis. Jung used the concept to explain various psychological phenomena, including dreams, artistic expressions, religious experiences, and certain mental health conditions.\n\nWhile the collective unconscious itself is not a mental health condition or specific psychological state, it is absolutely a concept used in psychology and related to understanding psychological states. It helps explain certain psychological processes and experiences.\n\nSo I would answer \"yes\" to this question."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me analyze whether the collective unconscious is a specific mental health disorder or condition.\n\nThe collective unconscious is a concept developed by psychiatrist Carl Jung. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the personal unconscious, which arises from the experience of the individual.\n\nThe collective unconscious is not a mental health disorder or condition. Rather, it's a theoretical construct or concept used to explain certain psychological phenomena. It's a proposed structure of the mind, not a pathology or disorder.\n\nMental health disorders would include things like depression, anxiety disorders, schizophrenia, bipolar disorder, etc. The collective unconscious is not classified in diagnostic manuals like the DSM or ICD as a disorder.\n\nSo the answer is clearly \"no\" - the collective unconscious is not a specific mental health disorder or condition. It's a psychological concept related to the structure of the human mind according to Jungian psychology."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let me think about whether the collective unconscious can be considered a temporary emotional state:\n\nThe collective unconscious, as conceptualized by Carl Jung, refers to structures of the unconscious mind which are shared among beings of the same species. It's a deeper layer of the unconscious, distinct from the personal unconscious, containing archetypes or universal templates which organize how we experience certain things.\n\nKey facts about the collective unconscious:\n- It's a theoretical construct in Jungian psychology\n- It represents inherited, universal aspects of the human psyche\n- It contains archetypes, universal patterns and images\n- It's considered permanent and inherent to human psychology\n- It's not an emotional state but rather a structural component of the psyche\n\nThe collective unconscious is definitely not a temporary emotional state. It's considered a permanent structural aspect of the human psyche that exists across all humans throughout time. It's not temporary, and while it can influence emotions, it is not itself an emotional state.\n\nSo the answer is clearly \"no\" - it is not a temporary emotional state."
+    },
+    {
+      "question_index": 10,
+      "thinking": "I need to determine if the collective unconscious is considered a trait or characteristic of someone's personality.\n\nThe collective unconscious is a concept introduced by Carl Jung that refers to a part of the unconscious mind shared by a society, a people, or all humanity. It contains archetypes, which are universal, archaic patterns and images that derive from the collective unconscious.\n\nThe collective unconscious is not considered a personality trait or characteristic. It's a theoretical construct that represents shared mental structures that all humans possess, regardless of their individual personality traits. It exists at a deeper level than personality and is thought to influence personality development, but it is not itself a personality trait.\n\nPersonality traits are typically defined as habitual patterns of behavior, thought, and emotion that tend to be stable over time. The Big Five personality traits (openness, conscientiousness, extraversion, agreeableness, and neuroticism) or other trait theories describe individual differences in personality.\n\nThe collective unconscious is considered to be universal to all humans, not an individual difference, so it wouldn't be classified as a personality trait or characteristic.\n\nSo the answer to this question would be:"
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think about whether the collective unconscious describes a negative psychological state.\n\nThe collective unconscious is a concept developed by Carl Jung that refers to a part of the unconscious mind shared by all humans. It contains archetypes - universal symbols, patterns, and images that are inherited and common to all people across cultures. \n\nKey facts about the collective unconscious:\n1. It's a theoretical psychological concept proposed by Jung\n2. It represents shared psychological structures across humanity\n3. It contains archetypes, symbols, and patterns inherited across generations\n4. It's not specific to an individual but common to all humans\n5. It's not inherently negative or positive - it simply exists as a structure of the mind\n\nThe collective unconscious itself is not a negative psychological state. It's more like a theoretical structure or layer of the human psyche. It's not a state that people \"experience\" in a direct way, though its contents (archetypes) may influence experiences.\n\nThe question asks if it's \"a concept that describes a negative psychological state that many people experience in life\" - the collective unconscious doesn't describe a negative state; it describes a shared psychological structure. It's neutral, not negative.\n\nSo my answer should be \"no.\""
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about whether the collective unconscious can be considered a field or branch of psychology.\n\nThe collective unconscious is a concept introduced by Carl Jung, a Swiss psychiatrist and psychoanalyst. It's a theoretical model that suggests all humans share a level of the unconscious mind containing archetypes, which are universal, archaic patterns and images derived from the collective experience of humanity throughout history.\n\nWhile the collective unconscious is an important concept in certain schools of psychology (particularly Jungian analytical psychology), it is not itself a field or branch of psychology. Rather, it's a theoretical concept within depth psychology or analytical psychology.\n\nFields or branches of psychology would include:\n- Clinical psychology\n- Developmental psychology\n- Cognitive psychology\n- Social psychology\n- Analytical/Jungian psychology\n- Behavioral psychology\n- Etc.\n\nThe collective unconscious is a concept within analytical psychology, not a branch itself. So the answer should be no."
+    },
+    {
+      "question_index": 13,
+      "thinking": "The collective unconscious is definitely a theory or framework used to understand human psychology. It was proposed by Carl Jung and refers to a part of the unconscious mind shared by a society, a people, or all humanity, containing archetypes and instincts inherited from our ancestors. It's a theoretical framework that helps explain certain psychological phenomena, such as common symbols across different cultures, recurring themes in dreams, and patterns in myths and stories across different societies.\n\nSo, the answer to whether the collective unconscious is a theory or framework used to understand human psychology is clearly \"yes.\""
+    },
+    {
+      "question_index": 14,
+      "thinking": "Let me think about whether the collective unconscious was developed by Sigmund Freud.\n\nThe collective unconscious is a concept/theory developed by Carl Jung, not Sigmund Freud. Jung was initially a student and collaborator of Freud's, but they later parted ways due to theoretical differences. The collective unconscious was one of Jung's distinctive contributions to psychology that differentiated his analytical psychology from Freud's psychoanalysis.\n\nWhile Freud emphasized the personal unconscious (based on repressed memories and desires), Jung proposed the existence of a deeper layer called the collective unconscious, which contains archetypes (universal symbols and patterns) shared by all humans across cultures and time.\n\nSo to the question \"Is it a theory that was developed by Sigmund Freud?\" - the answer is clearly \"no.\""
+    },
+    {
+      "question_index": 15,
+      "thinking": "The collective unconscious is a concept developed by Carl Jung, not Sigmund Freud. It refers to the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's personal unconscious.\n\nDoes the collective unconscious involve stages or levels of psychological development?\n\nWhile Jung's analytical psychology does discuss psychological development (such as individuation), the collective unconscious itself is not primarily characterized as having specific stages or levels of development. The collective unconscious contains archetypes, which are universal, mythic patterns that may emerge at different points in life, but the theory of the collective unconscious itself doesn't focus on specific developmental stages like Freud's psychosexual stages or Erikson's psychosocial stages.\n\nThe collective unconscious is more about universal patterns and structures that exist across humanity rather than a developmental framework with clear stages. So while Jung's broader theory addresses development, the specific concept of \"collective unconscious\" itself doesn't centrally involve stages or levels of psychological development.\n\nI should answer \"no\" to this question."
+    },
+    {
+      "question_index": 16,
+      "thinking": "The collective unconscious is a theory proposed by Carl Jung, not Sigmund Freud. It refers to the part of the unconscious mind which is derived from ancestral memory and experience and is common to all humankind, as distinct from the individual's unconscious.\n\nIs this theory specifically focused on understanding how humans process or respond to emotions?\n\nThe collective unconscious is not specifically or primarily focused on emotions. While emotions can play a role in the manifestations of archetypal content from the collective unconscious, the theory itself is much broader. It's primarily about shared inherited unconscious ideas, patterns of thought, images, etc. that are universal among humans regardless of culture. These include archetypes, which are universal symbols or motifs that may appear in dreams, art, myths, and other forms across different cultures.\n\nSo while emotions can be involved when discussing the collective unconscious (for example, how archetypal experiences might trigger certain emotional responses), the theory itself is not specifically focused on emotional processing or responses. It's more about universal inherited structures of the unconscious mind.\n\nTherefore, the answer would be \"no.\""
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me think about whether the concept of \"collective unconscious\" is related to cognitive psychology or how people think and process information.\n\nThe collective unconscious is a concept developed by Carl Jung, not Sigmund Freud. It refers to a part of the unconscious mind that is shared among all humans, containing archetypes, symbols, and patterns that are inherited rather than developed through personal experience.\n\nIs this related to cognitive psychology? Cognitive psychology focuses on mental processes like thinking, problem solving, memory, attention, perception, and language. While the collective unconscious does relate to mental processes in a broad sense, it's not primarily a cognitive psychological concept. It's more properly categorized under analytical psychology or depth psychology.\n\nThe collective unconscious doesn't primarily deal with how people consciously think and process information (which is the domain of cognitive psychology), but rather with unconscious, inherited patterns that influence thought and behavior without conscious awareness.\n\nSo while there is some overlap with cognitive processes, the collective unconscious is not primarily a cognitive psychological theory. It's more accurately described as part of analytical psychology or Jungian psychology."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let me think about whether the collective unconscious is related to behavioral psychology or understanding human behavior.\n\nThe collective unconscious is a concept introduced by Carl Jung, not a behaviorist psychologist. The collective unconscious refers to a part of the unconscious mind that Jung believed is shared among all humans and contains archetypes (universal, primitive symbols and images) that are inherited from our ancestors.\n\nBehavioral psychology focuses primarily on observable behaviors and how they are influenced by conditioning, reinforcement, and environmental factors. It generally does not emphasize unconscious processes or inherited psychological content.\n\nWhile the collective unconscious can be seen as influencing human behavior in some ways (through the expression of archetypes in dreams, myths, and behavior), it's not really a behavioral theory. It's more accurately classified as part of analytical psychology or depth psychology.\n\nSo the correct answer is \"no\" - the collective unconscious is not related to behavioral psychology. It's a concept from analytical psychology."
+    },
+    {
+      "question_index": 19,
+      "thinking": "The collective unconscious is a concept developed by psychiatrist Carl Jung, not Sigmund Freud, that refers to a part of the unconscious mind shared by a society, a people, or all humanity. It contains archetypes, which are universal symbols and patterns that influence human behavior.\n\nThe question asks if the theory is more focused on unconscious processes or the subconscious. The collective unconscious is definitely focused on unconscious processes - it's literally in the name \"collective unconscious.\" Jung's theory deals specifically with the deeper layers of the unconscious mind that he believed were shared by all humans, containing archetypes and universal symbols that influence our thoughts and behaviors without our conscious awareness.\n\nSo the answer would be yes, the theory is focused on unconscious processes."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 39,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1139,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1744,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2369,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3011,
+      "output_tokens": 29,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3695,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4395,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5112,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5876,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6668,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7478,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8321,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9183,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10066,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 10977,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 11909,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 12868,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 13852,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 14855,
+      "output_tokens": 25,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 15888,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 276,
+      "output_tokens": 208,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 294,
+      "output_tokens": 175,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 313,
+      "output_tokens": 331,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 331,
+      "output_tokens": 331,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 361,
+      "output_tokens": 284,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 384,
+      "output_tokens": 288,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 404,
+      "output_tokens": 287,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 424,
+      "output_tokens": 260,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 448,
+      "output_tokens": 276,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 469,
+      "output_tokens": 289,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 496,
+      "output_tokens": 312,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 519,
+      "output_tokens": 248,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 541,
+      "output_tokens": 137,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 566,
+      "output_tokens": 215,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 589,
+      "output_tokens": 297,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 614,
+      "output_tokens": 294,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 639,
+      "output_tokens": 282,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 661,
+      "output_tokens": 249,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 687,
+      "output_tokens": 203,
+      "total_tokens": 0
+    }
+  ]
+}

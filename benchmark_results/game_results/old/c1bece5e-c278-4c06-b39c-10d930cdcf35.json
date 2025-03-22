@@ -1,0 +1,30 @@
+{
+  "game_id": "c1bece5e-c278-4c06-b39c-10d930cdcf35",
+  "timestamp": "2025-03-21T11:46:16.838641",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "happiness",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nQuestion 1: Is it a physical object (something you can touch)?",
+    "Question 2: Is it an abstract concept or idea (like love, freedom, justice)?",
+    "Question 3: Is this abstract concept related to human emotions (like happiness, sadness, fear)?",
+    "Question 4: Is this emotion generally considered positive or pleasant (as opposed to negative or unpleasant)?",
+    "Question 5: Is this emotion considered one of the most basic or fundamental positive emotions (like happiness or joy, as opposed to more complex emotions like gratitude or pride)?",
+    "Question 6: Is this emotion happiness or joy?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: happiness"
+  ],
+  "question_count": 6,
+  "final_guess": "happiness",
+  "success": true,
+  "max_questions": 20
+}

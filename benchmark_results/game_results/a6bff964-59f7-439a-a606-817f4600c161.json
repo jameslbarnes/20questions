@@ -1,0 +1,412 @@
+{
+  "game_id": "a6bff964-59f7-439a-a606-817f4600c161",
+  "timestamp": "2025-03-22T12:45:08.761197",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "cultural diaspora",
+  "category": "complex",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a concept or abstract idea?",
+    "Is it related to human emotions or feelings?",
+    "Is it something that can be measured or quantified?",
+    "Is it related to time?",
+    "Is it a specific unit of time (like a second, minute, hour, etc.)?",
+    "Is it a period or span of time (like a day, year, decade, etc.)?",
+    "Is it a way of measuring or experiencing time (like speed, pace, or rhythm)?",
+    "Is it a concept that describes how time progresses or changes (like aging, evolution, or growth)?",
+    "Is it related to the perception or experience of time (like boredom, anticipation, or waiting)?",
+    "Is it a concept from physics that involves time (like velocity, acceleration, or relativity)?",
+    "Is it related to scheduling or planning of time (like a deadline, appointment, or timing)?",
+    "Is it related to a moment or point in time (like now, present, past, or future)?",
+    "Is it a concept related to time management or productivity (like efficiency, punctuality, or procrastination)?",
+    "Is it a specific event or occurrence that happens at a particular time?",
+    "Is it related to the measurement or passage of time (like a clock, calendar, or timepiece)?",
+    "Is it related to age or aging?",
+    "Is it a historical or chronological concept (like an era, epoch, or timeline)?",
+    "Is it a concept related to the finite nature of time (like mortality, lifespan, or deadline)?",
+    "Is it a concept related to time travel or time manipulation?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Maybe.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Maybe.",
+    "No.",
+    "No.",
+    "No.",
+    "Maybe.",
+    "Maybe.",
+    "No.",
+    "No."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on the pattern of answers, I need to make my best guess with the information I have.\n\nThe concept is abstract, related to time, can be measured, and might be related to moments in time, age/aging, and historical concepts. However, it's not a unit of time, not about time perception, not about physics or time management, and not about time travel.\n\n<guess>ANNIVERSARY</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I need to determine if a \"cultural diaspora\" is a physical/tangible object.\n\nA cultural diaspora refers to the dispersal or spread of a cultural group (people, communities) from their original homeland to different parts of the world. It's a sociological concept or phenomenon that describes:\n- The scattering of people who share a common culture, ethnicity, or nationality\n- The maintenance of cultural identity, traditions, and practices by those dispersed communities\n- The ongoing connections between dispersed communities and sometimes with the homeland\n\nCultural diaspora is not a physical or tangible object that you can touch or hold. It's an abstract concept, a social phenomenon, or a demographic pattern. It describes groups of people and their cultural practices, not a material object.\n\nSo the answer to whether cultural diaspora is a physical/tangible object is clearly no."
+    },
+    {
+      "question_index": 2,
+      "thinking": "I need to determine if 'cultural diaspora' is a concept or abstract idea.\n\nCultural diaspora refers to the dispersion or spread of a culture, cultural identity, or cultural practices away from their place of origin due to migration, exile, or other forms of displacement. It describes how cultural elements are maintained, adapted, and transformed when people from a particular culture relocate to different regions.\n\nIs this a concept or abstract idea? Yes, cultural diaspora is definitely a concept or abstract idea rather than something physical or tangible. It's a theoretical framework or paradigm used to understand and describe certain social and cultural phenomena related to migration and cultural preservation/transformation.\n\nSo the answer to \"Is it a concept or abstract idea?\" should be \"yes\"."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me consider if cultural diaspora is related to human emotions or feelings.\n\nCultural diaspora refers to the dispersion or spread of a cultural group from its original homeland to different parts of the world. It involves the movement and resettlement of peoples and their cultural practices, traditions, beliefs, and identities.\n\nWhile cultural diaspora itself is a sociological and anthropological concept describing population movements and cultural dispersion, it certainly involves and can evoke human emotions and feelings in several ways:\n\n1. People in diaspora often experience emotions like nostalgia, longing for homeland, grief over cultural loss, identity struggles, and feelings of displacement or alienation.\n\n2. The diaspora experience can involve emotional connections to cultural heritage, feelings of belonging or not belonging, and emotional responses to cultural adaptation.\n\n3. However, the concept itself is not primarily about emotions - it's about cultural dispersion, identity, and community formation in new locations.\n\nSo while cultural diaspora involves human emotions and can evoke strong feelings, the concept itself is not primarily defined as an emotion or feeling. It's more of a sociological/anthropological concept describing cultural movement and identity.\n\nI think the most accurate answer would be \"maybe\" since emotions are involved in the experience of diaspora but the concept itself isn't primarily about emotions."
+    },
+    {
+      "question_index": 4,
+      "thinking": "The current question is: \"Is it something that can be measured or quantified?\"\n\nI'm thinking of 'cultural diaspora', which refers to the dispersion or spread of a people and their culture from their original homeland. This is primarily a sociological, anthropological, and historical concept.\n\nCan cultural diaspora be measured or quantified?\n- You can measure aspects of diaspora like:\n  - Population numbers of diaspora communities\n  - Geographic spread of diaspora communities\n  - Economic impacts\n  - Cultural retention metrics\n  - Linguistic changes over time\n  - Remittances sent back to homelands\n  - Frequency of cultural practices maintained\n\nHowever, the full concept of \"cultural diaspora\" has qualitative aspects that can't be fully captured by numbers alone, such as:\n  - Cultural identity feelings\n  - Sense of belonging/displacement\n  - Cultural hybridization and adaptation\n  - Historical and emotional significance\n\nSince there are significant quantifiable aspects of cultural diaspora (demographic data, geographic spread, etc.), but also important qualitative dimensions that cannot be fully measured, I think the most accurate answer is:"
+    },
+    {
+      "question_index": 5,
+      "thinking": "Let me think about whether cultural diaspora is related to time.\n\nCultural diaspora refers to the dispersion or spread of a culture or cultural identity away from its original homeland or center, often due to migration, colonization, exile, or other historical circumstances. \n\nIs this related to time? \n\nYes, I would say cultural diaspora is definitely related to time in several ways:\n\n1. It occurs over time - diasporas develop and evolve throughout history\n2. It involves historical processes and changes that happen across generations\n3. The impacts of cultural diaspora are studied across different time periods\n4. The preservation and transformation of cultural elements through time is a key aspect of diaspora studies\n5. Cultural diaspora often involves comparing cultural practices between different time periods (before and after migration)\n\nSo cultural diaspora is definitely related to time as it's a historical and ongoing process that unfolds over time. The answer should be \"yes\"."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me think about the current question: \"Is it a specific unit of time (like a second, minute, hour, etc.)?\"\n\nI'm thinking of \"cultural diaspora\" which refers to the dispersion or spread of a people and their culture away from their original homeland. This is not a unit of time like seconds, minutes, or hours. \n\nWhile cultural diaspora is related to time in the sense that it happens over time periods (often across generations), and we can measure how long ago certain diasporas occurred, it is not itself a unit for measuring time.\n\nSo the answer to this question is clearly \"no\" - cultural diaspora is not a specific unit of time."
+    },
+    {
+      "question_index": 7,
+      "thinking": "The question is asking if \"cultural diaspora\" is a period or span of time.\n\nA cultural diaspora refers to the dispersion or spread of a culture, ethnic group, or people from their original homeland to different parts of the world. It's characterized by the preservation of cultural identity, traditions, and connections to the homeland while living in a new location.\n\nIs cultural diaspora a period or span of time like a day, year, decade?\n- Cultural diaspora is not inherently a unit or span of time\n- However, diasporas do occur over time and have temporal dimensions\n- Diasporas often develop and evolve over extended periods (sometimes spanning generations or centuries)\n- The process has temporal aspects but isn't primarily defined as a time period itself\n\nSo cultural diaspora is not a period or span of time itself, though it has temporal dimensions and occurs through time. The concept refers to the movement and dispersion of cultural groups rather than a designated time span.\n\nI should answer \"no\" because cultural diaspora is not itself a period or span of time, even though it has temporal elements."
+    },
+    {
+      "question_index": 8,
+      "thinking": "The current question is asking whether \"cultural diaspora\" is a way of measuring or experiencing time (like speed, pace, or rhythm).\n\nLet's analyze this:\n- Cultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland.\n- It involves the movement of cultural groups across geographical spaces over time.\n- While diaspora certainly exists through time and has temporal aspects (it happens over historical periods), it is not primarily a way of measuring or experiencing time itself.\n- Diaspora is more about the geographical, social, and cultural displacement of people rather than being a temporal measurement tool or experience.\n- It's not comparable to concepts like speed, pace, or rhythm which are ways to measure or experience how time flows.\n\nSo, to the question \"Is it a way of measuring or experiencing time (like speed, pace, or rhythm)?\" the answer would be \"no\" since cultural diaspora is not a temporal measurement concept."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let me analyze whether cultural diaspora is related to how time progresses or changes:\n\nCultural diaspora refers to the dispersal or spread of a culture or cultural identity away from its original homeland, often due to migration, colonization, or other historical events. The key elements include:\n- The scattering of people from a common cultural origin\n- The maintenance of cultural identity in new locations\n- Often spans generations and involves changes over time\n- Can involve cultural evolution and adaptation in new environments\n\nIs cultural diaspora specifically about how time progresses or changes?\n- It's not primarily about time progression itself\n- However, cultural diaspora often occurs over time and involves cultural change across generations\n- It's more about the movement and adaptation of cultural groups rather than being fundamentally about time progression\n- While aging, evolution, and growth may occur within diasporic communities, the diaspora itself is not a concept that primarily describes these time-based processes\n\nThe core concept of cultural diaspora is about geographic dispersal and cultural identity maintenance rather than being a concept that describes temporal progression.\n\nSo to answer the question: \"Is it a concept that describes how time progresses or changes (like aging, evolution, or growth)?\" - the answer should be \"no\" as cultural diaspora is not primarily about describing time progression, even though time is an element in how diasporas develop."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let's think about this question in relation to \"cultural diaspora.\"\n\nA cultural diaspora refers to the dispersion or spread of a cultural group, often ethnic or religious, from their original homeland to various parts of the world. It involves the migration and settlement of people who maintain their cultural identity and traditions while living away from their ancestral homeland.\n\nNow, is cultural diaspora related to the perception or experience of time? \n\nTime is certainly a factor in diaspora:\n- Diasporas occur over time periods\n- There's often nostalgia for the past homeland\n- There's a temporal dimension to cultural preservation across generations\n- Historical memory plays a role in diasporic identity\n\nHowever, the question specifically asks about the \"perception or experience of time\" like boredom, anticipation, or waiting. While diaspora communities might experience anticipation about returning to homelands, or the temporal aspects of being separated from their original culture, this isn't the central defining feature of cultural diaspora.\n\nThe relationship to time in cultural diaspora is more about historical time and generational change rather than the subjective perception of time passing (like boredom or waiting).\n\nSo while there is a temporal dimension to cultural diaspora, it's not primarily about the perception or experience of time in the way the question specifies.\n\nI think the best answer here is \"no\" - cultural diaspora isn't primarily related to the perception or experience of time like boredom or anticipation, even though it does have temporal aspects."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think about this question. The player is asking if cultural diaspora is a concept from physics that involves time.\n\nCultural diaspora refers to the dispersion or scattering of a people or culture from their original homeland. It involves the movement and resettlement of communities across different geographical locations over time, along with the preservation or adaptation of their cultural practices, traditions, and identities.\n\nWhile cultural diaspora does involve time (as I answered \"yes\" to question 5), it is not a concept from physics. Cultural diaspora is a sociological, anthropological, and historical concept that describes human migration patterns and cultural preservation/change over time.\n\nPhysics concepts involving time would include velocity, acceleration, relativity, entropy, etc. Cultural diaspora is not one of these.\n\nSo my answer should be \"no.\""
+    },
+    {
+      "question_index": 12,
+      "thinking": "I need to determine if cultural diaspora is related to scheduling or planning of time.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It often involves the migration of people over time, which does have a temporal component, but it's not about scheduling or planning time specifically. \n\nCultural diaspora happens over time, sometimes over generations, but it's not about deadlines, appointments, or specific timing arrangements. It's more about the movement and spread of cultural groups and their practices, traditions, and identities.\n\nWhile time is certainly a factor in how diasporas develop and evolve, the concept itself is not directly related to time scheduling or planning."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me think about whether cultural diaspora is related to a moment or point in time like now, present, past, or future.\n\nCultural diaspora refers to the dispersion or spread of a cultural group from their original homeland to different parts of the world. It's a process that occurs over time rather than at a specific moment. However, diasporas often have specific historical moments that trigger them - like wars, famines, or political upheavals that cause mass migrations.\n\nAdditionally, diasporas have temporal aspects in that they involve:\n- Historical events (past) that caused the dispersal\n- Ongoing cultural preservation and evolution (present)\n- Intergenerational transmission of cultural elements (future)\n\nThe question asks if it's related to a \"moment or point in time\" specifically. While diaspora is definitely temporal and historical, it's not really about a specific moment or point in time - it's more about processes that unfold over extended periods.\n\nSo I would say the answer is \"maybe\" - cultural diaspora is certainly related to time and history, but it's not specifically about moments or points in time, but rather about processes across time."
+    },
+    {
+      "question_index": 14,
+      "thinking": "The question is asking if \"cultural diaspora\" is related to time management or productivity concepts like efficiency, punctuality, or procrastination.\n\nA cultural diaspora refers to the dispersal or spread of a people and their culture away from their original homeland, often due to migration, exile, or other historical events. While a diaspora does occur over time and has a temporal element (which is why I previously answered \"yes\" to it being related to time), it is not specifically related to time management or productivity concepts.\n\nCultural diaspora is more related to:\n- Migration and movement of people\n- Cultural identity and preservation\n- Geographic dispersal\n- Historical events and circumstances\n- Community formation outside of original homelands\n\nIt is not about managing time efficiently, being punctual, or issues of procrastination. These are productivity concepts that don't relate directly to the concept of cultural diaspora.\n\nTherefore, my answer should be \"no.\""
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let me think about the question: \"Is it a specific event or occurrence that happens at a particular time?\"\n\nI'm thinking of \"cultural diaspora,\" which refers to the dispersion or spread of a people and their culture away from their original homeland. \n\nIs a cultural diaspora a specific event or occurrence that happens at a particular time?\n\nA cultural diaspora is typically a process that occurs over time rather than a single specific event. It involves the migration and resettlement of people from their homeland to other places. While there can be specific events that trigger diasporas (like wars, persecutions, or natural disasters), the diaspora itself is a broader phenomenon that extends over time and involves many people, multiple movements, and cultural transformations.\n\nSo while diasporas are related to time (as I answered yes to question 5), they aren't specific events that happen at a particular moment in time. They're more like ongoing historical and social processes.\n\nI should answer \"no\" to this question."
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let me analyze if cultural diaspora is related to the measurement or passage of time, like a clock, calendar, or timepiece.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It involves communities of people who maintain their cultural identity while living outside their ancestral lands. Examples include the Jewish diaspora, African diaspora, Chinese diaspora, etc.\n\nWhile cultural diaspora does involve time in the sense that it occurs over historical periods and involves changes over time, it's not directly related to the measurement or passage of time like clocks, calendars, or timepieces. Cultural diaspora is more about:\n- Movement of people across geographical spaces\n- Maintenance of cultural identity away from homeland\n- Cultural exchange and adaptation\n- Historical migration patterns\n- Community formation in new locations\n\nIt's not about measuring time or about timepieces. The concept doesn't relate to calendars, clocks, or other time-measuring devices in any direct way.\n\nSo the answer should be \"no\" - cultural diaspora is not related to the measurement or passage of time like a clock, calendar, or timepiece."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let's think about whether cultural diaspora is related to age or aging.\n\nCultural diaspora refers to the dispersion or spread of a group of people and their culture from their original homeland to different parts of the world. It typically involves migration, displacement, or scattering of populations, carrying their cultural traditions, practices, language, and identity with them to new locations.\n\nIs cultural diaspora related to age or aging?\n- Cultural diaspora isn't directly about age or aging as its primary concept\n- However, over time, diasporic communities do age and evolve\n- There can be generational aspects to diaspora, with different generations having different relationships to their cultural heritage\n- Age can be a factor in how people in a diaspora connect to their cultural roots\n- Aging of diasporic communities over time can lead to cultural changes, maintenance, or loss\n\nThis is a complex question. While cultural diaspora isn't fundamentally about aging, there are temporal aspects to how diasporic communities evolve over time, and generational differences within diasporic communities can be significant. However, age/aging isn't a central or defining characteristic of cultural diaspora.\n\nI think the best answer is \"maybe\" - it's not directly about aging, but there are temporal and generational aspects to diaspora that relate to age."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let's think about \"cultural diaspora\" and whether it's a historical or chronological concept like an era, epoch, or timeline.\n\nA cultural diaspora refers to the dispersion or spread of a cultural group (often ethnic, religious, or national) from their original homeland to different parts of the world. This concept:\n\n- Has historical dimensions: Diasporas often occur throughout history due to migration, exile, colonization, etc.\n- Can be associated with specific time periods: For example, the Jewish diaspora, African diaspora, Irish diaspora, etc. all occurred during specific historical periods\n- Is not strictly defined as a chronological division like \"era\" or \"epoch\"\n- Is more focused on the movement and dispersion of people and their culture rather than being primarily a way to divide or mark time\n\nWhile cultural diaspora has strong historical components and temporal dimensions (it happens over time), it is not primarily a chronological concept like an era or epoch. It's more accurately a sociological, anthropological, and cultural concept that has historical aspects.\n\nSo I should answer \"maybe\" to this question, as cultural diaspora has historical dimensions but isn't primarily a chronological concept."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me think about whether cultural diaspora is related to the finite nature of time, like mortality, lifespan, or deadline.\n\nCultural diaspora refers to the dispersion or scattering of a people and their culture away from their original homeland. This typically involves people migrating to different parts of the world, often due to historical forces such as colonization, persecution, war, famine, or seeking better economic opportunities.\n\nIs cultural diaspora related to the finite nature of time?\n- It's not directly about mortality or death\n- It's not specifically about lifespans, though diaspora communities do evolve over lifespans and generations\n- It's not about deadlines\n\nWhile diaspora does involve time in the sense that it happens over historical periods and across generations, it's not specifically related to the finite nature of time. It's more about the movement and preservation of cultural identity across geographic spaces and through time.\n\nSo I should answer \"no\" to this question."
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let me think about whether cultural diaspora is related to time travel or time manipulation.\n\nCultural diaspora refers to the dispersion or spread of a population and their culture away from their original homeland. This happens over time as people migrate, but it's not about manipulating time or traveling through time.\n\nKey facts about cultural diaspora:\n- It involves the movement of people from their homeland to new places\n- It includes the preservation or adaptation of cultural practices, traditions, language, etc. in new locations\n- It happens over historical time periods\n- It's about geographical dispersion and cultural preservation/transformation\n- Examples include Jewish diaspora, African diaspora, Irish diaspora, etc.\n\nThis concept doesn't involve time travel (moving between different time periods) or time manipulation (controlling or altering the flow of time). It happens within the normal, linear progression of time.\n\nSo the answer to \"Is it a concept related to time travel or time manipulation?\" should be a clear \"no\"."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 39,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1140,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1746,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2372,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3021,
+      "output_tokens": 15,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3681,
+      "output_tokens": 28,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4383,
+      "output_tokens": 29,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5116,
+      "output_tokens": 27,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5902,
+      "output_tokens": 30,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6722,
+      "output_tokens": 31,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7575,
+      "output_tokens": 28,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8454,
+      "output_tokens": 28,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9362,
+      "output_tokens": 30,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10303,
+      "output_tokens": 31,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11277,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 12267,
+      "output_tokens": 30,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 13295,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 14328,
+      "output_tokens": 27,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 15399,
+      "output_tokens": 31,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 16506,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 17652,
+      "output_tokens": 91,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 277,
+      "output_tokens": 232,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 295,
+      "output_tokens": 175,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 314,
+      "output_tokens": 331,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 335,
+      "output_tokens": 298,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 351,
+      "output_tokens": 238,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 380,
+      "output_tokens": 163,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 410,
+      "output_tokens": 291,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 438,
+      "output_tokens": 223,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 469,
+      "output_tokens": 332,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 501,
+      "output_tokens": 337,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 530,
+      "output_tokens": 191,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 559,
+      "output_tokens": 166,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 590,
+      "output_tokens": 290,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 622,
+      "output_tokens": 215,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 646,
+      "output_tokens": 247,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 677,
+      "output_tokens": 263,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 695,
+      "output_tokens": 324,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 723,
+      "output_tokens": 307,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 755,
+      "output_tokens": 224,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 777,
+      "output_tokens": 226,
+      "total_tokens": 0
+    }
+  ]
+}

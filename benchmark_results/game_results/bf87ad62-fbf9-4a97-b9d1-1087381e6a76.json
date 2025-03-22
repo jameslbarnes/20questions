@@ -1,0 +1,497 @@
+{
+  "game_id": "bf87ad62-fbf9-4a97-b9d1-1087381e6a76",
+  "timestamp": "2025-03-22T12:48:54.339427",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "cultural diaspora",
+  "category": "complex",
+  "questions": [
+    "Is it something physical/tangible?",
+    "Is it an abstract concept or idea (rather than a specific entity, event, or creation)?",
+    "Is it related to human emotions or feelings?",
+    "Is it generally considered a positive emotion or feeling?",
+    "Is it considered one of the basic/primary negative emotions (like anger, fear, sadness, or disgust)?",
+    "Is it an emotion that primarily arises in relation to other people (like jealousy, envy, or resentment)?",
+    "Is it related to self-evaluation or how one views oneself (like shame, guilt, or insecurity)?",
+    "Is it related to anticipation or concern about the future (like anxiety, worry, or dread)?",
+    "Is it related to reflecting on or responding to past events (like regret, grief, or trauma)?",
+    "Is it specifically related to loss or missed opportunities in the past?",
+    "Is it often associated with wishing you had made different choices in the past?",
+    "Is it specifically related to the loss of a person (like grief after someone dies)?",
+    "Is it related to missing or longing for something from the past that cannot be recaptured?",
+    "Is it often described as a bittersweet feeling of longing for the past?",
+    "Is it primarily about feeling sad about lost or missed opportunities with people (like relationships or connections)?",
+    "Is it related to loss of something tangible (like a possession, place, or thing) rather than an abstract loss?",
+    "Is it specifically the emotion of longing for something from your past (like a time, place, or experience)?",
+    "Is it a specific form of disappointment or sadness related to unfulfilled potential or abandoned plans?",
+    "Is it a specific cultural concept that might not translate easily to other languages (like \"saudade\" or \"hiraeth\")?",
+    "Is it the feeling of homesickness or missing a place where you once belonged?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Maybe.",
+    "No.",
+    "No.",
+    "No.",
+    "No."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on all the answers, I'm now ready to make my guess:\n\n<guess>Loss</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [
+    {
+      "question_index": 0,
+      "thinking": "I'm playing 20 Questions, and I need to identify what the human is thinking of through yes/no questions. Let me approach this systematically.\n\nFor my first question, I want to make the most fundamental division possible. This would typically be whether the thing is physical/tangible or abstract/conceptual.\n\nQuestion 1: \"Is it something physical/tangible?\"\n\nThis question divides the universe of possibilities into physical objects versus abstract concepts, ideas, or intangible things. The answer will immediately eliminate roughly half of all possible things.\n\nAfter this, my questioning strategy will depend on the answer:\n\nIf YES (it's physical):\n- I might ask if it's natural or artificial\n- I might ask if it's alive or not\n- I might ask about size (larger than a microwave/bread box)\n\nIf NO (it's not physical):\n- I might ask if it's a concept/idea\n- I might ask if it's an event/occurrence\n- I might ask if it's a fictional entity\n\nBut I shouldn't plan too many steps ahead because each answer will significantly reshape my strategy. Let me start with this fundamental question."
+    },
+    {
+      "question_index": 1,
+      "thinking": "The object is not physical or tangible. This eliminates a large category of things. It means we're dealing with something:\n- Abstract\n- Conceptual\n- Digital/virtual\n- Emotional\n- Theoretical\n\nSome potential categories could be:\n- Ideas/concepts\n- Emotions/feelings\n- Digital things (software, websites, etc.)\n- Events/phenomena\n- Theories/principles\n- Fictional entities\n\nLet me now try to determine which broad category it falls into."
+    },
+    {
+      "question_index": 2,
+      "thinking": "So far I've established that:\n1. It's not something physical/tangible\n2. It is an abstract concept or idea (rather than a specific entity, event, or creation)\n\nNow I need to further narrow down what kind of abstract concept it might be. There are many categories of abstract concepts:\n- Emotions/feelings (love, fear, happiness)\n- Values/virtues (freedom, justice, courage)\n- Academic/intellectual concepts (theory of relativity, democracy)\n- Philosophical ideas (existentialism, determinism)\n- Relationships/social constructs (friendship, marriage)\n- Qualities/properties (beauty, intelligence)\n- Processes/states (evolution, death)\n\nLet me try to divide these efficiently. I think a good approach is to ask if it's related to human emotional or social experience versus more objective/external concepts."
+    },
+    {
+      "question_index": 3,
+      "thinking": "I now know:\n1. It's not something physical/tangible\n2. It is an abstract concept or idea\n3. It is related to human emotions or feelings\n\nSo we're dealing with an abstract emotional concept. There are many possibilities here: love, happiness, sadness, fear, anger, jealousy, hope, anxiety, depression, joy, excitement, etc.\n\nLet me try to narrow this down further. I could ask about whether it's a positive or negative emotion, which would split the possibilities roughly in half."
+    },
+    {
+      "question_index": 4,
+      "thinking": "Let's analyze what we know so far:\n1. It's not something physical/tangible\n2. It is an abstract concept or idea\n3. It is related to human emotions or feelings\n4. It is not generally considered a positive emotion or feeling\n\nSo we're dealing with a negative emotion or feeling. There are many negative emotions to consider:\n- Anger\n- Fear\n- Sadness\n- Disgust\n- Jealousy\n- Grief\n- Anxiety\n- Shame\n- Guilt\n- Embarrassment\n- Frustration\n- Disappointment\n- Regret\n- Despair\n- Loneliness\n- Resentment\n- Hatred\n- Bitterness\n- Envy\n\nI need to divide these efficiently. One approach is to separate primary vs. secondary emotions, or to divide them by intensity or common experience."
+    },
+    {
+      "question_index": 5,
+      "thinking": "Let me analyze what I know so far:\n1. It's not physical/tangible\n2. It is an abstract concept or idea\n3. It is related to human emotions or feelings\n4. It is not generally considered a positive emotion\n5. It is not one of the basic/primary negative emotions\n\nSo I'm dealing with an abstract concept related to human emotions that is:\n- Not positive\n- Not a primary negative emotion like anger, fear, sadness, or disgust\n\nThis suggests it could be:\n- A secondary or complex negative emotion\n- A neutral emotional state with negative aspects\n- An emotional concept that describes a negative state\n\nExamples might include:\n- Jealousy\n- Envy\n- Resentment\n- Bitterness\n- Guilt\n- Shame\n- Regret\n- Anxiety\n- Insecurity\n- Disappointment\n- Melancholy\n- Frustration\n- Loneliness\n- Apathy\n- Cynicism\n- Pessimism\n\nI need to narrow this down further. I could ask about whether it's a complex emotion that combines multiple feelings, or if it's directed toward others versus self-directed, or about its temporal nature (past-focused like regret, present-focused like anxiety, or future-focused like dread).\n\nLet me ask about whether it relates to social comparison or interpersonal relationships, as this would help distinguish emotions like jealousy, envy, resentment from more self-directed emotions like guilt, shame, or regret."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me analyze what I know so far:\n- It's not physical/tangible\n- It's an abstract concept or idea\n- It's related to human emotions or feelings\n- It's not generally considered positive\n- It's not a basic/primary negative emotion (like anger, fear, sadness, or disgust)\n- It's not primarily about relationships with others (like jealousy, envy, or resentment)\n\nSo I'm looking for a negative emotion or feeling that:\n- Is more complex or secondary\n- Is not primarily social in nature\n- Is more internal or self-directed\n\nSome possibilities might include:\n- Anxiety\n- Guilt\n- Shame\n- Regret\n- Despair\n- Hopelessness\n- Insecurity\n- Self-doubt\n- Loneliness\n- Emptiness\n- Boredom\n- Frustration\n- Disappointment\n- Helplessness\n\nLet me try to narrow this down further. I should ask if it's related to self-evaluation or past actions."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not physical/tangible - it's abstract\n2. It is an abstract concept or idea\n3. It is related to human emotions or feelings\n4. It is not generally considered a positive emotion\n5. It is not a primary/basic negative emotion (not anger, fear, sadness, or disgust)\n6. It is not primarily about relations with others (not jealousy, envy, resentment)\n7. It is not related to self-evaluation (not shame, guilt, insecurity)\n\nSo I'm looking for:\n- An abstract concept\n- Related to human emotions\n- A negative emotion\n- Not a basic primary emotion\n- Not relationship-oriented\n- Not self-evaluation-oriented\n\nI need to continue narrowing down what type of negative emotion or feeling this might be. Let me think of other categories of negative emotions:\n\n- Future-oriented emotions (anxiety, worry, dread)\n- Past-oriented emotions (regret, remorse)\n- Present-oriented emotions (boredom, frustration)\n- Complex emotional states (grief, despair, hopelessness)\n- Physical state emotions (discomfort, pain, exhaustion)\n- Context-specific emotions (homesickness, claustrophobia)\n\nLet me ask about whether it's related to anticipation or concern about the future, which would include things like anxiety, worry, and dread."
+    },
+    {
+      "question_index": 8,
+      "thinking": "I need to reconsider what I know about this abstract, emotional concept:\n\n1. It's an abstract concept related to human emotions/feelings\n2. It's generally considered negative\n3. It's not a primary/basic negative emotion (not anger, fear, sadness, or disgust)\n4. It doesn't primarily arise in relation to other people (not jealousy, envy, resentment)\n5. It's not related to self-evaluation (not shame, guilt, insecurity)\n6. It's not related to future anticipation (not anxiety, worry, dread)\n\nLet me think about other categories of negative emotions:\n- We've ruled out interpersonal emotions\n- We've ruled out self-evaluation emotions\n- We've ruled out future-oriented emotions\n\nWhat might be left:\n- Past-oriented emotions (regret, nostalgia, trauma)\n- Present-oriented emotions (boredom, frustration, discomfort)\n- Physical/physiological states with emotional components (pain, hunger, exhaustion)\n- Complex emotional states (grief, depression, emptiness)\n- Emotional responses to situations (disappointment, shock, being overwhelmed)\n\nLet me ask about past-oriented emotions since that seems like a significant category I haven't explored yet."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Now I have a clearer direction. The concept is:\n- Not physical/tangible\n- An abstract concept/idea\n- Related to human emotions/feelings\n- A negative emotion\n- Not a primary/basic negative emotion\n- Not primarily about relations with others\n- Not about self-evaluation\n- Not about the future\n- Related to reflecting on or responding to past events\n\nThis narrows it down considerably to negative emotions related to past events. Some possibilities include:\n- Regret\n- Grief\n- Trauma\n- Resentment (though this often involves others)\n- Remorse\n- Nostalgia (though this can be both positive and negative)\n- Bitterness\n- Melancholy\n\nLet me ask if it's specifically about loss or missed opportunities, which would help narrow down between these possibilities."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let's analyze what we know so far:\n- Not physical/tangible\n- Is an abstract concept or idea\n- Related to human emotions/feelings\n- Not a positive emotion/feeling\n- Not a primary negative emotion (not anger, fear, sadness, or disgust)\n- Not primarily related to other people\n- Not related to self-evaluation\n- Not related to anticipation or concern about the future\n- Is related to reflecting on past events\n- Specifically related to loss or missed opportunities in the past\n\nThis is narrowing down significantly. The main emotions that come to mind that relate to loss or missed opportunities in the past include:\n- Regret: feeling sad about something you did or didn't do\n- Nostalgia: a sentimental longing for the past (though this can be both positive and negative)\n- Remorse: deep regret for wrongdoing\n- Grief: intense sorrow, especially caused by someone's death\n- Longing: a yearning desire\n- Wistfulness: a sad longing for something past\n\nGiven that it's a negative emotion related to loss or missed opportunities, regret seems like the strongest candidate here. But I should ask a clarifying question to be more certain before guessing."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not physical/tangible\n2. Abstract concept or idea\n3. Related to human emotions/feelings\n4. Not generally positive\n5. Not a basic/primary negative emotion\n6. Not primarily arising in relation to other people\n7. Not related to self-evaluation\n8. Not related to future concerns\n9. Related to reflecting on or responding to past events\n10. Specifically related to loss or missed opportunities in the past\n11. Not associated with wishing you had made different choices\n\nSo we have a negative emotion related to loss or missed opportunities in the past, but not about wishing you had made different choices. \n\nThis is getting quite specific. Some possibilities could be:\n- Grief (feeling of deep sorrow after a loss)\n- Nostalgia (but this can be positive, so maybe not)\n- Longing (yearning for something from the past)\n- Bereavement (state of having lost someone)\n- Heartbreak (intense sorrow after loss, especially romantic)\n- Homesickness (missing a place from the past)\n\nSince it's about loss but not about different choices, I should focus on emotions related to unavoidable losses rather than regrets about decisions. Let me ask whether it's specifically about losing people (like loved ones):"
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me analyze what I know so far:\n1. It's not physical/tangible - it's an abstract concept\n2. It's related to human emotions/feelings\n3. It's a negative emotion\n4. It's not a primary negative emotion (not anger, fear, sadness, or disgust)\n5. It doesn't primarily arise in relation to other people\n6. It's not related to self-evaluation\n7. It's not related to future concerns\n8. It IS related to reflecting on past events\n9. It IS specifically related to loss or missed opportunities\n10. It's NOT associated with wishing you had made different choices\n11. It's NOT specifically about grief from losing a person\n\nSo it's a negative emotion about loss or missed opportunities in the past, but not about wishing you had made different choices and not specifically about losing people.\n\nI'm thinking this could be something like:\n- Nostalgia (but that's not always negative)\n- Longing\n- Pining for something lost\n- Yearning for the past\n- Wistfulness\n- Homesickness (for a time or place)\n\nLet me think about what question would best narrow this down. I need to understand if this is about longing for something specific from the past that can't be recaptured."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me analyze what I know so far:\n\n1. It's not physical/tangible\n2. It's an abstract concept or idea\n3. It's related to human emotions/feelings\n4. It's generally considered a negative emotion\n5. It's not one of the basic/primary negative emotions\n6. It doesn't primarily arise in relation to other people\n7. It's not related to self-evaluation\n8. It's not related to future concerns\n9. It is related to reflecting on past events\n10. It is specifically related to loss or missed opportunities in the past\n11. It's not about wishing you had made different choices\n12. It's not specifically about loss of a person\n13. It is related to missing or longing for something from the past that cannot be recaptured\n\nBased on these facts, I'm getting a strong sense that the emotion might be nostalgia or some form of longing for the past. Nostalgia can be both positive and negative, but there's often a sense of loss associated with it - longing for something that can't be recaptured.\n\nHowever, since the answer to question 4 indicated it's generally considered negative, it might be something more specifically negative than nostalgia. Perhaps something like:\n\n- Melancholy\n- Wistfulness\n- Homesickness\n- Yearning\n- Pining\n\nI think I should ask a more direct question to narrow it down further."
+    },
+    {
+      "question_index": 14,
+      "thinking": "Let me analyze what I know so far:\n\n- It's not physical/tangible\n- It's an abstract concept or idea\n- It's related to human emotions/feelings\n- It's generally considered negative\n- It's not a primary/basic negative emotion (not anger, fear, sadness, disgust)\n- It doesn't primarily arise in relation to other people\n- It's not related to self-evaluation\n- It's not related to future concerns\n- It IS related to reflecting on past events, specifically loss or missed opportunities\n- It's NOT about wishing you had made different choices (which rules out regret)\n- It's NOT specifically about losing a person (which rules out grief in the traditional sense)\n- It IS about missing or longing for something from the past that cannot be recaptured\n- But it's NOT described as a bittersweet feeling of longing for the past (which rules out nostalgia)\n\nThis is getting quite specific. I'm looking for a negative emotion related to loss or missed opportunities, involving longing for something from the past that can't be recaptured, but not involving regret about choices or nostalgia's bittersweet quality.\n\nPotential candidates might include:\n- Heartbreak\n- Emptiness\n- Abandonment feelings\n- Loss (as a general concept)\n- Saudade (a Portuguese concept of deep longing for something absent)\n- Yearning\n- Pining\n\nLet me ask if it's primarily about relationships or personal connections that have been lost:"
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let me analyze what I know so far:\n\n1. It's not physical/tangible - it's an abstract concept or idea\n2. It is related to human emotions/feelings\n3. It's generally considered a negative emotion\n4. It's not a primary/basic negative emotion (not anger, fear, sadness, disgust)\n5. It doesn't primarily arise in relation to other people\n6. It's not related to self-evaluation/how one views oneself\n7. It's not related to future concerns\n8. It IS related to reflecting on past events\n9. It IS specifically related to loss or missed opportunities in the past\n10. It's NOT about wishing you had made different choices\n11. It's NOT specifically about loss of a person\n12. It IS related to missing or longing for something from the past that cannot be recaptured\n13. It's NOT often described as a bittersweet feeling of longing for the past\n14. It's NOT primarily about lost opportunities with people/relationships\n\nSo it's about missing/longing for something from the past that's lost, but not specifically about people, and not about wishing you'd made different choices. It's not nostalgic in the bittersweet sense.\n\nThis sounds like it could potentially be:\n- Emptiness (from loss)\n- Yearning (for something lost in the past)\n- Pining\n- Sorrow (over something lost)\n- Devastation\n- Heartbreak\n\nLet me try to narrow it down further by asking about what kind of loss it might be about."
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let me analyze what I know so far:\n\n1. It's not physical/tangible (abstract concept)\n2. It's related to human emotions/feelings\n3. It's a negative emotion\n4. It's not a primary negative emotion (not anger, fear, sadness, disgust)\n5. It's not related to other people\n6. It's not about self-evaluation \n7. It's not about future concerns\n8. It IS related to reflecting on past events\n9. It IS related to loss or missed opportunities\n10. It's NOT about wishing you made different choices\n11. It's NOT specifically about loss of a person\n12. It IS about missing/longing for something from the past that can't be recaptured\n13. It's NOT described as a bittersweet feeling of longing\n14. It's NOT primarily about lost relationships\n15. It MAYBE related to loss of something tangible\n\nThis narrows down to emotions about loss and longing for the past, but not regret (which would involve wishing for different choices) and not specifically nostalgia (which would be more bittersweet). \n\nI think this might be describing something like \"heartache\" or \"saudade\" or perhaps \"grief\" (not for a person specifically, based on question 12, but for something else lost).\n\nGiven the pattern of answers, I think this might be:\n- Yearning\n- Pining\n- Longing\n- Mourning (for something lost)\n- Bereavement (though this is often associated with loss of a person)\n\nLet me ask about whether it refers specifically to the feeling of emptiness that follows a loss."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not physical/tangible - It's abstract\n2. It's an abstract concept or idea\n3. Related to human emotions/feelings\n4. Not a positive emotion\n5. Not a basic/primary negative emotion (not anger, fear, sadness, disgust)\n6. Not primarily related to other people\n7. Not related to self-evaluation/how one views oneself\n8. Not about future concerns\n9. Related to reflecting on or responding to past events\n10. Specifically related to loss or missed opportunities in the past\n11. Not about wishing you had made different choices\n12. Not about loss of a person (not grief)\n13. Related to missing or longing for something from the past that cannot be recaptured\n14. Not often described as a bittersweet feeling of longing for the past\n15. Not primarily about lost opportunities with people\n16. Maybe related to loss of something tangible (possession, place, thing)\n17. Not specifically the emotion of longing for something from the past\n\nI need to narrow this down further. Based on the answers, it seems like an emotion related to missing something from the past that can't be recaptured, but it's not nostalgia (which would be described as bittersweet longing for the past).\n\nLet me think about potential emotions that fit this description:\n- Loss in a general sense - but this might be too broad\n- Disappointment about past events - but this might be closer to regret\n- Bereavement - but this was ruled out with the question about grief\n- Remorse - but this is usually about wishing you had made different choices\n\nI should try to identify more specifically what kind of past-related emotion this is."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let me review what I know:\n- Abstract concept/idea related to human emotions that's negative\n- Not a primary emotion (not anger, fear, sadness, disgust)\n- Not related to other people specifically\n- Not about self-evaluation\n- Not about the future\n- IS related to reflecting on past events\n- IS related to loss or missed opportunities in the past\n- NOT about wishing you had made different choices\n- NOT about loss of a person\n- IS about missing/longing for something from the past that can't be recaptured\n- NOT bittersweet longing for the past\n- NOT primarily about relationships/connections\n- MAYBE related to loss of something tangible\n- NOT specifically about longing for something from the past\n- NOT about unfulfilled potential or abandoned plans\n\nHmm, this is tricky. Let me think about emotions related to loss and missing something from the past that can't be recaptured, but isn't specifically longing.\n\nPossibilities:\n- Grief (but not for a person)\n- Bereavement (but likely for a person)\n- Sorrow\n- Mourning \n- Heartache\n- Yearning (though this is similar to longing)\n- Pining\n- Wistfulness\n- Melancholy\n- Lament\n- Despondency\n\nI think I need to be more specific since I just have two questions left. Let me ask if it relates to a specific cultural concept about this type of feeling."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me review what I know so far:\n- It's not physical/tangible\n- It is an abstract concept/idea\n- It's related to human emotions/feelings\n- It's not a positive emotion\n- It's not one of the basic negative emotions (anger, fear, sadness, disgust)\n- It's not primarily about relationships with other people\n- It's not about self-evaluation\n- It's not about the future\n- It IS related to reflecting on past events\n- It IS specifically related to loss or missed opportunities\n- It's not about wishing you had made different choices\n- It's not specifically about losing a person\n- It IS related to missing/longing for something from the past that can't be recaptured\n- It's not often described as bittersweet\n- It's not primarily about lost relationships or connections\n- It MAYBE relates to loss of something tangible rather than abstract\n- It's not specifically the emotion of longing for the past\n- It's not about unfulfilled potential or abandoned plans\n- It's not a specific cultural concept that doesn't translate well\n\nBased on these clues, I need to identify a negative emotion about reflecting on past losses that involves longing for something that can't be recaptured, but isn't exactly nostalgia or regret.\n\nSome possibilities:\n- Grief (but not specifically about a person)\n- Loss (as the emotion itself)\n- Abandonment (feeling of being left behind)\n- Yearning\n- Emptiness\n- Melancholy\n- Homesickness\n\nGiven the clues, I think the most likely answer is \"homesickness\" as it relates to longing for something from the past (a place) that may be tangible but is currently inaccessible. It's not just nostalgia or longing, and it's specifically about missing something concrete from your past.\n\nBut since \"homesickness\" is specifically about places, I'll make one final question to try to narrow it down more before guessing."
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let's review what I know:\n- It's not physical/tangible\n- It is an abstract concept or idea\n- It is related to human emotions or feelings\n- It is not a positive emotion\n- It's not a basic/primary negative emotion (not anger, fear, sadness, disgust)\n- It's not primarily about relationships with other people\n- It's not about self-evaluation\n- It's not about the future\n- It IS related to reflecting on past events\n- It IS specifically related to loss or missed opportunities in the past\n- It's not about wishing you had made different choices\n- It's not specifically about loss of a person\n- It IS related to missing or longing for something from the past that cannot be recaptured\n- It's not a bittersweet feeling of longing for the past\n- It's not primarily about relationships or connections\n- It MAYBE related to loss of something tangible (this answer was ambiguous)\n- It's not specifically the emotion of longing for something from the past\n- It's not about unfulfilled potential or abandoned plans\n- It's not a specific cultural concept\n- It's not homesickness or missing a place where you once belonged\n\nSo I'm looking for a negative emotion related to reflecting on past loss or missed opportunities, involving some form of longing for something that cannot be recaptured.\n\nThe most likely candidates seem to be:\n1. Regret - but we established it's not about wishing you had made different choices\n2. Nostalgia - but that's often bittersweet rather than negative, and we established it's not specifically longing for the past\n3. Grief - but we established it's not specifically about loss of a person\n\nI'm trying to think of emotions that fit our constraints:\n- Loss (general concept)\n- Disappointment (related to unfulfilled expectations)\n- Yearning (but that's more about longing)\n- Remorse (but that's close to regret)\n- Anguish (but that's more intense than what's described)\n\nBased on all these clues, my best guess would be \"loss\" as the abstract concept or \"a sense of loss\" - it's negative, related to the past, about something that cannot be recaptured, and not specifically tied to people, places, or decisions."
+    }
+  ],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I'm thinking of \"cultural diaspora\" in a game of 20 questions. The player is asking:\n\n\"Is it something physical/tangible?\"\n\nA cultural diaspora refers to the dispersal or spread of a culture, particularly when people from a shared culture/ethnicity disperse geographically from their original homeland. It's a concept or phenomenon, not a physical object that can be touched.\n\nCultural diaspora is:\n- A sociological concept\n- A phenomenon of cultural spread/dispersion\n- An abstract idea describing migration patterns and cultural preservation\n- Not something you can physically touch or hold\n\nSince cultural diaspora is an abstract concept rather than a physical or tangible object, the answer should be \"no.\""
+    },
+    {
+      "question_index": 2,
+      "thinking": "The question asks if cultural diaspora is an abstract concept/idea rather than a specific entity, event, or creation.\n\nCultural diaspora refers to the dispersal or spread of a culture and its people away from an established or ancestral homeland. Let me think about whether this is an abstract concept:\n\n- Cultural diaspora is not a physical object\n- It's not a single specific event (though diasporas can be caused by specific events like wars, persecutions, etc.)\n- It's not a specific entity with clear boundaries\n- It's more of a sociological concept that describes a phenomenon of cultural dispersal and the resulting communities\n- It applies to many different groups and situations across history and geography\n\nSo yes, cultural diaspora would be considered an abstract concept or idea in sociology and cultural studies. It's a theoretical framework used to understand certain social and cultural phenomena. It's not a specific entity, event, or creation - rather, it's a concept that helps categorize and understand certain social patterns of migration and cultural preservation/evolution.\n\nThe answer is definitely yes."
+    },
+    {
+      "question_index": 3,
+      "thinking": "The question asks if 'cultural diaspora' is related to human emotions or feelings.\n\nLet me think about what a cultural diaspora is. Cultural diaspora refers to the dispersion or spread of a culture, or cultural communities and their practices, away from their original homeland. It's often associated with migration, displacement, or the scattering of ethnic groups.\n\nWhile cultural diaspora is primarily a sociological and anthropological concept describing population movements and cultural preservation/transformation, emotional aspects are certainly involved:\n\n- People experiencing diaspora often feel nostalgia, longing, and connection to their homeland\n- There can be feelings of displacement, identity struggles, or cultural alienation\n- Communities in diaspora may experience collective emotional ties to their heritage\n- The preservation of culture in diaspora settings often has strong emotional components\n\nSo while cultural diaspora isn't primarily about emotions (it's more about cultural practices, identity, and population movements), emotions are definitely a related aspect of the diaspora experience.\n\nSince emotions are a component but not the primary focus of the concept, I think the most accurate answer is \"yes\" with a clarification."
+    },
+    {
+      "question_index": 4,
+      "thinking": "Let me think about whether a cultural diaspora is generally considered a positive emotion or feeling.\n\nCultural diaspora refers to the dispersion or spread of people from their original homeland, along with their cultures, traditions, languages, etc. It's often associated with migration, displacement, or forced relocation of communities.\n\nIs this generally considered a positive emotion or feeling? \n\nCultural diasporas often involve:\n- Feelings of displacement, loss, and disconnection from homeland\n- Nostalgia for one's cultural origins\n- Preservation of cultural identity in a new place\n- Adaptation and integration challenges\n- Sometimes trauma if the dispersion was due to conflict or persecution\n- Identity struggles and questions of belonging\n- A mixture of preserving traditional culture while adapting to new surroundings\n\nWhile there can be some positive aspects to cultural diasporas (cultural exchange, resilience, new community formation), the emotional experience is often complex and challenging, especially in its early stages. The dominant emotions tend to include loss, displacement, and longing, though pride and resilience are also part of the experience.\n\nSo I would say that cultural diaspora is not generally considered a positive emotion or feeling, though it encompasses a complex mix of emotions that can include some positive elements.\n\nThe answer should be \"no\" with a brief clarification."
+    },
+    {
+      "question_index": 5,
+      "thinking": "The question asks if \"cultural diaspora\" is considered one of the basic/primary negative emotions like anger, fear, sadness, or disgust.\n\nCultural diaspora refers to the dispersal or spread of a people and their culture away from their original homeland. It's a concept that describes the scattering of cultural or ethnic groups across different regions. \n\nCultural diaspora is not an emotion at all - it's a sociological concept describing the spread of cultural groups and their practices, traditions, and identities beyond their place of origin. It involves issues of identity, belonging, displacement, and cultural preservation, but it is not itself an emotion.\n\nThe confusion might have arisen from my previous \"yes\" answer to whether it relates to human emotions. Cultural diaspora does involve emotional aspects - people experiencing diaspora may feel nostalgia, longing, loss of identity, but also pride, resilience, and cultural connection. These are emotional experiences associated with diaspora, not the diaspora itself being an emotion.\n\nSo to clarify: Cultural diaspora is not a basic/primary negative emotion like anger, fear, sadness, or disgust. It's not an emotion at all, but rather a sociological/anthropological concept that describes population movement and cultural dispersal.\n\nMy answer should be \"no\" - cultural diaspora is not considered one of the basic/primary negative emotions."
+    },
+    {
+      "question_index": 6,
+      "thinking": "The question is asking whether \"cultural diaspora\" is an emotion that primarily arises in relation to other people.\n\nLet me think about what cultural diaspora is:\n- Cultural diaspora refers to the dispersion or spread of a population and its culture from its original homeland\n- It's not an emotion itself, but rather a sociological/anthropological concept describing the movement and dispersion of people\n- While people experiencing diaspora may feel various emotions (like homesickness, nostalgia, longing, connection to heritage), the concept itself is not an emotion\n- It's a description of a cultural/sociological phenomenon\n\nSo, is cultural diaspora an emotion that primarily arises in relation to other people (like jealousy, envy, or resentment)?\nNo, it's not an emotion at all. It's a sociological concept describing the dispersion of people from their homeland and the maintenance of cultural ties across geographic separation.\n\nI should answer \"no\" and may need to provide a brief clarification since there seems to be some confusion about what cultural diaspora is."
+    },
+    {
+      "question_index": 7,
+      "thinking": "The question is asking if \"cultural diaspora\" is related to self-evaluation or how one views oneself, such as shame, guilt, or insecurity.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It involves communities maintaining their cultural identity while living outside their ancestral lands. Examples include the Jewish diaspora, African diaspora, and various other immigrant communities that maintain cultural ties to their homelands.\n\nWhile cultural diaspora can certainly impact one's sense of identity and may involve complex emotions related to displacement, belonging, and cultural preservation, it's not primarily about self-evaluation in the sense of shame, guilt, or insecurity. \n\nCultural diaspora is more about:\n- Group cultural identity and preservation\n- Movement and dispersion of peoples\n- Shared cultural experience across geographic boundaries\n- Maintaining connections to ancestral homeland while living elsewhere\n\nAlthough individuals in a diaspora might experience emotions related to self-evaluation as part of their diaspora experience (such as questions about authenticity or belonging), these aren't the defining characteristics of cultural diaspora as a concept.\n\nSo, is cultural diaspora primarily related to self-evaluation? No, though it may involve identity considerations as a secondary aspect."
+    },
+    {
+      "question_index": 8,
+      "thinking": "The question asks if cultural diaspora is related to anticipation or concern about the future (like anxiety, worry, or dread).\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It involves the movement of people who maintain their cultural identity and connections to their homeland while living elsewhere.\n\nWhile a diaspora can certainly involve concerns about the future (such as worries about preserving cultural identity or anxiety about assimilation), it's not primarily defined by these concerns or anticipations. The concept is more broadly about cultural displacement, identity preservation, community formation in new places, and the relationship with the homeland.\n\nDiaspora experiences can involve emotional aspects like nostalgia, longing, or a sense of displacement, but these aren't necessarily forward-looking emotions about the future. They often relate to the past (homeland) and present (adaptation).\n\nSince cultural diaspora isn't primarily characterized by anticipation or concern about the future, though these elements might be present in some diaspora experiences, I should answer \"no\" to this question."
+    },
+    {
+      "question_index": 9,
+      "thinking": "I need to determine if \"cultural diaspora\" is related to reflecting on or responding to past events like regret, grief, or trauma.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. This concept does involve reflecting on past events, particularly:\n\n1. The historical displacement, migration, or forced movement of cultural groups from their homelands\n2. The collective memory and trauma that often accompanies such displacement\n3. The grief associated with loss of homeland and cultural connections\n4. The ongoing response to these historical events through maintaining cultural traditions, identity, and connections to homeland while living elsewhere\n\nCultural diaspora inherently involves reflecting on historical events (the dispersion itself) and the response to those events (maintaining cultural identity while displaced). While it's not solely about regret, grief or trauma, these emotional responses are often significant components of diasporic experiences and cultural memory.\n\nSo yes, cultural diaspora is related to reflecting on and responding to past events, though it encompasses much more than just emotions about the past."
+    },
+    {
+      "question_index": 10,
+      "thinking": "I need to determine whether cultural diaspora is specifically related to loss or missed opportunities in the past.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It involves communities that maintain cultural, emotional, and sometimes physical ties to their place of origin while being physically dispersed to different locations.\n\nDiaspora is often associated with:\n1. The forced or voluntary migration of people away from their homeland\n2. The maintenance of collective memory about the homeland\n3. A sense of connection to the ancestral culture\n4. Sometimes feelings of alienation in the new host country\n5. Cultural transmission across generations despite displacement\n\nIs cultural diaspora specifically related to loss or missed opportunities?\n- Loss: Yes, diaspora often involves the loss of homeland, connection to place of origin, and sometimes loss of cultural practices or language over generations.\n- Missed opportunities: This is more indirect. While people in diaspora may experience missed opportunities to participate in their homeland's development or traditional practices, this isn't necessarily the defining feature of cultural diaspora.\n\nWhile loss is certainly an element of cultural diaspora (loss of homeland, sometimes loss of cultural continuity), I wouldn't say it's specifically or exclusively about loss or missed opportunities. It's a more complex phenomenon that also involves adaptation, cultural preservation, identity formation, and sometimes the creation of new hybrid cultural forms.\n\nSo my answer should be nuanced, but I need to provide a clear yes/no/maybe."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think about whether \"cultural diaspora\" is often associated with wishing you had made different choices in the past.\n\nCultural diaspora refers to the dispersion or spread of a cultural group from their original homeland to different parts of the world. It involves the displacement or migration of people who maintain their cultural identity, traditions, and connections to their homeland while living elsewhere.\n\nThe experience of diaspora can certainly involve feelings about the past, including reflection on historical events that led to displacement. However, it's not necessarily about personal choices that individuals wish they had made differently. Rather, diaspora is often the result of:\n- Forced displacement due to war, persecution, or colonization\n- Economic migration\n- Political exile\n- Other historical or social forces beyond an individual's control\n\nWhile individuals in a diaspora might sometimes wish that historical events had unfolded differently, or that their ancestors or community hadn't been forced to leave their homeland, this isn't primarily about personal choices or decisions that they personally regret making.\n\nSo, cultural diaspora is not often associated with wishing you had made different personal choices in the past. It's more about collective historical experiences and maintaining cultural identity despite geographic displacement."
+    },
+    {
+      "question_index": 12,
+      "thinking": "The concept of \"cultural diaspora\" refers to the dispersal or spread of a population from its original homeland, along with their cultural practices, traditions, and identity. Let's analyze if it's related to the loss of a person:\n\nCultural diaspora involves:\n- Dispersal of populations from their homeland (often due to migration, exile, etc.)\n- Preservation of cultural identity away from origin\n- Cultural adaptation and transformation in new settings\n- Collective experience rather than individual\n- Loss of homeland, community, or cultural connection\n\nIs cultural diaspora specifically related to the loss of a person (like grief after someone dies)?\n- Cultural diaspora is not specifically about the loss of individual persons through death\n- It's more about collective displacement of communities and cultures\n- While there may be loss involved, it's more about loss of place, cultural continuity, or homeland\n- It's a broader sociological and anthropological concept rather than personal grief over death\n\nSo the answer would be \"no\" - cultural diaspora is not specifically related to the loss of a person like grief after death. It's related to loss, but primarily loss of homeland, cultural spaces, and direct connections to cultural origins."
+    },
+    {
+      "question_index": 13,
+      "thinking": "The question is asking if \"cultural diaspora\" is related to missing or longing for something from the past that cannot be recaptured.\n\nCultural diaspora refers to the dispersion or spread of a cultural group from their original homeland, often due to forced migration, persecution, or other historical circumstances. People in a diaspora often maintain emotional and cultural ties to their homeland while adapting to their new environment.\n\nA key emotional component of cultural diaspora is indeed a sense of nostalgia, longing, or yearning for the homeland, cultural traditions, and way of life that was left behind and cannot be fully recaptured in the new setting. This longing is often referred to as \"cultural nostalgia\" or in some contexts as \"hiraeth\" or \"saudade\" - deep longing for something lost.\n\nSo yes, cultural diaspora is very much related to missing or longing for something from the past (the homeland, cultural practices, community connections) that often cannot be fully recaptured.\n\nThe answer would be yes."
+    },
+    {
+      "question_index": 14,
+      "thinking": "The question is asking if cultural diaspora is often described as a bittersweet feeling of longing for the past.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It happens when people migrate, are forced to leave, or are exiled from their homeland, leading to the spread of their cultural practices, beliefs, and traditions to new locations.\n\nWhile diaspora experiences can certainly involve feelings of nostalgia, longing, and connections to the past, describing it as primarily a \"bittersweet feeling\" would be reductive. Cultural diaspora is a complex sociological phenomenon that encompasses:\n\n1. The physical displacement of people\n2. The maintenance of cultural identity across geographic boundaries\n3. Connections to homeland (both real and imagined)\n4. Formation of new communities in new locations\n5. Cultural hybridity and adaptation\n6. Intergenerational transmission of cultural practices\n\nWhile emotions are certainly part of diaspora experiences (including potential longing for homeland), cultural diaspora itself is not an emotion - it's a broader sociological concept describing the dispersion of cultural groups.\n\nSo while people experiencing diaspora might feel bittersweet longing for the past, cultural diaspora itself is not \"a bittersweet feeling.\"\n\nI should answer \"no\" to this question."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let me think about this question carefully.\n\nCultural diaspora refers to the dispersion or spread of a culture (or cultural groups) from their original homeland, often due to forced migration, war, persecution, or other historical events. It involves communities maintaining their cultural identity while living outside their ancestral homeland.\n\nThe question asks if cultural diaspora is \"primarily about feeling sad about lost or missed opportunities with people (like relationships or connections).\"\n\nWhile cultural diaspora can certainly involve feelings of sadness, loss, and disconnection from people (family members, community members, etc.), it's not PRIMARILY about feeling sad about lost opportunities with people. It's a much broader concept involving:\n- Geographic displacement\n- Cultural preservation in new locations\n- Identity formation and maintenance\n- Community building in new settings\n- Historical trauma and collective memory\n- Cultural exchange and adaptation\n\nThe primary focus is on the displacement and preservation of cultural identity, not specifically on interpersonal missed opportunities. While relationships are impacted, the concept encompasses much more than just the emotional response to lost connections with people.\n\nSo the answer should be \"no\" - cultural diaspora isn't primarily about feeling sad about lost opportunities with people, even though that can be one element of the diaspora experience."
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let me think about the question carefully. The player is asking if cultural diaspora is primarily related to loss of something tangible (like a possession, place, or thing) rather than an abstract loss.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It involves:\n- The physical displacement of people from their homeland\n- The scattering of cultural communities\n- The maintenance of cultural ties despite geographical separation\n- Often results from migration, colonization, or forced displacement\n\nWhile cultural diaspora definitely involves the physical displacement of people from a tangible place (their homeland), it's not primarily about the loss of tangible possessions or things. It's more complex - it's about the loss of cultural connection, identity, belonging, and community ties that happens when people are separated from their homeland and dispersed.\n\nThe question asks if it's related to loss of something tangible RATHER THAN abstract loss. Cultural diaspora involves both tangible loss (homeland, physical community) and abstract loss (cultural connection, identity). It's not primarily one or the other - both aspects are important.\n\nSo my answer would be \"maybe\" or \"partially\" since cultural diaspora involves both tangible and abstract losses, not primarily one rather than the other."
+    },
+    {
+      "question_index": 17,
+      "thinking": "The concept of \"cultural diaspora\" refers to the dispersion or scattering of a people from their original homeland, along with the preservation and evolution of their cultural identity, traditions, practices, and connection to their homeland while living elsewhere. \n\nIs cultural diaspora specifically the emotion of longing for something from your past (like a time, place, or experience)?\n\nCultural diaspora isn't specifically an emotion itself - it's a sociological concept that describes the dispersal of cultural groups from their homelands. However, diaspora experiences often involve emotions of longing, nostalgia, and connection to a homeland or cultural past.\n\nPeople experiencing cultural diaspora may feel a longing for their homeland, cultural traditions, or past experiences, but the concept itself encompasses much more than just this emotional aspect. It includes cultural preservation, identity formation in new places, community building, and various social dynamics.\n\nSo while there is an emotional component of longing associated with cultural diaspora, it's not accurate to say it IS specifically that emotion. The concept is broader.\n\nI should answer \"no\" because cultural diaspora is not specifically an emotion of longing, though such emotions are often part of diasporic experiences."
+    },
+    {
+      "question_index": 18,
+      "thinking": "I need to think about whether cultural diaspora relates to disappointment/sadness about unfulfilled potential or abandoned plans.\n\nCultural diaspora refers to the dispersion or spread of people from their original homeland, along with their cultural practices, traditions, and identities. It involves communities maintaining cultural connections while living away from their ancestral homeland.\n\nKey aspects of cultural diaspora:\n- Dispersal of people from their homeland (voluntary or forced)\n- Maintenance of cultural identity away from the homeland\n- Connection to heritage and traditions\n- Often involves feelings of displacement, longing, nostalgia\n- Can include adaptation and hybridization of culture in new locations\n\nWhile cultural diaspora can involve feelings of sadness or loss related to being separated from one's homeland, it's not specifically about \"unfulfilled potential\" or \"abandoned plans.\" It's more about cultural identity, heritage, and connection to homeland while living elsewhere.\n\nThe emotions associated with cultural diaspora might include nostalgia, longing, or a sense of displacement, but it's not primarily characterized as a form of disappointment about unfulfilled potential or abandoned plans.\n\nSo the answer should be \"no.\""
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me think about this question carefully. The player is asking if \"cultural diaspora\" is a specific cultural concept that might not translate easily to other languages, giving examples like \"saudade\" or \"hiraeth\" which are culturally specific emotional concepts.\n\nCultural diaspora refers to the dispersion or spread of a people and their culture away from their original homeland. It's not a culturally specific untranslatable term like the examples given. Rather, it's an academic concept that has been adopted into English from Greek origins (diaspora meaning \"scattering\" or \"dispersion\"), but it's now widely used in sociology, anthropology, cultural studies, and other fields across languages. \n\nThe concept of cultural diaspora is actually quite translatable and used in academic and cultural discussions globally. While different cultures may experience diaspora differently, the term itself is not like \"saudade\" (Portuguese concept of deep longing) or \"hiraeth\" (Welsh concept of homesickness for a place that no longer exists).\n\nSo my answer should be:"
+    },
+    {
+      "question_index": 20,
+      "thinking": "This question is asking if what I'm thinking of is \"the feeling of homesickness or missing a place where you once belonged.\"\n\nI'm thinking of \"cultural diaspora,\" which is not primarily a feeling but rather describes the dispersal or scattering of a cultural or ethnic group from their original homeland. However, feelings of homesickness or missing one's place of origin are indeed common emotional experiences for people who are part of a diaspora.\n\nCultural diaspora refers to the dispersion of a people from their homeland, often resulting in communities being established elsewhere while maintaining ties to their original culture. While diaspora itself is not a feeling, it often involves feelings of displacement, longing for homeland, and the emotional experience of being separated from one's cultural roots.\n\nThe question specifically asks about the feeling of homesickness or missing a place where you once belonged, which is certainly related to cultural diaspora, but diaspora itself is a broader concept that includes social, historical, and cultural dimensions beyond just the emotional experience.\n\nSo, is the concept I'm thinking of (cultural diaspora) the feeling of homesickness or missing a place where one belonged? No, it's not the feeling itself, though such feelings are commonly experienced by people in diaspora communities."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 558,
+      "output_tokens": 287,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1159,
+      "output_tokens": 143,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1786,
+      "output_tokens": 214,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2422,
+      "output_tokens": 140,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3079,
+      "output_tokens": 236,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3784,
+      "output_tokens": 382,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4529,
+      "output_tokens": 273,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5303,
+      "output_tokens": 352,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 6133,
+      "output_tokens": 319,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6994,
+      "output_tokens": 212,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7870,
+      "output_tokens": 305,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8775,
+      "output_tokens": 324,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9708,
+      "output_tokens": 324,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10674,
+      "output_tokens": 351,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11666,
+      "output_tokens": 372,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 12688,
+      "output_tokens": 390,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 13751,
+      "output_tokens": 410,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 14845,
+      "output_tokens": 425,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 15968,
+      "output_tokens": 377,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 17134,
+      "output_tokens": 477,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 18344,
+      "output_tokens": 548,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 276,
+      "output_tokens": 196,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 305,
+      "output_tokens": 271,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 324,
+      "output_tokens": 291,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 344,
+      "output_tokens": 327,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 378,
+      "output_tokens": 341,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 415,
+      "output_tokens": 278,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 448,
+      "output_tokens": 319,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 479,
+      "output_tokens": 271,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 510,
+      "output_tokens": 274,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 533,
+      "output_tokens": 361,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 559,
+      "output_tokens": 290,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 586,
+      "output_tokens": 297,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 616,
+      "output_tokens": 238,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 644,
+      "output_tokens": 343,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 673,
+      "output_tokens": 301,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 708,
+      "output_tokens": 316,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 741,
+      "output_tokens": 307,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 772,
+      "output_tokens": 266,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 809,
+      "output_tokens": 273,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 836,
+      "output_tokens": 315,
+      "total_tokens": 0
+    }
+  ]
+}

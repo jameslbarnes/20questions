@@ -1,0 +1,497 @@
+{
+  "game_id": "4fd61c15-c6dc-48b2-b991-e7b103802f56",
+  "timestamp": "2025-03-22T13:46:25.054949",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Atlantis",
+  "category": "fictional",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it something created by or dependent on human activity (like an idea, invention, concept, or system)?",
+    "Is it primarily an intellectual or academic concept (like a field of study, theory, or system of knowledge)?",
+    "Is it related to entertainment, arts, or leisure activities?",
+    "Is it something people actively participate in or do (as opposed to something they observe or consume)?",
+    "Is it primarily something people watch or view visually (as opposed to listening to or reading)?",
+    "Is it primarily something people listen to or experience auditorily?",
+    "Is it something primarily experienced through reading or literature?",
+    "Is it a broad concept or category that spans multiple forms of media or entertainment (rather than a specific thing)?",
+    "Is it a genre or classification of entertainment content (like comedy, drama, horror, etc.)?",
+    "Is it related to how entertainment content is delivered or distributed to people (like streaming, broadcasting, etc.)?",
+    "Is it related to fictional characters, worlds, or storytelling elements that can appear across different media?",
+    "Is it a specific method or process for creating entertainment that connects content across different platforms or media types?",
+    "Is it a shared fictional universe where multiple independent stories take place in the same setting?",
+    "Is it a type of character, character role, or character archetype that appears in many different stories?",
+    "Is it a narrative structure or storytelling technique used across different types of media (like the hero's journey, three-act structure, etc.)?",
+    "Is it a type of fictional element, object, or concept that commonly appears across different stories and media (like magic, time travel, etc.)?",
+    "Is it related to the practice of adapting stories from one medium to another (like books to films, comics to TV shows, etc.)?",
+    "Is it related to fandom or fan culture (like fan fiction, cosplay, fan theories, etc.)?",
+    "Is it related to the concept of world-building or creating fictional worlds/settings that can be used across different stories and media?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on all the information gathered, I need to make my final guess.\n\n<guess>Intellectual Property</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [
+    {
+      "question_index": 0,
+      "thinking": "I'm playing 20 Questions, where I need to identify what the answerer is thinking of through strategic yes/no questions. The key is to use binary questions that efficiently split the search space in half.\n\nLet me start with the broadest possible question to begin dividing the universe of possibilities. The most fundamental division is probably between physical/tangible things and abstract/conceptual things.\n\nMy first question will be about whether the thing is physical or tangible."
+    },
+    {
+      "question_index": 1,
+      "thinking": "Okay, I've learned that what we're looking for is NOT a physical/tangible object. That means it's something abstract, conceptual, or non-physical. This could include:\n\n- Concepts or ideas\n- Emotions or feelings\n- Events or processes\n- Fictional entities\n- Digital/virtual entities\n- Time periods\n- Systems or structures\n- Relationships\n- Skills or abilities\n- Properties or qualities\n\nLet me think about my next question. I want to narrow down this large space of non-physical things efficiently.\n\nI could ask if it's something that exists in reality (even as a concept) versus something fictional or imaginary.\n\nOr I could ask if it's something that involves human creation or is natural/occurs independently of humans.\n\nOr I could ask if it's related to a specific domain of knowledge (science, art, philosophy, etc.).\n\nI think asking if it's something created by humans versus something that exists independently would be a good dividing question."
+    },
+    {
+      "question_index": 2,
+      "thinking": "Now I'm making progress. The thing we're trying to identify:\n1. Is not a physical/tangible object\n2. Is something created by or dependent on human activity (like an idea, invention, concept, or system)\n\nSo we're dealing with an abstract concept, idea, or system that humans have created or that depends on human activity. This could include things like:\n- Ideas/concepts (love, freedom, justice)\n- Systems (democracy, capitalism, education)\n- Fields of study (mathematics, philosophy)\n- Cultural phenomena (traditions, holidays)\n- Emotions or psychological states\n- Services or processes\n- Art forms or entertainment categories\n\nI need to further narrow this down. I should try to split this broad category of human-created abstract things into clear subcategories.\n\nLet me ask if it's something primarily intellectual/conceptual versus something more emotional/cultural/social:"
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let's analyze what we know so far:\n1. It's not a physical/tangible object.\n2. It is something created by or dependent on human activity.\n3. It's not primarily an intellectual or academic concept.\n\nSo we're dealing with something intangible that humans created or that depends on human activity, but it's not primarily academic or intellectual. This could include:\n\n- Cultural concepts/practices (holidays, traditions, customs)\n- Entertainment (games, music genres, dance styles, art movements)\n- Social constructs (relationships, societal roles, institutions)\n- Economic concepts (money, markets, financial instruments)\n- Communication systems (languages, slang, sign systems)\n- Abstract creations (fictional characters, stories, mythologies)\n- Digital/virtual concepts (software, websites, online communities)\n- Emotional states/experiences that are culturally dependent\n\nI need to narrow this down further. Let me think about a good dividing question. Since it's human-created but not academic, I should try to determine if it's more related to culture/entertainment or if it's more related to systems/practices that organize society."
+    },
+    {
+      "question_index": 4,
+      "thinking": "So far, I've established:\n1. It's not a physical/tangible object\n2. It is something created by or dependent on human activity\n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n\nSo I'm dealing with something intangible, human-created, in the entertainment/arts/leisure domain. This could include:\n- A type of game\n- A form of art/artistic style\n- A genre of music/literature/film\n- A performance style\n- A form of entertainment\n- A concept within entertainment\n\nLet me divide this space further. I'll try to determine if it's more event-based (like a performance, game, or activity) versus a more static concept (like a genre, style, or media format).\n"
+    },
+    {
+      "question_index": 5,
+      "thinking": "Let me analyze what I know so far:\n\n1. It's not a physical/tangible object.\n2. It is something created by or dependent on human activity (like an idea, invention, concept, or system).\n3. It is not primarily an intellectual or academic concept.\n4. It is related to entertainment, arts, or leisure activities.\n5. It is not something people actively participate in or do (as opposed to something they observe or consume).\n\nSo we have a non-physical thing in the entertainment/arts/leisure domain that people generally observe or consume rather than actively participate in. This could include:\n\n- TV shows, movies, or films\n- Songs, music, or musical pieces\n- Stories, fictional characters\n- Art styles or movements\n- Literary genres\n- Media franchises\n- Video game series (though not the physical games themselves)\n- Entertainment concepts or formats\n\nLet me ask something to narrow this down further. Since I know people consume rather than participate in it, I should determine what type of media or artistic form it falls under."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me analyze what I've learned so far:\n1. Not a physical/tangible object\n2. Created by or dependent on human activity\n3. Not primarily an intellectual or academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in (they observe or consume it)\n6. Not primarily something people watch or view visually\n\nSo it's something:\n- Non-physical\n- Human-created\n- Entertainment/arts/leisure related\n- That people consume rather than participate in\n- Not primarily visual\n\nThis suggests it could be something people primarily listen to or read. Let me explore this path.\n\nIt could be:\n- A genre of music\n- A type of audio entertainment (podcast, radio show)\n- A literary genre\n- A specific story, song, or other creative work\n- A form of artistic expression\n\nSince it's not primarily visual, I should check if it's primarily auditory."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me analyze what we know so far:\n1. It's not a physical/tangible object\n2. It is something created by or dependent on human activity\n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n5. It's not something people actively participate in (they consume/observe it)\n6. It's not primarily something people watch or view visually\n7. It's not primarily something people listen to or experience auditorily\n\nSo it's an intangible entertainment/arts/leisure item that isn't primarily visual or auditory, and people don't actively participate in it but rather consume or observe it.\n\nGiven these constraints, I'm thinking it might be something people read or experience through reading, or possibly something experienced through multiple senses but not primarily visual or auditory.\n\nPossibilities could include:\n- A literary work (book, novel, story, poem)\n- A genre of literature\n- A fictional world or universe\n- A character in fiction\n- A concept in storytelling\n- A form of digital entertainment that isn't primarily visual or auditory\n\nI should narrow this down further. Let me ask if it's related to reading or literature."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me analyze what we know so far:\n\n1. It's not a physical/tangible object\n2. It is something created by or dependent on human activity\n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n5. It's not something people actively participate in or do (they observe or consume it)\n6. It's not primarily something people watch or view visually\n7. It's not primarily something people listen to or experience auditorily\n8. It's not something primarily experienced through reading or literature\n\nSo we have something intangible, human-created, entertainment/arts-related, but it's not primarily:\n- Visual (like movies, TV, paintings)\n- Auditory (like music, podcasts)\n- Literary (like books, poetry)\n- Participatory (like games, sports)\n\nThis is puzzling because I've eliminated many common forms of entertainment. Since it's not primarily experienced through one of these main sensory channels, it might be:\n\n1. A concept or genre that spans multiple media forms\n2. Something that combines multiple sensory experiences\n3. A type of entertainment that doesn't fit neatly into a single sensory category\n4. An abstract concept related to entertainment\n\nSome possibilities:\n- A multi-media franchise or universe (like Marvel, Star Wars)\n- A general entertainment concept (like comedy, drama, horror)\n- A style or movement in arts (like surrealism, minimalism)\n- A medium or platform that combines multiple sensory experiences (like video games, virtual reality)\n- A specific character or fictional entity that appears across media\n- An experience like theme parks that combine multiple sensory inputs\n\nLet me ask about whether it's a broader concept that spans multiple media forms rather than a specific thing:"
+    },
+    {
+      "question_index": 9,
+      "thinking": "So far I've determined that:\n1. It's not a physical/tangible object\n2. It is created by or dependent on human activity\n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n5. It's not something people actively participate in (they observe or consume it)\n6. It's not primarily visual\n7. It's not primarily auditory\n8. It's not primarily experienced through reading\n9. It is a broad concept or category that spans multiple forms of media or entertainment\n\nSo we're looking for a broad concept in entertainment that isn't primarily experienced through any single medium (not just visual, not just auditory, not just reading). People observe or consume it rather than actively participate in it. \n\nSome possibilities that come to mind:\n- A genre (like comedy, drama, horror, fantasy, science fiction)\n- A narrative technique or storytelling device (like cliffhanger, plot twist)\n- A theme in entertainment (like romance, adventure)\n- A media franchise that spans multiple formats\n\nLet me ask about whether it's a genre or category of entertainment content:"
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let me take stock of what I know so far:\n\n1. Not a physical/tangible object\n2. Created by or dependent on human activity\n3. Not primarily an intellectual or academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in or do (as opposed to something they observe or consume)\n6. Not primarily something people watch or view visually\n7. Not primarily something people listen to or experience auditorily\n8. Not something primarily experienced through reading or literature\n9. Is a broad concept or category that spans multiple forms of media or entertainment (rather than a specific thing)\n10. Not a genre or classification of entertainment content (like comedy, drama, horror, etc.)\n\nThis is an interesting combination. It's:\n- A broad concept in entertainment\n- Not a genre\n- Not primarily experienced through any single sense (not primarily visual, auditory, or reading)\n- Not something people actively participate in\n- Spans multiple forms of media\n\nSo it could be:\n- A method of content delivery (streaming, broadcasting)\n- A business model for entertainment (subscription, pay-per-view)\n- A concept related to entertainment industry (celebrity, fandom, stardom)\n- A framework or system for entertainment (ratings system, award systems)\n- A concept related to fictional worlds or characters (intellectual property, franchise, universe)\n\nLet me ask about the method of content delivery first, as that seems most likely based on the answers so far."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me review what I know so far:\n- Not a physical/tangible object\n- Created by or dependent on human activity\n- Not primarily an intellectual or academic concept\n- Related to entertainment, arts, or leisure activities\n- Not something people actively participate in or do (they observe or consume it)\n- Not primarily experienced through watching/viewing\n- Not primarily experienced through listening\n- Not primarily experienced through reading/literature\n- A broad concept or category spanning multiple forms of media/entertainment\n- Not a genre or classification of entertainment content\n- Not related to how entertainment content is delivered or distributed\n\nSo I'm looking for a broad concept or category in entertainment/arts that isn't about content classification (genre) or delivery method. It spans multiple media forms but isn't primarily experienced through any specific sensory channel alone.\n\nSome possibilities could be:\n- Fictional universes or franchises (like Marvel, Star Wars, etc.)\n- Media formats or structures (like episodic content, series, etc.)\n- Entertainment industry roles or positions (actors, directors, producers, etc.)\n- Stylistic elements or techniques (special effects, animation styles, etc.)\n- Business concepts in entertainment (merchandising, licensing, etc.)\n- Creative processes in entertainment (adaptation, remakes, etc.)\n\nLet me ask a question that helps narrow this down further:"
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not a physical/tangible object\n2. Created by or dependent on human activity\n3. Not primarily an intellectual or academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in or do (as opposed to something they observe or consume)\n6. Not primarily something people watch or view visually\n7. Not primarily something people listen to or experience auditorily\n8. Not something primarily experienced through reading or literature\n9. A broad concept or category that spans multiple forms of media or entertainment\n10. Not a genre or classification of entertainment content\n11. Not related to how entertainment content is delivered or distributed\n12. Related to fictional characters, worlds, or storytelling elements that can appear across different media\n\nThis is narrowing down significantly. It's a broad concept related to fictional characters, worlds, or storytelling elements that can appear across different media. Let me think about possibilities:\n\n- Fictional universes or franchises (like Marvel Universe, Star Wars universe)\n- Crossover (stories/characters that appear in multiple media)\n- Transmedia storytelling (telling a story across multiple platforms)\n- Fictional mythology/lore (backstory/world-building across media)\n- Adaptations (converting stories from one medium to another)\n- Fan fiction (stories created by fans based on existing works)\n- Shared universe (connected storylines across media)\n- Intellectual properties (IPs that span across media)\n- Character archetypes (recurring character types across stories)\n\nI think my next question should try to distinguish between these possibilities. Let me ask whether we're talking about a specific franchise/universe or a more general concept."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me analyze what I know so far:\n\n1. Not a physical/tangible object\n2. Created by or dependent on human activity\n3. Not primarily an intellectual or academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in or do (they observe or consume it)\n6. Not primarily viewed visually\n7. Not primarily experienced auditorily\n8. Not primarily experienced through reading/literature\n9. A broad concept/category spanning multiple forms of media/entertainment\n10. Not a genre or classification of entertainment content\n11. Not related to how entertainment is delivered or distributed\n12. Related to fictional characters, worlds, or storytelling elements across different media\n13. Not a specific method or process for creating entertainment across platforms\n\nThis is getting interesting. I'm thinking about concepts related to fictional worlds and characters that span across media. Some possibilities:\n- Franchises\n- Shared universes\n- Crossovers\n- Fictional mythology or lore\n- Character archetypes\n- Fictional settings/worlds\n- Adaptations\n- Fan fiction concept\n- Easter eggs\n- World-building\n\nLet me try to narrow it down further:"
+    },
+    {
+      "question_index": 14,
+      "thinking": "Let me think about what we've learned so far:\n\n1. Not a physical/tangible object\n2. Created by/dependent on human activity\n3. Not primarily an intellectual/academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in (they observe/consume it)\n6. Not primarily watched or viewed visually\n7. Not primarily listened to or experienced auditorily\n8. Not primarily experienced through reading/literature\n9. It's a broad concept that spans multiple forms of media/entertainment\n10. Not a genre or classification of entertainment content\n11. Not related to content delivery/distribution\n12. Related to fictional characters, worlds, or storytelling elements across different media\n13. Not a specific method/process for creating entertainment that connects content across platforms\n14. Not a shared fictional universe where multiple stories take place in the same setting\n\nThis is an interesting pattern. It's related to fictional characters, worlds, or storytelling elements that can appear across different media, but it's not a shared fictional universe.\n\nLet me think about what this could be:\n- It could be a narrative or storytelling technique (like cliffhangers, plot twists)\n- It could be a type of fictional element (like archetypes, tropes, motifs)\n- It could be a fictional concept that appears in stories (like magic systems, fictional technologies)\n- It could be a meta-concept about fictional worlds (like worldbuilding, canon, continuity)\n\nGiven that it spans multiple forms of media and relates to fictional characters/worlds but isn't a shared universe, I think I should focus on storytelling elements or tropes that appear across different types of media.\n\nLet me ask about narrative elements or tropes:"
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let me summarize what I know so far:\n\n1. It's not a physical/tangible object\n2. It is something created by or dependent on human activity\n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n5. It's not something people actively participate in or do (they observe or consume it)\n6. It's not primarily something people watch or view visually\n7. It's not primarily something people listen to or experience auditorily\n8. It's not something primarily experienced through reading or literature\n9. It is a broad concept or category that spans multiple forms of media or entertainment\n10. It's not a genre or classification of entertainment content\n11. It's not related to how entertainment content is delivered or distributed\n12. It is related to fictional characters, worlds, or storytelling elements that can appear across different media\n13. It's not a specific method or process for creating entertainment that connects content across platforms\n14. It's not a shared fictional universe\n15. It's not a type of character, character role, or character archetype\n\nSo I'm looking for something that:\n- Is a broad concept in entertainment\n- Relates to fictional characters, worlds, or storytelling elements\n- Spans multiple media forms\n- Isn't a character type, shared universe, or content delivery method\n\nLet me think about what this could be. It sounds like it might be a storytelling element or narrative device that appears across different types of media. Some possibilities:\n\n- Plot device\n- Narrative structure (like the hero's journey)\n- Fictional trope\n- Worldbuilding element\n- Mythology or folklore that inspires fiction\n- Fictional construct (like magic systems)\n\nLet me ask a question to narrow this down further:"
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let me analyze what I've learned so far:\n\n1. Not a physical/tangible object\n2. Created by or dependent on human activity\n3. Not primarily an intellectual/academic concept\n4. Related to entertainment, arts, or leisure activities\n5. Not something people actively participate in (more consumed/observed)\n6. Not primarily visual\n7. Not primarily auditory \n8. Not primarily experienced through reading\n9. Is a broad concept/category spanning multiple forms of media\n10. Not a genre or classification of content\n11. Not related to delivery/distribution methods\n12. Related to fictional characters, worlds, or storytelling elements across media\n13. Not a specific method/process for creating connected content\n14. Not a shared fictional universe\n15. Not a character type or archetype\n16. Not a narrative structure or storytelling technique\n\nSo, it's:\n- A broad concept in entertainment\n- Related to fictional characters/worlds/storytelling elements\n- Spans multiple media forms\n- Not a specific character type, universe, narrative structure\n\nI need to narrow down what aspect of fictional worlds or storytelling elements this could be. If it's not characters, narratives, or shared universes, what other elements of fiction span across media?\n\nPossible areas:\n- Fictional elements/objects that appear in stories (like magical items?)\n- Fictional concepts or abstract things that appear in stories\n- Fictional settings or location types (not specific universes but types of places)\n- Fictional themes or motifs that appear across stories\n\nLet me ask about fictional elements or objects that might appear in stories:"
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me think about what I know so far:\n\n1. It's not a physical/tangible object.\n2. It is something created by or dependent on human activity.\n3. It's not primarily an intellectual or academic concept.\n4. It is related to entertainment, arts, or leisure activities.\n5. It's not something people actively participate in or do.\n6. It's not primarily experienced visually, auditorily, or through reading.\n7. It is a broad concept or category that spans multiple forms of media or entertainment.\n8. It's not a genre or classification of entertainment content.\n9. It's not related to how entertainment content is delivered or distributed.\n10. It is related to fictional characters, worlds, or storytelling elements that can appear across different media.\n11. It's not a specific method or process for creating entertainment that connects content across different platforms.\n12. It's not a shared fictional universe.\n13. It's not a type of character, character role, or character archetype.\n14. It's not a narrative structure or storytelling technique.\n15. It's not a type of fictional element, object, or concept that commonly appears across different stories and media.\n\nI'm trying to find a broad concept related to fictional characters, worlds, or storytelling elements that spans multiple forms of media but isn't a specific genre, narrative structure, character type, or fictional element. This is getting quite narrow and specific.\n\nLet me think about what this could be:\n- Could it be something related to worldbuilding?\n- Could it be related to adaptations of stories across different media?\n- Could it be related to the concept of canon or continuity in fictional worlds?\n- Could it be related to fan fiction or fan creations?\n- Could it be related to franchises or intellectual property?\n- Could it be related to the concept of mythology or folklore in modern entertainment?\n\nI think my next question should try to narrow down which of these broader areas it might fall into."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let me analyze what I know so far:\n\n- Not a physical/tangible object\n- Created by or dependent on human activity\n- Not primarily an intellectual or academic concept\n- Related to entertainment, arts, or leisure activities\n- Not something people actively participate in or do (they observe or consume it)\n- Not primarily visual\n- Not primarily auditory\n- Not primarily experienced through reading/literature\n- It's a broad concept or category that spans multiple forms of media or entertainment\n- Not a genre or classification of entertainment content\n- Not related to how entertainment content is delivered or distributed\n- Related to fictional characters, worlds, or storytelling elements that can appear across different media\n- Not a specific method/process for creating entertainment that connects content across platforms\n- Not a shared fictional universe\n- Not a type of character, character role, or character archetype\n- Not a narrative structure or storytelling technique\n- Not a type of fictional element, object, or concept common across stories\n- Not related to adapting stories from one medium to another\n\nThis is getting quite narrow, but I still need to figure out what exactly it is. It's related to fictional characters, worlds, or storytelling elements that can appear across different media, but not many of the obvious categories I've already asked about.\n\nPotential areas I haven't explored yet:\n1. Is it related to fandom or fan culture?\n2. Is it related to fictional world-building elements?\n3. Is it related to crossovers or interactions between fictional properties?\n4. Is it related to intellectual property or rights management for fictional elements?\n5. Is it related to canonical vs non-canonical status of fictional elements?\n\nLet me ask about fandom, as that spans different media and relates to fictional characters and worlds."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me analyze what I know so far:\n\n1. It is NOT a physical/tangible object (No)\n2. It IS created by or dependent on human activity (Yes)\n3. It is NOT primarily an intellectual or academic concept (No)\n4. It IS related to entertainment, arts, or leisure activities (Yes)\n5. It is NOT something people actively participate in or do (No)\n6. It is NOT primarily something people watch or view visually (No)\n7. It is NOT primarily something people listen to or experience auditorily (No)\n8. It is NOT something primarily experienced through reading or literature (No)\n9. It IS a broad concept or category that spans multiple forms of media or entertainment (Yes)\n10. It is NOT a genre or classification of entertainment content (No)\n11. It is NOT related to how entertainment content is delivered or distributed (No)\n12. It IS related to fictional characters, worlds, or storytelling elements that can appear across different media (Yes)\n13. It is NOT a specific method or process for creating entertainment that connects content across different platforms (No)\n14. It is NOT a shared fictional universe where multiple independent stories take place (No)\n15. It is NOT a type of character, character role, or character archetype (No)\n16. It is NOT a narrative structure or storytelling technique (No)\n17. It is NOT a type of fictional element, object, or concept that commonly appears across different stories and media (No)\n18. It is NOT related to the practice of adapting stories from one medium to another (No)\n19. It is NOT related to fandom or fan culture (No)\n\nSo, what I know is:\n- Not tangible\n- Created by humans\n- Related to entertainment and arts\n- Not about participation\n- Not primarily visual, auditory, or reading-based\n- A broad concept spanning multiple forms of media\n- Related to fictional characters, worlds, or storytelling elements across media\n- Not about genres, delivery methods, specific narrative structures, character archetypes, fictional elements, adaptation practices, or fan culture\n\nI need to figure out what could fit these constraints with my final question. I'm particularly focused on the \"related to fictional characters, worlds, or storytelling elements that can appear across different media\" aspect since that seems to be a key hint.\n\nIt seems like it could be:\n1. Transmedia storytelling - but question 13 seems to rule this out\n2. Fictional mythology/lore - the background stories and rules that define fictional worlds\n3. Cross-media franchising - the business practice of extending fictional worlds across media\n4. World-building - the process of constructing an imaginary world\n5. Media franchises - collections of media in which elements from a common fictional universe appear\n\nLet me try asking about world-building, as it seems to fit the criteria best from what remains:"
+    },
+    {
+      "question_index": 20,
+      "thinking": "I've used all 20 questions and need to make my final guess based on what I know. Let me summarize what I've learned:\n\n1. It's not a physical/tangible object\n2. It is something created by or dependent on human activity \n3. It's not primarily an intellectual or academic concept\n4. It is related to entertainment, arts, or leisure activities\n5. It's not something people actively participate in (rather something they observe/consume)\n6. It's not primarily something people watch or view visually\n7. It's not primarily something people listen to or experience auditorily\n8. It's not something primarily experienced through reading or literature\n9. It is a broad concept or category that spans multiple forms of media or entertainment\n10. It's not a genre or classification of entertainment content\n11. It's not related to how entertainment content is delivered or distributed\n12. It is related to fictional characters, worlds, or storytelling elements across different media\n13. It's not a specific method or process for creating entertainment that connects content across platforms\n14. It's not a shared fictional universe\n15. It's not a type of character, character role, or character archetype\n16. It's not a narrative structure or storytelling technique\n17. It's not a type of fictional element, object, or concept that commonly appears (like magic, time travel)\n18. It's not related to the practice of adapting stories from one medium to another\n19. It's not related to fandom or fan culture\n20. It's not related to world-building or creating fictional worlds/settings\n\nSo what I'm looking for is:\n- Not physical\n- Created by humans\n- Related to entertainment/arts\n- A broad concept spanning multiple media forms\n- Related to fictional characters/worlds/storytelling elements\n- Not something people primarily participate in (they observe/consume)\n- Not primarily visual, auditory, or reading-based\n- Not a genre, distribution method, narrative structure, shared universe, character type, fictional element, adaptation practice, fan culture element, or world-building\n\nGiven these constraints, I'm thinking it could be something like:\n- Fictional crossovers (where characters from different stories meet)\n- Easter eggs in entertainment (hidden references across media)\n- Transmedia storytelling (telling different parts of a story across multiple platforms)\n- Intellectual property/franchise (characters and worlds owned and used across media)\n- Fiction itself (the broader concept of made-up stories)\n- Canon (the official elements of a fictional universe)\n- Storytelling (the general act of creating and sharing fictional narratives)\n\nBased on what was ruled out, particularly that it's related to fictional elements across media but not about adaptation, fan culture, world-building, narrative structure, or specific character types, my best guess would be something like \"transmedia storytelling\" or \"intellectual property/franchise\" - the concept of fictional elements that are deliberately extended across different media.\n\nSince transmedia storytelling is a specific method of creating content (which was ruled out in Q13), I'll go with intellectual property or franchise as my final guess - the concept of owning and extending fictional characters and worlds across multiple media forms."
+    }
+  ],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I need to determine if Atlantis is a physical/tangible object. \n\nAtlantis is a legendary lost city or island civilization that was first described by the Greek philosopher Plato. It's important to be accurate here:\n\n- Atlantis is not a confirmed physical/tangible object that exists in reality\n- It's a legendary or mythical place that has never been conclusively proven to exist\n- In stories, it would have been a physical place (an island or city), but as a concept in our real world, it exists as a legend, not as something tangible that can be touched\n\nSince Atlantis is a legendary/mythical place rather than a confirmed physical object that exists, the accurate answer is:"
+    },
+    {
+      "question_index": 2,
+      "thinking": "Let me analyze this question carefully.\n\n\"Is it something created by or dependent on human activity (like an idea, invention, concept, or system)?\"\n\nAtlantis is a mythical city/island/civilization that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias.\" It is a fictional or legendary place that was created in human literature and mythology. It wasn't a real place that existed independently of human thought or culture.\n\nSince Atlantis is:\n1. A concept or story created by Plato\n2. A mythological place that exists in human cultural imagination\n3. Not a naturally occurring entity but rather a human cultural invention\n\nIt would be accurate to say that Atlantis is something created by human activity - specifically, it's a concept or myth created in human literature and perpetuated through human cultural transmission.\n\nSo, the answer should be \"yes\" - Atlantis is something created by human activity, specifically as a concept or story in human culture."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me think about whether Atlantis is primarily an intellectual or academic concept.\n\nAtlantis is a legendary island nation or city that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias.\" While Plato presented it as a real place that had existed 9,000 years before his time, there is no archaeological evidence that Atlantis ever existed as described.\n\nIn modern times, Atlantis is generally considered:\n- A mythological place\n- A legendary civilization\n- A subject of pseudohistory, fiction, and speculation\n\nWhile Atlantis has been studied by academics (particularly in fields like classics, mythology, and even some archaeological studies searching for its possible real-world inspiration), I wouldn't classify it as \"primarily an intellectual or academic concept.\" It's not a field of study itself, nor is it a theory or system of knowledge.\n\nAtlantis is primarily a legend or myth - a story about a supposed ancient civilization. While academics may study it, it's not fundamentally an academic concept like \"psychology\" or \"quantum theory\" would be.\n\nSo my answer should be \"no\" - Atlantis is not primarily an intellectual or academic concept. It's a legendary place/civilization from mythology and literature."
+    },
+    {
+      "question_index": 4,
+      "thinking": "Let me think about whether Atlantis is related to entertainment, arts, or leisure activities.\n\nAtlantis is a mythical island nation or lost city that was first described by the Greek philosopher Plato. The original story of Atlantis comes from Plato's dialogues \"Timaeus\" and \"Critias,\" written around 360 BCE. In these writings, Plato described Atlantis as a powerful and advanced civilization that existed around 9,000 years before his time, which was eventually submerged beneath the ocean due to some catastrophe.\n\nWhile the original story of Atlantis was part of philosophical dialogues (and may have been created by Plato as an allegory), in modern times Atlantis has become:\n\n1. A popular subject in fiction, movies, TV shows, and other entertainment media\n2. A topic in pseudoarchaeology and pseudohistory\n3. A theme for resorts, water parks, and other leisure destinations\n4. A subject of artistic interpretations\n\nSo Atlantis is definitely related to entertainment, arts, and leisure activities in modern culture. It has inspired countless books, films (like Disney's \"Atlantis: The Lost Empire\"), TV shows, video games, and other creative works. There are also themed resorts like \"Atlantis Paradise Island\" in the Bahamas.\n\nTherefore, I should answer \"yes\" to this question."
+    },
+    {
+      "question_index": 5,
+      "thinking": "The question is asking if Atlantis is something people actively participate in or do, as opposed to something they observe or consume.\n\nAtlantis is a legendary city or civilization that is said to have sunk beneath the ocean. It's primarily a myth, legend, or story that originated in Plato's dialogues.\n\nPeople don't \"participate\" in Atlantis in a literal sense (since it's not a real place that currently exists where people can go). Instead, people typically:\n- Read or hear about Atlantis in stories, books, or media\n- Study it as a myth or legend\n- Consume content about it (documentaries, movies, books)\n- Sometimes engage with it through fiction or entertainment\n\nWhile some people might actively search for Atlantis (archaeological expeditions), this is not what Atlantis is fundamentally - it's the mythical place itself.\n\nSo Atlantis is primarily something people learn about, imagine, or consume through media rather than something people actively participate in or do. It's more in the category of things people observe or consume, like a story or concept.\n\nThe accurate answer would be:"
+    },
+    {
+      "question_index": 6,
+      "thinking": "The question is asking if Atlantis is primarily something people watch or view visually.\n\nLet me think about what Atlantis is:\n- Atlantis is a mythical lost city/civilization described by Plato\n- It's a legend or myth about an advanced civilization that supposedly sank into the ocean\n- It appears in literature, movies, documentaries, and other media\n- People don't primarily \"watch\" Atlantis - it's not primarily a visual entertainment product\n- It's more of a concept, legend, or story that has been depicted in various media\n\nWhile Atlantis has been depicted visually in movies, TV shows, and artwork, it is not primarily something people \"watch or view\" - it's fundamentally a myth, legend, or concept that has been represented across many media forms including literature, oral storytelling, etc.\n\nSo I should answer \"no\" since Atlantis isn't primarily a visual entertainment medium that people watch (like a TV show or movie franchise would be)."
+    },
+    {
+      "question_index": 7,
+      "thinking": "I need to carefully consider whether Atlantis is primarily something people experience auditorily.\n\nAtlantis is a legendary lost city or civilization that has been written about and depicted in various media. People typically encounter the concept of Atlantis through:\n- Reading about it in books, articles, or ancient texts like Plato's dialogues\n- Seeing visual depictions in movies, TV shows, artwork\n- Hearing stories or discussions about it\n\nIt's not primarily an auditory experience like music, a podcast, or a sound. People don't mainly experience Atlantis through listening. The concept is consumed through multiple media formats, but primarily through reading about it or seeing visual representations.\n\nSo my answer is no - Atlantis is not primarily something people listen to or experience auditorily."
+    },
+    {
+      "question_index": 8,
+      "thinking": "The question is asking if Atlantis is something primarily experienced through reading or literature.\n\nAtlantis is a legendary city or island that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias.\" While there have been many interpretations, adaptations, and references to Atlantis in various media over the centuries, the primary source and origin of the Atlantis concept comes from Plato's written works.\n\nMost people's knowledge and experience of Atlantis comes through:\n1. Reading Plato's original texts\n2. Reading other literature, fiction, or non-fiction that references Atlantis\n3. Watching shows, movies, or documentaries about Atlantis\n4. Encountering Atlantis in video games, art, or other media\n\nWhile Atlantis has appeared in many forms of media, its origins are literary, and much of how people learn about and experience the concept is through reading or literature. However, it's not exclusively experienced through literature - it appears in many forms of media and entertainment.\n\nGiven this, I would say that while reading/literature is an important way people experience Atlantis, it's not necessarily \"primarily\" experienced that way anymore, given its widespread presence in popular culture through various media.\n\nI should answer \"maybe\" or \"no\" here. Since the question asks if it's \"primarily\" experienced through reading, and Atlantis has broad cultural presence beyond just literature, I'll go with \"no\"."
+    },
+    {
+      "question_index": 9,
+      "thinking": "The question is asking if Atlantis is a broad concept or category that spans multiple forms of media or entertainment, rather than a specific thing.\n\nLet's think about Atlantis:\n\nAtlantis is a legendary/mythical lost city or continent that was first described by Plato in his works Timaeus and Critias. Since then, it has appeared in:\n- Books and literature (countless novels, stories)\n- Movies (like Disney's \"Atlantis: The Lost Empire\", or references in other films)\n- TV shows (documentaries, fictional shows)\n- Video games (featuring Atlantis as a setting)\n- Comics and graphic novels\n- Conspiracy theories and pseudohistory\n- Art and cultural references\n\nSo Atlantis itself is a specific mythical place, but it has become a concept that spans multiple forms of media and entertainment. It's not a broad category like \"science fiction\" or \"fantasy\" - it's a specific mythological location that appears across different media.\n\nThe question asks if it's a \"broad concept or category\" - Atlantis is not a category of entertainment but rather a specific mythological place that appears in various media. So I think the answer should be \"no\"."
+    },
+    {
+      "question_index": 10,
+      "thinking": "The question is: Is it a genre or classification of entertainment content (like comedy, drama, horror, etc.)?\n\nI'm thinking of \"Atlantis\". Let's analyze:\n\nAtlantis is a legendary lost city or continent that has been depicted in various forms of entertainment including books, movies, TV shows, and video games. However, Atlantis itself is not a genre or classification of entertainment content like comedy, drama, or horror.\n\nAtlantis is more accurately described as:\n- A mythological place/setting\n- A subject or topic that appears in entertainment\n- A legendary civilization or location\n\nIt's not a classification system for categorizing entertainment content, but rather content itself that appears across different genres (it could appear in adventure, fantasy, science fiction, etc.).\n\nSo the answer is no, Atlantis is not a genre or classification of entertainment content."
+    },
+    {
+      "question_index": 11,
+      "thinking": "I'm thinking of \"Atlantis\" and need to answer whether it's related to how entertainment content is delivered or distributed.\n\nAtlantis is a legendary island or city that was first described by Plato. It's a mythical place that supposedly sank into the ocean. It has become a popular subject in literature, movies, TV shows, video games, and other forms of entertainment media. However, Atlantis itself is not a delivery or distribution method for entertainment content.\n\nAtlantis is:\n- A mythical lost civilization/city/island\n- A concept that appears in entertainment as content\n- Not a method or system for delivering or distributing entertainment\n\nThe question is asking if what I'm thinking of is related to how entertainment is delivered (like streaming services, broadcasting, theaters, etc.). Atlantis is not a delivery method - it's content that might be delivered through various methods.\n\nSo my answer should be \"no\"."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about whether Atlantis is related to fictional characters, worlds, or storytelling elements that appear across different media.\n\nAtlantis is a legendary lost city or continent that was first described by the Greek philosopher Plato. While Plato presented it as a real place that existed in ancient times, there is no archaeological evidence that Atlantis actually existed. Most scholars consider it to be a fictional creation.\n\nSince then, Atlantis has become a common element in fiction, appearing in:\n- Books and literature (numerous novels and stories)\n- Movies (like \"Atlantis: The Lost Empire\" by Disney)\n- TV shows\n- Comics and graphic novels\n- Video games\n- Other media\n\nAtlantis definitely qualifies as a fictional world or storytelling element that appears across different media. It's a popular setting or plot device in many fictional works spanning various forms of entertainment.\n\nSo the answer is yes, Atlantis is related to fictional worlds and storytelling elements that appear across different media."
+    },
+    {
+      "question_index": 13,
+      "thinking": "I need to consider whether Atlantis is \"a specific method or process for creating entertainment that connects content across different platforms or media types.\"\n\nAtlantis is a legendary lost city or civilization, often described as an advanced society that sank beneath the ocean. It first appeared in Plato's dialogues and has since become a popular subject in fiction, documentaries, movies, books, and other media.\n\nIs Atlantis a \"method or process for creating entertainment\"? No, it's not a method or process - it's a fictional place/civilization that appears in entertainment.\n\nIs it something that \"connects content across different platforms or media types\"? While Atlantis does appear across many media types (books, films, games, etc.), it itself is not a method for connecting content. It's the subject matter that appears in different media, not the process that connects them.\n\nSo the answer should be \"no\" - Atlantis is a fictional place/civilization that appears in entertainment, not a method or process for creating or connecting entertainment across platforms."
+    },
+    {
+      "question_index": 14,
+      "thinking": "The question is asking if Atlantis is a shared fictional universe where multiple independent stories take place in the same setting.\n\nAtlantis is a legendary island/city that is mentioned in Plato's works and has become a popular subject in fiction, mythology, and pseudohistory. It's not primarily a shared fictional universe like the Marvel Cinematic Universe or Star Wars universe where different creators deliberately set multiple stories in the same cohesive setting with consistent rules.\n\nWhile many different stories, books, and movies have featured Atlantis, these are generally separate interpretations of the Atlantis myth rather than stories deliberately set in the same shared universe. Different creators have their own versions of what Atlantis was like, its culture, how it sank, etc.\n\nAtlantis is more accurately described as a mythological location or concept that has been adapted and reimagined in many different ways across fiction, rather than a shared fictional universe in the modern entertainment sense of the term.\n\nSo the answer would be \"no\" - Atlantis is not a shared fictional universe, but rather a mythological concept that has been interpreted in many different ways."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let's think about Atlantis:\n\nAtlantis is a legendary lost island or city that is often depicted in fiction, mythology, and popular culture. It was first described by Plato in his works \"Timaeus\" and \"Critias,\" where he presented it as an advanced civilization that sank beneath the ocean.\n\nIs Atlantis a type of character, character role, or character archetype that appears in many different stories?\n\nNo, Atlantis is not a character, role, or character archetype. It's a fictional place or setting - a lost civilization or city that supposedly sank beneath the ocean. While characters may be Atlanteans (people from Atlantis), Atlantis itself is a location, not a character type or archetype.\n\nSo my answer should be \"no.\""
+    },
+    {
+      "question_index": 16,
+      "thinking": "The question is asking if Atlantis is a narrative structure or storytelling technique.\n\nAtlantis is a legendary lost city/civilization that is often referenced in literature, movies, TV shows, and various forms of entertainment. It's not a narrative structure or storytelling technique like the hero's journey or three-act structure.\n\nAtlantis is a fictional place or setting that appears in stories across different media, but it isn't a technique used to structure those stories. It's content within stories, not a framework for organizing stories.\n\nSo the answer should be \"no\"."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me determine if Atlantis is a \"type of fictional element, object, or concept that commonly appears across different stories and media.\"\n\nAtlantis is a specific fictional place - a legendary lost city or continent that supposedly sank beneath the ocean. It originated in Plato's dialogues but has since appeared in many stories, movies, TV shows, books, games, etc. across different media.\n\nHowever, Atlantis itself isn't a \"type\" of fictional element, but rather a specific fictional place. Examples of \"types\" of fictional elements would be broader categories like:\n- Magic systems\n- Time travel\n- Teleportation\n- Mythical creatures\n- Parallel universes\n\nAtlantis is a specific mythical location, not a category or type of fictional element. It's a particular fictional setting that has been used across different stories and media.\n\nSo the correct answer is \"no\" - Atlantis is not a type of fictional element, but rather a specific fictional place/setting that appears in many stories."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let's evaluate if Atlantis is related to the practice of adapting stories from one medium to another.\n\nAtlantis is a legendary lost city or civilization that is often depicted in various forms of media - literature, films, TV shows, video games, etc. It's a mythological place that has captured the imagination of many creators.\n\nHowever, the question is specifically about the practice of adapting stories from one medium to another. Atlantis itself is not related to the adaptation process - it's a fictional place/setting that appears in many stories, but it's not specifically connected to the practice of adapting content between media formats.\n\nWhile stories about Atlantis have certainly been adapted across different media (books about Atlantis made into movies, etc.), Atlantis itself is not related to the adaptation practice.\n\nSo the answer should be \"no\"."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me think about whether Atlantis is related to fandom or fan culture.\n\nAtlantis is a legendary island/city that was first mentioned by Plato in his works \"Timaeus\" and \"Critias.\" According to the story, Atlantis was a naval power located in the Atlantic Ocean that conquered many parts of Western Europe and Africa. At the height of its power, Atlantis fought against Athens, but then sank into the ocean in a single day and night.\n\nWhile Atlantis has inspired many works of fiction, movies, TV shows, and other creative content, it is not primarily related to fandom or fan culture. Atlantis is not a fan creation or primarily sustained through fan activities like fan fiction, cosplay, or fan theories.\n\nAtlantis is more accurately described as a mythological place or legendary lost civilization that has become part of popular culture. While fans might engage with Atlantis-related content, the concept itself predates modern fandom practices and exists independently of fan culture.\n\nSo the answer should be \"no\" - Atlantis is not primarily related to fandom or fan culture."
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let me think about whether Atlantis is related to world-building or creating fictional worlds/settings.\n\nAtlantis is a legendary city or lost continent that has been featured in many stories, books, movies, and other media. It was first mentioned by Plato in his works \"Timaeus\" and \"Critias,\" where he described it as an advanced civilization that existed 9,000 years before his time and was later submerged beneath the ocean due to natural disasters.\n\nSince then, Atlantis has become a common element in fiction and popular culture. It has appeared in many different stories across various media - books, movies, TV shows, video games, etc. It's a fictional setting that different creators have adapted and built upon in their own ways.\n\nHowever, Atlantis itself is not specifically related to the concept or practice of world-building. World-building refers to the process of constructing an imaginary world, sometimes associated with a fictional universe. While Atlantis is often the subject of world-building, it is not itself the concept or practice of world-building.\n\nAtlantis is more accurately described as a legendary place or mythical setting that has been incorporated into many different fictional works. It's a specific fictional location rather than the general concept of creating fictional worlds.\n\nSo, the answer to whether Atlantis is related to the concept of world-building or creating fictional worlds/settings is \"no.\" Atlantis is the result of world-building, not the concept or practice itself."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 558,
+      "output_tokens": 139,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1162,
+      "output_tokens": 250,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1796,
+      "output_tokens": 231,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2462,
+      "output_tokens": 276,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3140,
+      "output_tokens": 211,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3854,
+      "output_tokens": 262,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4597,
+      "output_tokens": 235,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5357,
+      "output_tokens": 290,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 6161,
+      "output_tokens": 434,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 7009,
+      "output_tokens": 286,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7885,
+      "output_tokens": 362,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8795,
+      "output_tokens": 324,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9733,
+      "output_tokens": 409,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10701,
+      "output_tokens": 292,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11693,
+      "output_tokens": 415,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 12720,
+      "output_tokens": 436,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 13796,
+      "output_tokens": 393,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 14912,
+      "output_tokens": 478,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 16066,
+      "output_tokens": 418,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 17247,
+      "output_tokens": 674,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 18494,
+      "output_tokens": 728,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 277,
+      "output_tokens": 192,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 309,
+      "output_tokens": 268,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 341,
+      "output_tokens": 309,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 363,
+      "output_tokens": 348,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 392,
+      "output_tokens": 293,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 421,
+      "output_tokens": 269,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 444,
+      "output_tokens": 186,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 464,
+      "output_tokens": 372,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 496,
+      "output_tokens": 313,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 526,
+      "output_tokens": 230,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 558,
+      "output_tokens": 217,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 588,
+      "output_tokens": 234,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 618,
+      "output_tokens": 240,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 645,
+      "output_tokens": 287,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 676,
+      "output_tokens": 206,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 716,
+      "output_tokens": 138,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 756,
+      "output_tokens": 258,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 795,
+      "output_tokens": 198,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 828,
+      "output_tokens": 259,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 864,
+      "output_tokens": 339,
+      "total_tokens": 0
+    }
+  ]
+}

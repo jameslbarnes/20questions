@@ -1,0 +1,412 @@
+{
+  "game_id": "2094e707-4408-4e63-9713-9515b3c2b1e9",
+  "timestamp": "2025-03-22T13:42:22.540384",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Atlantis",
+  "category": "fictional",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a concept or idea (rather than a specific event, person, place, or action)?",
+    "Is it a specific event that occurred in the past?",
+    "Is it a person (real or fictional)?",
+    "Is it a specific location or place?",
+    "Is it a naturally occurring location (as opposed to something human-made)?",
+    "Is it a building or structure?",
+    "Is it a city or town?",
+    "Is it a major city with a population over 1 million people?",
+    "Is it located in North America?",
+    "Is it located in Europe?",
+    "Is it located in Asia?",
+    "Is it located in Australia or Oceania?",
+    "Is it located in Africa?",
+    "Is it located in South America?",
+    "Is it a fictional city or town (that doesn't exist in the real world)?",
+    "Is it from a fictional universe in a book, movie, or TV show?",
+    "Is it from a fictional universe in a video game?",
+    "Is it a fictional place that exists only as a cultural reference or joke (like Timbuktu or El Dorado)?",
+    "Is it a place created in a folktale, myth, or religious text?"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on the information gathered, I've determined this is a fictional city/town from a folktale, myth, or religious text. It's not from modern media like books, movies, TV shows, or video games, and it's not simply a cultural reference or joke.\n\n<guess>Atlantis</guess>",
+  "success": true,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I'm thinking of \"Atlantis,\" which is a legendary lost city or island. Let me analyze whether Atlantis is a physical/tangible object.\n\nAtlantis is described in ancient texts (primarily by Plato) as a lost island civilization that supposedly sank into the ocean. It's important to note that:\n\n1. Atlantis is legendary/mythical - there is no confirmed historical or archaeological evidence that it actually existed\n2. If it did exist, it would have been a physical place with tangible buildings, etc.\n3. However, since it's primarily considered mythical by modern scholars, it doesn't currently exist as a physical/tangible object that one could touch or visit\n\nGiven these considerations, the most accurate answer is \"no\" - Atlantis is not a physical/tangible object that currently exists in the real world. It's a concept, a legend, or a mythical place rather than a physical object.\n\nI should provide a brief clarification since this is a point that could cause confusion. I'll note that Atlantis is described as a place rather than an object, and that it's legendary rather than confirmed to physically exist."
+    },
+    {
+      "question_index": 2,
+      "thinking": "I need to determine if Atlantis is a concept or idea, rather than a specific event, person, place, or action.\n\nAtlantis is traditionally described as a fictional island nation or lost city that supposedly sank beneath the ocean. While some people have speculated about its possible historical existence, in common understanding it's primarily considered a place or location from Plato's writings.\n\nAtlantis is most accurately described as:\n- A place (a lost city/island/nation)\n- A legend or myth from ancient Greek literature\n\nIt's not primarily a concept or idea - it's described as a specific place, even if that place is legendary or mythical. While there are conceptual elements associated with Atlantis (like hubris, advanced civilization, etc.), Atlantis itself is described as a location.\n\nSo the answer is no, Atlantis is not a concept or idea - it's a (legendary) place."
+    },
+    {
+      "question_index": 3,
+      "thinking": "I need to determine if Atlantis is a specific event that occurred in the past.\n\nAtlantis is a mythical island nation or lost city described by the Greek philosopher Plato in his works Timaeus and Critias. According to Plato's account, Atlantis was a naval power located \"beyond the Pillars of Hercules\" (commonly understood to be the Strait of Gibraltar) that conquered many parts of Western Europe and Africa 9,000 years before the time of the Athenian lawgiver Solon. After a failed attempt to invade Athens, Atlantis sank into the ocean \"in a single day and night of misfortune.\"\n\nWhile some people believe Atlantis may have been based on real places or events, in mainstream understanding it's considered a mythical place rather than a specific historical event. The sinking of Atlantis could be considered an event, but Atlantis itself is a place, not an event.\n\nSo the question is asking if what I'm thinking of (Atlantis) is a specific event. Since Atlantis is a mythical place/location/city, not an event, the answer should be \"no\"."
+    },
+    {
+      "question_index": 4,
+      "thinking": "I need to determine if Atlantis is a person. Atlantis is described in Ancient Greek texts as a lost island city or civilization. It was mentioned by Plato in his works \"Timaeus\" and \"Critias\" as an advanced island nation that sank into the ocean. It's a place, not a person.\n\nSince Atlantis is a place/location/city/civilization and not a person (neither real nor fictional), the answer is clearly \"no\"."
+    },
+    {
+      "question_index": 5,
+      "thinking": "The player is asking if what I'm thinking of (Atlantis) is a specific location or place.\n\nAtlantis is a legendary or mythical island, city, or civilization that supposedly existed in ancient times. It is most famously described by Plato in his works \"Timaeus\" and \"Critias.\" According to these accounts, Atlantis was a powerful maritime civilization that sank into the ocean after falling out of favor with the gods.\n\nSo is Atlantis a specific location or place? Yes, Atlantis is described as a specific place - an island city/civilization with a particular geographical location (though that location is disputed and has never been proven to exist in reality). Even though it's legendary/mythical rather than a confirmed historical place, it is conceptualized as a specific location.\n\nSo I should answer: <answer>yes</answer>"
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me think about whether Atlantis would be considered a naturally occurring location or something human-made.\n\nAtlantis is a legendary island nation that was first described by the Greek philosopher Plato. According to the legend, Atlantis was an advanced civilization with great technological achievements, cities, temples, etc. It was supposedly built by people (specifically, according to the myth, it was built with the help of the god Poseidon).\n\nSince Atlantis is described as having cities, buildings, and infrastructure created by its inhabitants, it would not be considered a naturally occurring location. It would be more accurately classified as a human-made (or in the context of the legend, a human/god-made) civilization and location.\n\nSo the answer is no, Atlantis is not a naturally occurring location - it's described as a built civilization."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me think about whether Atlantis is classified as a building or structure.\n\nAtlantis is described in Plato's dialogues as an advanced island civilization with elaborate architecture, including temples, palaces, bridges, canals, and other structures. However, Atlantis as a whole is considered a city or an island nation/civilization, not a single building or structure.\n\nWhile Atlantis contained buildings and structures, Atlantis itself is more accurately described as an entire city, island, or civilization. It's a place that supposedly contained many buildings and structures within it.\n\nSince the question is asking if \"it\" (Atlantis) is a building or structure, the answer should be \"no\" - Atlantis is a city/island/civilization, not a single building or structure."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me think about Atlantis and whether it should be classified as a city or town.\n\nAtlantis is described in ancient Greek writings (particularly by Plato) as an advanced island civilization or city-state that sank beneath the ocean. In most depictions and descriptions, Atlantis is portrayed as a city or city-state with buildings, structures, and an organized society.\n\nWhile some interpretations describe it as an entire island nation or civilization, at its core, it's typically considered to be a city or city-state. The legend often focuses on the central city of Atlantis with its concentric rings of land and water, temples, palaces, etc.\n\nSo while Atlantis is sometimes described as being larger than just a city (potentially an island nation), it is fundamentally described as a city or city-state in most interpretations.\n\nI should answer \"yes\" to whether Atlantis is a city or town."
+    },
+    {
+      "question_index": 9,
+      "thinking": "I need to answer whether Atlantis is a major city with a population over 1 million people.\n\nAtlantis is a legendary city that supposedly sank into the ocean. According to the legend, it was described as an advanced civilization, potentially a city-state or island nation. \n\nHowever, Atlantis is not a real place that exists today - it's a mythical/legendary location first mentioned by Plato. Since it doesn't actually exist in reality (or if it did exist, it's long gone), it doesn't have a current population that could be measured.\n\nSo the answer would be \"no\" - Atlantis is not a major city with a population over 1 million people. It's a legendary/mythical city that doesn't have a measurable population because it doesn't exist in the modern world."
+    },
+    {
+      "question_index": 10,
+      "thinking": "The question is asking if Atlantis is located in North America.\n\nAtlantis is a legendary island nation or city that was mentioned by Plato in his works \"Timaeus\" and \"Critias.\" According to the legend, Atlantis was supposedly located somewhere in the Atlantic Ocean. Plato described it as being \"beyond the Pillars of Hercules\" (the Strait of Gibraltar).\n\nAtlantis is generally not considered to be located in North America. Most interpretations of the Atlantis legend place it in the Atlantic Ocean, possibly near the Mediterranean Sea, or in other locations around the world, but not specifically in North America.\n\nSince Atlantis is a mythical/legendary location and has never been definitively proven to exist or have a specific real-world location, I should clarify that it's not historically documented as being in North America."
+    },
+    {
+      "question_index": 11,
+      "thinking": "I need to answer whether Atlantis is located in Europe.\n\nAtlantis is a legendary or mythical city/civilization that, according to Plato's accounts, was said to have sunk beneath the ocean. In Plato's dialogues (Timaeus and Critias), Atlantis was described as being beyond the \"Pillars of Hercules\" (the Strait of Gibraltar). This would place it somewhere in the Atlantic Ocean, possibly west of Europe and Africa.\n\nThere have been many theories about the actual location of Atlantis, including suggestions that it might have been:\n- In the Atlantic Ocean\n- In the Mediterranean Sea (like Santorini/Thera which experienced a volcanic eruption)\n- Other locations around the world\n\nSince Atlantis is mythical and its exact location is unknown/debated, and since Plato's account places it in the Atlantic Ocean rather than on the European continent itself, I should answer \"no\" to whether it's located in Europe."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about Atlantis and where it's supposedly located.\n\nAtlantis is a fictional or mythical island city that was first described by the Greek philosopher Plato. According to Plato's accounts, Atlantis was a naval power located \"beyond the Pillars of Hercules\" (what we now call the Strait of Gibraltar), which would place it somewhere in the Atlantic Ocean, not in Asia.\n\nThe most common interpretations place Atlantis in the Atlantic Ocean (hence the name), possibly near the Mediterranean. Some theories have suggested locations near the Mediterranean, in the Atlantic, or even suggest it might have been Antarctica or locations in the Americas, but not typically in Asia.\n\nSince Atlantis is a mythical place and its exact location is debated, but the most common and traditional placement would be in the Atlantic Ocean (not in Asia), the answer should be:"
+    },
+    {
+      "question_index": 13,
+      "thinking": "I need to respond accurately about whether Atlantis is located in Australia or Oceania.\n\nAtlantis is a legendary city or island that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias.\" According to the legend, Atlantis was a naval power located \"beyond the Pillars of Hercules\" (commonly understood to be the Strait of Gibraltar), which means it would have been in the Atlantic Ocean (hence the name).\n\nWhile there are many theories about where Atlantis might have been located if it existed, the original description by Plato placed it in the Atlantic Ocean, not in Australia or Oceania. Some theories have suggested various locations around the Mediterranean or Atlantic, but I'm not aware of mainstream theories placing it in Australia or Oceania.\n\nSince Atlantis is legendary and has never been definitively located (and most scholars consider it fictional), and since the original description places it in the Atlantic Ocean rather than Australia or Oceania, the accurate answer would be \"no.\""
+    },
+    {
+      "question_index": 14,
+      "thinking": "In this 20 Questions game, I need to be accurate about Atlantis.\n\nAtlantis is a legendary city or island that was supposedly located in the Atlantic Ocean. According to Plato's accounts (who first mentioned Atlantis), it was supposedly located beyond the \"Pillars of Hercules\" (the Strait of Gibraltar). This would place it somewhere in the Atlantic Ocean, not in Africa.\n\nWhile some theories have suggested possible locations for Atlantis including parts of the Mediterranean that might be close to Africa, the traditional understanding is that it was an island in the Atlantic that sank beneath the ocean. It's not considered to be located in Africa itself.\n\nSo to the question \"Is it located in Africa?\" the correct answer is:"
+    },
+    {
+      "question_index": 15,
+      "thinking": "I'm thinking of \"Atlantis\", which is a legendary city or island mentioned in Plato's works. Let me think about the question carefully:\n\nQuestion 15: Is it located in South America?\n\nAtlantis is a mythical/legendary place described by Plato. In his dialogues, he placed it somewhere in the Atlantic Ocean. It's not described as being in South America. The most common interpretations place it either:\n1. In the Atlantic Ocean (as the name suggests)\n2. Possibly in the Mediterranean\n3. As a completely fictional location that never existed\n\nIt is not described as being located in South America in the original texts or in common interpretations. Therefore, the answer is no."
+    },
+    {
+      "question_index": 16,
+      "thinking": "The question is asking if Atlantis is a fictional city or town that doesn't exist in the real world.\n\nLet me think about Atlantis:\n- Atlantis is a legendary city or island that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias\"\n- Plato described it as a powerful and advanced civilization that sank into the ocean in a single day and night due to a catastrophe\n- While Plato presented it as a real place, there is no archaeological or geological evidence confirming Atlantis existed\n- Most scholars consider Atlantis to be fictional or a philosophical allegory created by Plato\n- There have been many theories about possible real-world locations that might have inspired the Atlantis legend (like Minoan Crete), but no definitive proof exists\n- In modern culture, Atlantis is widely treated as a fictional place\n\nSince there is no scientific consensus or evidence that Atlantis actually existed as a real place, and it's generally considered a legend or myth rather than a historical reality, the most accurate answer would be \"yes\" - it is a fictional city/place that doesn't exist in the real world."
+    },
+    {
+      "question_index": 17,
+      "thinking": "The question is asking whether Atlantis is from a fictional universe in a book, movie, or TV show.\n\nAtlantis is a legendary city that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias.\" It was not originally from a modern fictional universe like a novel, movie, or TV show - it's an ancient legend or myth.\n\nWhile Atlantis has appeared in many modern fictional works (like DC Comics' Aquaman, Disney's \"Atlantis: The Lost Empire,\" Stargate Atlantis, etc.), it originated in ancient writings, not as part of a modern fictional universe.\n\nThe original concept of Atlantis comes from Plato's philosophical works, which weren't intended as pure fiction in the modern sense but were using the story to illustrate philosophical points. Many have debated whether Plato intended it to be taken as historical truth or allegory.\n\nGiven this, the most accurate answer would be \"no\" - Atlantis is not from a fictional universe in a book, movie, or TV show. It's from ancient philosophical texts and mythology."
+    },
+    {
+      "question_index": 18,
+      "thinking": "The question is asking if Atlantis is from a fictional universe in a video game.\n\nAtlantis is a legendary city/civilization that was first mentioned by Plato in his works Timaeus and Critias. It's a mythological place that supposedly sank into the ocean. It's not from a video game originally, though it has appeared in many video games, movies, books, etc. as a setting or reference.\n\nAtlantis is a legendary/mythical place that originated from ancient Greek writings, not from a video game universe. So the answer should be \"no\"."
+    },
+    {
+      "question_index": 19,
+      "thinking": "I need to determine if Atlantis qualifies as \"a fictional place that exists only as a cultural reference or joke (like Timbuktu or El Dorado)\".\n\nFirst, let's clarify some facts about Atlantis:\n- Atlantis is a legendary/mythical island city first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias\"\n- It was supposedly a naval power that sank into the ocean in a single day and night\n- There is no archaeological evidence that Atlantis actually existed\n- It has become a common reference in popular culture for a lost civilization\n- Unlike the examples given in the question, Timbuktu and El Dorado are not quite the same - Timbuktu is a real city in Mali (though it's sometimes used figuratively to mean a distant place) and El Dorado was a mythical city of gold that explorers actually searched for\n\nAtlantis is not just a cultural reference or joke - it's a specific mythological place with a detailed origin story from Plato. It has spawned serious archaeological debates and investigations, unlike pure cultural references.\n\nHowever, it doesn't come from a fictional universe in a book, movie, or TV show as we established in Question 17 - it's from ancient Greek literature/philosophy.\n\nIt's not quite like Timbuktu (which is real) or El Dorado (which was believed to possibly be real and searched for). Atlantis is a mythological place that has become a significant cultural reference, but it's more than just a reference - it has a specific origin in Plato's writings.\n\nI think the most accurate answer is \"No\" because Atlantis is more specifically a mythological place with origins in ancient Greek literature, rather than just a cultural reference or joke."
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let me think about this question carefully. The question is asking if Atlantis is a place created in a folktale, myth, or religious text.\n\nAtlantis is a legendary city/island that was first described by the Greek philosopher Plato in his works \"Timaeus\" and \"Critias,\" written around 360 BCE. Plato described Atlantis as a powerful and advanced civilization that existed 9,000 years before his time and was eventually swallowed by the ocean in a single day and night due to a catastrophe.\n\nSince Atlantis was first mentioned in Plato's writings, which are philosophical texts that contain mythological elements, it would be considered a place from ancient Greek mythology or legend. It's not from a religious text per se, but it certainly falls under the category of myth or legend from ancient literature.\n\nSo is Atlantis \"a place created in a folktale, myth, or religious text\"? Yes, it is a place created in a myth, specifically in Plato's philosophical writings which contain mythological elements. It is one of the most famous legendary lost cities/civilizations in Western culture."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 43,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1144,
+      "output_tokens": 29,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1774,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2416,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3075,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3751,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4459,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5176,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5937,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6731,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7534,
+      "output_tokens": 15,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8352,
+      "output_tokens": 15,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9186,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10044,
+      "output_tokens": 15,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 10914,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 11802,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 12727,
+      "output_tokens": 25,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 13677,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 14643,
+      "output_tokens": 36,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 15662,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 16725,
+      "output_tokens": 70,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 277,
+      "output_tokens": 286,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 307,
+      "output_tokens": 237,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 328,
+      "output_tokens": 289,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 347,
+      "output_tokens": 121,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 365,
+      "output_tokens": 220,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 390,
+      "output_tokens": 216,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 407,
+      "output_tokens": 209,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 424,
+      "output_tokens": 237,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 449,
+      "output_tokens": 223,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 466,
+      "output_tokens": 245,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 482,
+      "output_tokens": 276,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 498,
+      "output_tokens": 207,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 518,
+      "output_tokens": 242,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 534,
+      "output_tokens": 178,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 551,
+      "output_tokens": 173,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 578,
+      "output_tokens": 305,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 604,
+      "output_tokens": 280,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 625,
+      "output_tokens": 165,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 662,
+      "output_tokens": 445,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 689,
+      "output_tokens": 299,
+      "total_tokens": 0
+    }
+  ]
+}

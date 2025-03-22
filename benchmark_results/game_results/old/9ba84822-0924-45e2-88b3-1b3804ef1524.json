@@ -1,0 +1,32 @@
+{
+  "game_id": "9ba84822-0924-45e2-88b3-1b3804ef1524",
+  "timestamp": "2025-03-21T21:51:58.416443",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-5-sonnet-20241022",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "sun",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object (something you can touch)?",
+    "Is it something manufactured/made by humans (as opposed to occurring naturally)?",
+    "Is it a living thing (or part of a currently living thing)?",
+    "Is it something found on or from Earth (as opposed to being from space, like a meteor)?",
+    "Is it larger than Earth?",
+    "Does it generate its own light/energy through nuclear fusion (like a star)?",
+    "Is it the Sun (the star at the center of our solar system)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "CORRECT!"
+  ],
+  "question_count": 7,
+  "final_guess": "sun",
+  "success": true,
+  "max_questions": 20
+}

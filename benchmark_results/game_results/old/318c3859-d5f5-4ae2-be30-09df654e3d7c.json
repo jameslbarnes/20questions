@@ -1,0 +1,42 @@
+{
+  "game_id": "318c3859-d5f5-4ae2-be30-09df654e3d7c",
+  "timestamp": "2025-03-21T11:42:45.206634",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "wisdom",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something tangible that you can touch)?",
+    "Question 2: Is it a concept or abstract idea (like love, freedom, mathematics)?",
+    "Question 3: Is this concept related to human emotions or feelings (such as love, happiness, fear)?",
+    "Question 4: Is this concept related to academic fields, science, or formal systems of knowledge (like mathematics, physics, or logic)?",
+    "Question 5: Is this concept related to societal structures, governance, or social systems (like democracy, justice, or rights)?",
+    "Question 6: Is this concept related to philosophy, metaphysics, or fundamental questions about existence (like truth, reality, being)?",
+    "Question 7: Is this concept related to the fundamental nature of reality or existence itself (like reality, being, existence)?",
+    "Question 8: Is this concept related to ethics or morality (like good, evil, virtue, or moral principles)?",
+    "Question 9: Is this concept a specific ethical theory or system (like utilitarianism, deontology, or virtue ethics) rather than a broader moral concept?",
+    "Question 10: Is this concept considered a virtue or positive moral quality a person can possess?",
+    "Question 11: Is this concept considered one of the classical or cardinal virtues in philosophy (like wisdom, courage, temperance, or justice)?",
+    "Question 12: Is the concept wisdom (also known as prudence or phronesis in some philosophical traditions)?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "No.",
+    "I don't know.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: wisdom"
+  ],
+  "question_count": 12,
+  "final_guess": "wisdom",
+  "success": true,
+  "max_questions": 20
+}

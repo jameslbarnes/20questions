@@ -1,0 +1,39 @@
+{
+  "game_id": "182215f5-6e01-44f6-b5bb-ca812e2d523d",
+  "timestamp": "2025-03-21T10:10:16.736408",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the category:\n\nIs it a physical object (as opposed to a concept, idea, or event)?",
+    "Question 2: Is it a human-made object?",
+    "Question 3: Is this object commonly found in households?",
+    "Question 4: Is it an electronic device?",
+    "Question 5: Is this electronic device primarily used for entertainment purposes (like watching, listening, or playing)?",
+    "Question 6: Is it a kitchen appliance?",
+    "Question 7: Is this kitchen appliance primarily used for cooking or heating food?",
+    "Question 8: Is this appliance designed to cook or heat a wide variety of different foods (as opposed to being specialized for a specific type of food)?",
+    "Question 9: Is this appliance typically placed on a countertop (as opposed to being built-in or installed as part of the kitchen structure)?",
+    "Question 10: Does this appliance primarily use microwave radiation to heat food?",
+    ""
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "question_count": 11,
+  "final_guess": "microwave oven (or microwave)",
+  "success": true,
+  "max_questions": 20
+}

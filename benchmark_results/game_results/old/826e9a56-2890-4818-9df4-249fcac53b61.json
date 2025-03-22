@@ -1,0 +1,40 @@
+{
+  "game_id": "826e9a56-2890-4818-9df4-249fcac53b61",
+  "timestamp": "2025-03-21T09:55:27.313630",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions! Let me start with a broad question to begin narrowing down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "I'll continue narrowing down what this physical object could be.\n\nQuestion 2: Is this object something commonly found in a household?",
+    "I'll continue narrowing down this physical object found in households.\n\nQuestion 3: Is this object primarily used in the kitchen?\nAnswer: No",
+    "I notice there was a correction on Question 3's answer. So this physical object is commonly found in households and is primarily used in the kitchen.\n\nQuestion 4: Is this object used for food preparation (like cutting, mixing, or cooking)?\nAnswer:",
+    "I'll continue narrowing down this kitchen item used for food preparation.\n\nQuestion 5: Is this object used to cut food?\nAnswer:",
+    "I'll continue narrowing down what this kitchen item could be that's used for food preparation but not for cutting.\n\nQuestion 6: Is this object primarily used for cooking/heating food (as opposed to mixing, measuring, or storing)?\nAnswer:",
+    "I'm making progress in identifying this kitchen item used for cooking/heating food!\n\nQuestion 7: Is this object typically used on a stovetop?\nAnswer:",
+    "I'll continue narrowing down what this kitchen item could be that's used for cooking/heating food but not typically used on a stovetop.\n\nQuestion 8: Is this object powered by electricity?\nAnswer:",
+    "I'm making good progress! I now know this is an electric kitchen appliance used for cooking/heating food but not typically used on a stovetop.\n\nQuestion 9: Is this object primarily used to cook or heat multiple types of food (rather than being specialized for one specific type of food)?",
+    "I'm making good progress! This is an electric kitchen appliance used for cooking/heating multiple types of food but not on a stovetop.\n\nQuestion 10: Does this appliance have a door that you open to put food inside?\nAnswer:",
+    "I'm continuing to narrow down what this kitchen appliance might be. Based on all the information so far, I know it's an electric kitchen appliance used for cooking/heating multiple types of food, not used on a stovetop, and has a door to put food inside.\n\nQuestion 11: Is this appliance a microwave oven?"
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 11,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

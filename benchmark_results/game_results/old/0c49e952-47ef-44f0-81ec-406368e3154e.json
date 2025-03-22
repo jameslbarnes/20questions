@@ -1,0 +1,40 @@
+{
+  "game_id": "0c49e952-47ef-44f0-81ec-406368e3154e",
+  "timestamp": "2025-03-21T21:19:04.463794",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it something humans created or invented?",
+    "Is it a natural phenomenon or force (like gravity, time, or energy)?",
+    "Is it an abstract concept or idea (like love, justice, or happiness)?",
+    "Is it a living being or entity (real or fictional/mythological)?",
+    "Is it a real biological organism that exists (or existed) on Earth?",
+    "Is it an animal (rather than a plant, fungus, bacteria, etc.)?",
+    "Is it a vertebrate animal (having a backbone/spine)?",
+    "Is it a mammal?",
+    "Is it a type of mammal commonly kept as a pet (e.g., dog, cat, hamster)?",
+    "Is it a dog (or a specific breed of dog)?"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT!"
+  ],
+  "question_count": 11,
+  "final_guess": "dog",
+  "success": true,
+  "max_questions": 20
+}

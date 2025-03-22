@@ -1,0 +1,41 @@
+{
+  "game_id": "f30da303-eb87-47e3-865c-f20b8f024fe1",
+  "timestamp": "2025-03-21T09:25:43.434295",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "chair",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions with you! Let me start with a broad question to narrow down the category.\n\nIs it a physical object (as opposed to a concept, event, or idea)?",
+    "Question 2: Is this physical object larger than a microwave oven?",
+    "I apologize for the confusion in my previous question. Let me continue with a clearer approach.\n\nQuestion 3: Is this physical object something that can be found in a typical household?",
+    "Question 4: Is this object primarily used in the kitchen?\nAnswer:",
+    "Question 5: Is this object primarily used for entertainment or leisure activities?",
+    "Question 6: Is this object used for cleaning or maintaining the home?",
+    "Question 7: Is this object used for personal care or hygiene?",
+    "Question 8: Is this object furniture or part of furniture?",
+    "Question 9: Is this object something you sit on?",
+    "Question 10: Is this object primarily designed for one person to sit on (as opposed to multiple people)?\nAnswer:",
+    "Question 11: Is this object a standard chair with four legs and a back?",
+    ""
+  ],
+  "answers": [
+    "Yes",
+    "I don't know. I don't know",
+    "Yes",
+    "No",
+    "No",
+    "No",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "question_count": 12,
+  "final_guess": "a dining chair",
+  "success": true,
+  "max_questions": 20
+}

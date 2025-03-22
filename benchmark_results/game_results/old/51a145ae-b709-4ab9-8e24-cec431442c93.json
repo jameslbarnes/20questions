@@ -1,0 +1,40 @@
+{
+  "game_id": "51a145ae-b709-4ab9-8e24-cec431442c93",
+  "timestamp": "2025-03-21T22:04:38.267234",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "car",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it alive or organic in nature?",
+    "Is it larger than a microwave oven?",
+    "Is it typically found inside a home?",
+    "Is it related to transportation (like a vehicle or transportation infrastructure)?",
+    "Is it a vehicle (something that moves people or cargo)?",
+    "Is it a land vehicle (moves primarily on land, not water or air)?",
+    "Is it primarily used for carrying passengers (as opposed to mainly cargo)?",
+    "Is it typically used for public transportation?",
+    "Does it typically have 4 wheels?",
+    "Is it a standard passenger car (as opposed to an SUV, truck, van, etc.)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "CORRECT!"
+  ],
+  "question_count": 11,
+  "final_guess": "car",
+  "success": true,
+  "max_questions": 20
+}

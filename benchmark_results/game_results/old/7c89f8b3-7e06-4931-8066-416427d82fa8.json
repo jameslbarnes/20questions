@@ -1,0 +1,40 @@
+{
+  "game_id": "7c89f8b3-7e06-4931-8066-416427d82fa8",
+  "timestamp": "2025-03-21T22:01:33.960360",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "car",
+  "category": "simple",
+  "questions": [
+    "Is it something physical/tangible (as opposed to abstract like an idea, emotion, or concept)?",
+    "Is it something that naturally occurs in the world (as opposed to being manufactured or created by humans)?",
+    "Is it something you would typically find in a home?",
+    "Is it primarily used outdoors or in specialized non-residential settings?",
+    "Is it larger than a typical car?",
+    "Is it a type of vehicle or transportation device?",
+    "Is it designed for a single person to ride or operate?",
+    "Does it typically travel on roads or paved surfaces?",
+    "Is it a motorized vehicle (as opposed to a human-powered vehicle like a bicycle)?",
+    "Is it primarily designed for transporting passengers rather than cargo or equipment?",
+    "Is it a common everyday passenger vehicle that most people would own (like a car, SUV, or minivan)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT!"
+  ],
+  "question_count": 11,
+  "final_guess": "car",
+  "success": true,
+  "max_questions": 20
+}

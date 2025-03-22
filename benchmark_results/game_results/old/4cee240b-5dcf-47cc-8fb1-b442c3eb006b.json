@@ -1,0 +1,22 @@
+{
+  "game_id": "4cee240b-5dcf-47cc-8fb1-b442c3eb006b",
+  "timestamp": "2025-03-21T13:16:43.755892",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "# 20 Questions\n\nI'll ask yes/no questions to figure out what you're thinking of.\n\n**Question 1:** Is it a physical object (something you can touch)?",
+    "**Question 2:** Is it larger than a microwave oven?"
+  ],
+  "answers": [
+    "Yes.",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 2,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

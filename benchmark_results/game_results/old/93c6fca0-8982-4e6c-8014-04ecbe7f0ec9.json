@@ -1,0 +1,26 @@
+{
+  "game_id": "93c6fca0-8982-4e6c-8014-04ecbe7f0ec9",
+  "timestamp": "2025-03-21T11:41:13.966700",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "wisdom",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it an abstract concept (like love, freedom, time, etc.)?",
+    "Question 3: Is this abstract concept related to human emotions or feelings (like love, happiness, sadness, etc.)?",
+    "Question 4: Is it a philosophical concept (like justice, truth, wisdom, or freedom)?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "I don't know.",
+    "CORRECT! You've guessed the entity: wisdom"
+  ],
+  "question_count": 4,
+  "final_guess": "wisdom",
+  "success": true,
+  "max_questions": 20
+}

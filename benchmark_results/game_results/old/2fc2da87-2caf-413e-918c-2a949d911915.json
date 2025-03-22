@@ -1,0 +1,38 @@
+{
+  "game_id": "2fc2da87-2caf-413e-918c-2a949d911915",
+  "timestamp": "2025-03-21T09:24:48.115596",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "table",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions with you! I'll ask strategic questions one at a time to figure out what entity you're thinking of.\n\nIs it a physical object (as opposed to a concept, idea, or event)?",
+    "Question 2: Is this physical object larger than a microwave oven?",
+    "Question 3: Is this object typically found indoors?",
+    "Question 4: Is this object a piece of furniture?",
+    "Question 5: Is this piece of furniture primarily used for sitting?",
+    "Question 6: Is this piece of furniture primarily used for sleeping or resting on?",
+    "Question 7: Is this piece of furniture primarily used for storage?",
+    "Question 8: Is this piece of furniture primarily used for eating meals?\nAnswer?",
+    "Question 9: Is this furniture item typically rectangular in shape?\nAnswer?",
+    "Question 10: Is this furniture item commonly referred to as a dining table?"
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "No",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: table"
+  ],
+  "question_count": 10,
+  "final_guess": "table",
+  "success": true,
+  "max_questions": 20
+}

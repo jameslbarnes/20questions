@@ -1,0 +1,43 @@
+{
+  "game_id": "3b6d1648-63a0-496c-b4b5-59c7138aa81b",
+  "timestamp": "2025-03-21T13:40:27.684709",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll begin our game of 20 Questions!\n\nIs it a living thing (or was it once alive)?",
+    "Question 2: Is it a physical object that can be touched?",
+    "Question 3: Is it something manufactured by humans (rather than occurring naturally)?",
+    "Question 4: Is it something that uses electricity or requires power to function properly?",
+    "Question 5: Is it a device commonly found in households?",
+    "Question 6: Is it a device primarily used in the kitchen?",
+    "Question 7: Is this device primarily used for cooking or heating food?",
+    "Question 8: Is it primarily used for baking or roasting food (as opposed to other cooking methods like boiling, frying, or microwaving)?",
+    "Question 9: Is it primarily used for quick heating or cooking tasks (taking less than 5 minutes) rather than longer cooking processes?",
+    "Question 10: Is this device primarily used to heat or cook beverages rather than solid foods?",
+    "Question 11: Is this device typically box-shaped with a door that opens to place food inside?",
+    "Question 12: Does this device use electromagnetic radiation (microwaves) to heat food?",
+    ""
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "a microwave oven.",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,35 @@
+{
+  "game_id": "7854f7e9-0dbf-4797-b2d6-690e0975519c",
+  "timestamp": "2025-03-21T00:43:26.800712",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "Is the entity a living thing?",
+    "Question 2: Is the entity a tangible, physical object?",
+    "Question 3: Is the object man-made?",
+    "Question 4: Is the object commonly found in a household?",
+    "Question 5: Does the object require electricity to operate?",
+    "Question 6: Does the object have a display screen?",
+    "Question 7: Is the primary function of the object to heat or cook food?",
+    "Question 8: Is the object specifically a microwave oven?",
+    ""
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes. Most modern microwaves have a digital display screen.",
+    "Yes",
+    "Yes"
+  ],
+  "question_count": 9,
+  "final_guess": "a microwave oven.",
+  "success": true,
+  "max_questions": 20
+}

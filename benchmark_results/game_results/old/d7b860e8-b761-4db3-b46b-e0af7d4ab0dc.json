@@ -1,0 +1,38 @@
+{
+  "game_id": "d7b860e8-b761-4db3-b46b-e0af7d4ab0dc",
+  "timestamp": "2025-03-21T12:04:31.679272",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Albert Einstein",
+  "category": "famous_people",
+  "questions": [
+    "I'll help you play 20 Questions! I'll ask one question at a time and try to narrow down what entity you're thinking of.\n\nIs it a physical object (as opposed to a concept or idea)?",
+    "Question 2: Is it an abstract concept (like love, justice, or freedom)?",
+    "I'll continue trying to narrow down what you're thinking of.\n\nQuestion 3: Is it a specific person (real or fictional)?\nNo.",
+    "I understand that I'm looking for a specific person (real or fictional), but it's not a physical object or abstract concept.\n\nQuestion 4: Is this person fictional (from a book, movie, TV show, etc.)?",
+    "I'm continuing to narrow down who this person might be.\n\nQuestion 5: Is this person currently alive?",
+    "I'm continuing to narrow down this real person who is no longer alive.\n\nQuestion 6: Was this person historically significant (e.g., a leader, inventor, artist, scientist, etc.)?",
+    "I'm making progress in understanding who this person might be.\n\nQuestion 7: Did this historically significant person live primarily in the 20th century?",
+    "Question 8: Was this person known for their contributions to science or technology?",
+    "Question 9: Was this person involved in theoretical physics or mathematics?",
+    "Question 10: Was this person Albert Einstein?"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: Albert Einstein"
+  ],
+  "question_count": 10,
+  "final_guess": "Albert Einstein",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,43 @@
+{
+  "game_id": "bf3c7d45-ab1c-4967-9212-c423d86a233b",
+  "timestamp": "2025-03-21T21:07:50.255785",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it something physical/tangible that you can touch or see in the real world?",
+    "Is it something that was created/manufactured by humans (man-made)?",
+    "Is it a living organism (or was it once alive)?",
+    "Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Is it a plant (as opposed to fungi or microorganisms)?",
+    "Is it a tree (as opposed to a smaller plant like a flower, grass, or shrub)?",
+    "Is it an evergreen/coniferous tree (keeps its needles/leaves year-round) as opposed to a deciduous tree (loses its leaves seasonally)?",
+    "Is it a tree that produces edible fruits, nuts, or seeds that humans commonly consume?",
+    "Does this tree primarily produce fleshy fruits (like apples, peaches, cherries) rather than nuts or seeds?",
+    "Is it a tree that primarily grows in temperate climates (as opposed to tropical or subtropical regions)?",
+    "Is the fruit of this tree primarily red when ripe (like apples or cherries can be)?",
+    "Is the fruit of this tree larger than a golf ball when fully ripe?",
+    "<guess>Apple tree</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "Apple tree",
+  "success": true,
+  "max_questions": 20
+}

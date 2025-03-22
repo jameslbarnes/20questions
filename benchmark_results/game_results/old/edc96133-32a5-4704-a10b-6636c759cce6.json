@@ -1,0 +1,41 @@
+{
+  "game_id": "edc96133-32a5-4704-a10b-6636c759cce6",
+  "timestamp": "2025-03-21T13:42:07.056678",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it something that is man-made (created or manufactured by humans) rather than naturally occurring?",
+    "Question 3: Is it something small enough to be held in one hand?",
+    "Question 4: Is it something commonly found in a typical home?",
+    "Question 5: Is it furniture (something designed for people to sit, lie down, or store things on)?",
+    "Question 6: Is it a household appliance (like a refrigerator, washing machine, oven, etc.)?",
+    "Question 7: Is this appliance primarily used for food preparation or cooking?",
+    "Question 8: Does this appliance require electricity to function?",
+    "Question 9: Is it a major kitchen appliance (like an oven, refrigerator, or dishwasher) rather than a countertop appliance?",
+    "Question 10: Is this appliance primarily used for heating or cooking food (as opposed to mixing, blending, or processing it)?",
+    "Question 11: Does this appliance use microwaves to heat food?",
+    ""
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 12,
+  "final_guess": "a microwave oven.",
+  "success": true,
+  "max_questions": 20
+}

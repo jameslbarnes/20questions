@@ -1,0 +1,28 @@
+{
+  "game_id": "e70f1f60-4e70-4f78-a9b4-83462d3c2264",
+  "timestamp": "2025-03-21T11:46:49.184027",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "happiness",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to help narrow down the possibilities.\n\nQuestion 1: Is it a physical object (something you can touch)?",
+    "Question 2: Is it a concept or idea (as opposed to a specific event, person, or place)?",
+    "Question 3: Is it an emotion or feeling?",
+    "Question 4: Is it generally considered a positive emotion?",
+    "Question 5: Is it happiness or joy?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: happiness"
+  ],
+  "question_count": 5,
+  "final_guess": "happiness",
+  "success": true,
+  "max_questions": 20
+}

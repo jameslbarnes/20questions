@@ -1,0 +1,41 @@
+{
+  "game_id": "cea7e3d1-8703-47b5-8123-194fa4f412da",
+  "timestamp": "2025-03-21T01:32:47.361005",
+  "questioner_provider": "openai",
+  "questioner_model": "gpt-4o",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dolphin",
+  "category": "animals",
+  "questions": [
+    "Is the entity you're thinking of a living thing?",
+    "Question 2: Is the entity you're thinking of a human being?",
+    "Question 3: Is the entity you're thinking of an animal?",
+    "Question 4: Is the animal you're thinking of commonly kept as a pet?",
+    "Question 5: Does the animal you're thinking of live primarily in water?",
+    "Question 6: Is the animal you're thinking of a mammal?",
+    "Question 7: Is the animal you're thinking of larger than a human?",
+    "Question 8: Is the animal you're thinking of known for having a distinctive long tusk?",
+    "Question 9: Is the animal you're thinking of commonly known for being one of the largest animals on Earth?",
+    "Question 10: Is the animal you're thinking of known for its intelligence?",
+    "Question 11: Is the animal you're thinking of known for its use of echolocation?",
+    ""
+  ],
+  "answers": [
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "No",
+    "Yes",
+    "Yes"
+  ],
+  "question_count": 12,
+  "final_guess": "dolphin.",
+  "success": true,
+  "max_questions": 20
+}

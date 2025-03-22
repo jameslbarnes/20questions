@@ -1,0 +1,42 @@
+{
+  "game_id": "e85ef906-9b57-4b79-b38e-fc409e407d95",
+  "timestamp": "2025-03-21T22:12:48.636190",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "quantum entanglement",
+  "category": "complex",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a concept or idea (something abstract rather than concrete)?",
+    "Is it a concept primarily related to human experience or human society (as opposed to something like a mathematical concept or natural law)?",
+    "Is it a concept from mathematics or science (including physics, chemistry, biology etc.)?",
+    "Is it a concept specifically from mathematics (as opposed to physics, chemistry, biology, or other natural sciences)?",
+    "Is it a concept from physics (including related fields like astronomy, cosmology, etc.)?",
+    "Is it related to one of the fundamental forces in physics (gravity, electromagnetism, strong force, weak force)?",
+    "Is it a concept related to space, time, or space-time (such as dimension, universe, relativity)?",
+    "Is it related to quantum mechanics or quantum physics?",
+    "Is it a specific quantum phenomenon or behavior (like entanglement, superposition, tunneling) rather than a mathematical tool or equation used in quantum physics?",
+    "Is it related to the dual nature of quantum particles, such as wave-particle duality?",
+    "Is it quantum entanglement?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 12,
+  "final_guess": "quantum entanglement",
+  "success": true,
+  "max_questions": 20
+}

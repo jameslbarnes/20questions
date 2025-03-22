@@ -1,0 +1,36 @@
+{
+  "game_id": "dd3d57d8-7a72-4484-8b9e-bd7d5c3a878e",
+  "timestamp": "2025-03-21T13:15:19.331578",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "Is it a physical object (something tangible rather than an idea or concept)?",
+    "Question 2: Is it a man-made object (as opposed to something that occurs naturally)?",
+    "Question 3: Is it an electronic device or does it use electricity to function?",
+    "Question 4: Is this device commonly found in most households?",
+    "Question 5: Is this device primarily used for kitchen/food-related purposes (cooking, storing, or preparing food)?",
+    "Question 6: Is this device relatively small (can be easily picked up and moved by one person)?",
+    "Question 7: Is it primarily used for heating or cooking food (as opposed to mixing, blending, or other food preparation)?",
+    "Question 8: Is this device designed to heat or cook a specific type of food (as opposed to being versatile for many different foods)?",
+    "Question 9: Does this device cook food primarily by radiating heat from the top and/or bottom rather than using microwaves, air circulation, or pressure?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 9,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

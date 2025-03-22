@@ -1,0 +1,40 @@
+{
+  "game_id": "679ac9e3-a8f7-47da-9ed9-003087bb6652",
+  "timestamp": "2025-03-21T20:49:27.646121",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object?",
+    "Is it something that would typically be found inside a home?",
+    "Is it a tool or device designed for a specific function or purpose?",
+    "Is it a naturally occurring object (not manufactured by humans)?",
+    "Is it larger than a basketball?",
+    "Is it something edible or consumable by humans?",
+    "Is it a fruit?",
+    "Is it commonly eaten raw (without cooking)?",
+    "Is it a round or spherical-shaped fruit?",
+    "Is it a citrus fruit (like orange, lemon, lime, etc.)?",
+    "Is it an apple?"
+  ],
+  "answers": [
+    "Yes.",
+    "Maybe.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 11,
+  "final_guess": "apple",
+  "success": true,
+  "max_questions": 20
+}

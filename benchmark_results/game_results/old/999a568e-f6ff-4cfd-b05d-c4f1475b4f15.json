@@ -1,0 +1,38 @@
+{
+  "game_id": "999a568e-f6ff-4cfd-b05d-c4f1475b4f15",
+  "timestamp": "2025-03-21T01:32:15.716464",
+  "questioner_provider": "openai",
+  "questioner_model": "gpt-4o",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "book",
+  "category": "common_objects",
+  "questions": [
+    "Is it a living being?",
+    "Question 2: Is it a man-made object?",
+    "Question 3: Is it electronic?",
+    "Question 4: Is it something that can be used indoors?",
+    "Question 5: Is it commonly found in a kitchen?",
+    "Question 6: Is it commonly found in a living room?",
+    "Question 7: Is it primarily used for seating?",
+    "Is it primarily used for entertainment purposes?",
+    "Question 9: Is it something that can be read?",
+    "Question 10: Is it a book?"
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: book"
+  ],
+  "question_count": 10,
+  "final_guess": "book",
+  "success": true,
+  "max_questions": 20
+}

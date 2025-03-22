@@ -1,0 +1,43 @@
+{
+  "game_id": "904f7532-bd10-4651-b54d-be29c46e9d75",
+  "timestamp": "2025-03-21T21:25:26.549435",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it man-made/manufactured?",
+    "Is it alive/organic (like a plant or animal)?",
+    "Is it an animal (as opposed to a plant, fungus, etc.)?",
+    "Is it a plant (as opposed to a fungus, bacteria, etc.)?",
+    "Is it a flowering plant (angiosperm)?",
+    "Is it a tree or large woody shrub (as opposed to a smaller herbaceous plant)?",
+    "Does it produce edible fruits, nuts, or berries commonly consumed by humans?",
+    "Is it primarily known for its fruits (as opposed to nuts or berries)?",
+    "Does it grow primarily in temperate climates (as opposed to tropical or subtropical)?",
+    "Does it produce fruits that are typically red when ripe?",
+    "Is the fruit typically round with a small depression at the top and bottom (as opposed to having a stem on one end only)?",
+    "<guess>Apple tree</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "Apple tree",
+  "success": true,
+  "max_questions": 20
+}

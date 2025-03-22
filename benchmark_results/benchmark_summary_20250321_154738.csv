@@ -1,0 +1,9 @@
+questioner_provider,questioner_model,answerer_provider,answerer_model,category,success_rate,num_games,avg_questions,median_questions,min_questions,max_questions
+anthropic,claude-3-7-sonnet-20250219-reasoning-low,anthropic,claude-3-7-sonnet-20250219,simple,1.0,5,16.8,18.0,10,20
+anthropic,claude-3-7-sonnet-20250219,anthropic,claude-3-7-sonnet-20250219,simple,0.6,5,18.4,20.0,14,20
+anthropic,claude-3-7-sonnet-20250219-reasoning-low,anthropic,claude-3-7-sonnet-20250219,complex,0.6,5,18.4,20.0,16,20
+anthropic,claude-3-5-sonnet-20241022,anthropic,claude-3-7-sonnet-20250219,simple,0.4,5,16.2,20.0,9,20
+anthropic,claude-3-7-sonnet-20250219-reasoning-high,anthropic,claude-3-7-sonnet-20250219,simple,0.4,5,20.0,20.0,20,20
+anthropic,claude-3-7-sonnet-20250219,anthropic,claude-3-7-sonnet-20250219,complex,0.4,5,18.8,20.0,14,20
+anthropic,claude-3-7-sonnet-20250219-reasoning-high,anthropic,claude-3-7-sonnet-20250219,complex,0.4,5,18.0,20.0,10,20
+anthropic,claude-3-5-sonnet-20241022,anthropic,claude-3-7-sonnet-20250219,complex,0.2,5,19.0,20.0,15,20

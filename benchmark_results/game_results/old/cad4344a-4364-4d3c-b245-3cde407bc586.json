@@ -1,0 +1,29 @@
+{
+  "game_id": "cad4344a-4364-4d3c-b245-3cde407bc586",
+  "timestamp": "2025-03-21T12:05:10.248486",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Albert Einstein",
+  "category": "famous_people",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities:\n\nIs the entity a physical object (as opposed to an abstract concept)?",
+    "Question 2: Is the entity a living thing (animal, plant, person, etc.)?",
+    "Question 3: Is this object typically found in households?",
+    "Question 4: Is this object human-made (as opposed to naturally occurring)?",
+    "Question 5: Is this object larger than a car?",
+    ""
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Unclear: I need to correct an inconsistency in my previous answers. Albert Einstein was a person, so for Question 2 about whether the entity is a living thing, I should have answered \"Yes\" (though he is no longer living). "
+  ],
+  "question_count": 6,
+  "final_guess": "Albert Einstein.",
+  "success": true,
+  "max_questions": 20
+}

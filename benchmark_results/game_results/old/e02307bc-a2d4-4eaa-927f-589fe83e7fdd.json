@@ -1,0 +1,40 @@
+{
+  "game_id": "e02307bc-a2d4-4eaa-927f-589fe83e7fdd",
+  "timestamp": "2025-03-21T11:05:38.015697",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "penguin",
+  "category": "animals",
+  "questions": [
+    "I'll start with a broad question to narrow down the category.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object (as opposed to something naturally occurring)?",
+    "Question 3: Is it a living organism or part of a living organism?",
+    "Question 4: Is it a complete organism (as opposed to just a part of an organism)?",
+    "Question 5: Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Question 6: Is it a vertebrate (an animal with a backbone/spine)?",
+    "Question 7: Is it a mammal?",
+    "Question 8: Is it a bird?",
+    "Question 9: Is it a bird that can fly?",
+    "Question 10: Is it a large flightless bird (like an ostrich or emu)?",
+    "Question 11: Is it a penguin?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "CORRECT! You've guessed the entity: penguin"
+  ],
+  "question_count": 11,
+  "final_guess": "penguin",
+  "success": true,
+  "max_questions": 20
+}

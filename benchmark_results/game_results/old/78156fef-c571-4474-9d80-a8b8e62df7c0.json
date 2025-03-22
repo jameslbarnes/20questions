@@ -1,0 +1,36 @@
+{
+  "game_id": "78156fef-c571-4474-9d80-a8b8e62df7c0",
+  "timestamp": "2025-03-21T00:57:49.709539",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "table",
+  "category": "common_objects",
+  "questions": [
+    "Is the entity you're thinking of a living thing?",
+    "Question 2: Is the entity you're thinking of man-made?",
+    "Question 3: Is the entity electronic?",
+    "Question 4: Is the entity you're thinking of commonly found in households?",
+    "Question 5: Is the entity you're thinking of primarily used in the kitchen?",
+    "Question 6: Is the entity a piece of furniture?",
+    "Question 7: Is this piece of furniture primarily used for seating?",
+    "Question 8: Is this piece of furniture primarily used for storage?",
+    "Question 9: Does this piece of furniture have a flat surface supported by legs (i.e., is it essentially a table)?"
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "No",
+    "CORRECT! You've guessed the entity: table"
+  ],
+  "question_count": 9,
+  "final_guess": "table",
+  "success": true,
+  "max_questions": 20
+}

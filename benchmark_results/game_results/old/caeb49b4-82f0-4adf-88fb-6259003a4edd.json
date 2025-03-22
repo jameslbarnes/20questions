@@ -1,0 +1,43 @@
+{
+  "game_id": "caeb49b4-82f0-4adf-88fb-6259003a4edd",
+  "timestamp": "2025-03-21T21:12:57.964587",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it something physical/tangible (as opposed to an abstract concept, idea, or emotion)?",
+    "Is it alive or organic (as opposed to non-living/manufactured)?",
+    "Is it an animal (as opposed to a plant, fungus, or other non-animal organism)?",
+    "Is it a plant (as opposed to a fungus, bacteria, or other non-plant organism)?",
+    "Is it a tree (as opposed to a smaller plant like a flower, shrub, grass, or herb)?",
+    "Is it commonly grown for food (like a vegetable, fruit, or herb)?",
+    "Is it considered a fruit (rather than a vegetable, grain, herb, or other type of edible plant)?",
+    "Is it a berry (small fruit with seeds embedded in the flesh like blueberry, raspberry, or strawberry)?",
+    "Is it a large fruit (bigger than a typical apple when mature)?",
+    "Does it typically have a red or reddish exterior color when ripe?",
+    "Does it have a single pit/stone in the center (like a peach, plum, or cherry)?",
+    "Does it have multiple seeds contained within a core compartment?",
+    "<guess>APPLE</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "APPLE",
+  "success": true,
+  "max_questions": 20
+}

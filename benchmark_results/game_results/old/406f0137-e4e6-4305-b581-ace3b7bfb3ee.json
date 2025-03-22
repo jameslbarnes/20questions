@@ -1,0 +1,43 @@
+{
+  "game_id": "406f0137-e4e6-4305-b581-ace3b7bfb3ee",
+  "timestamp": "2025-03-21T00:53:11.314752",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "Is the entity you're thinking of a living thing?",
+    "Question 2: Is the entity you're thinking of something man-made?",
+    "Question 3: Is the entity an electronic device?",
+    "Question 4: Is this electronic device primarily used for communication?",
+    "Question 5: Is the electronic device you're thinking of portable?",
+    "Question 6: Is the device primarily used for computing or processing information?",
+    "Question 7: Is the device primarily used for entertainment?",
+    "Question 8: Is this electronic device primarily found in a household setting?",
+    "Question 9: Is this electronic device primarily used in the kitchen?",
+    "Question 10: Is this electronic kitchen appliance primarily used for heating or cooking food?",
+    "Question 11: Does this appliance operate by generating microwave radiation to heat or cook food?",
+    "Question 12: Does this appliance typically come with a visible door with a window to monitor the food while it\u2019s cooking?",
+    ""
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "Yes",
+    "No",
+    "No",
+    "No",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "question_count": 13,
+  "final_guess": "a microwave oven.",
+  "success": true,
+  "max_questions": 20
+}

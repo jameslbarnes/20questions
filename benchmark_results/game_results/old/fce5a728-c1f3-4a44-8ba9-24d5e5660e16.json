@@ -1,0 +1,32 @@
+{
+  "game_id": "fce5a728-c1f3-4a44-8ba9-24d5e5660e16",
+  "timestamp": "2025-03-21T09:51:45.977639",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions by asking one question at a time to figure out what you're thinking of.\n\nIs it a physical object (as opposed to a concept or idea)?",
+    "I'll continue with the 20 Questions game, analyzing what I know so far:\n- It is a physical object (not a concept or idea)\n\nQuestion 2: Is it something that can be found in a typical household?",
+    "I'll continue with the 20 Questions game, analyzing what I know so far:\n- It is a physical object (not a concept or idea)\n- It can be found in a typical household\n\nQuestion 3: Is it an electronic device?",
+    "I'll continue with the 20 Questions game, analyzing what I know so far:\n- It is a physical object (not a concept or idea)\n- It can be found in a typical household\n- It is an electronic device\n\nQuestion 4: Is it primarily used for entertainment purposes (like a TV or gaming console)?",
+    "Question 5: Is it used in the kitchen?",
+    "I'll continue with the 20 Questions game, analyzing what I know so far:\n- It is a physical object (not a concept or idea)\n- It can be found in a typical household\n- It is an electronic device\n- It is not primarily used for entertainment purposes\n- It is used in the kitchen\n\nQuestion 6: Is it used for cooking or heating food?",
+    "I'll continue with the 20 Questions game, analyzing what I know so far:\n- It is a physical object (not a concept or idea)\n- It can be found in a typical household\n- It is an electronic device\n- It is not primarily used for entertainment purposes\n- It is used in the kitchen\n- It is used for cooking or heating food\n\nQuestion 7: Is it a microwave?"
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 7,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

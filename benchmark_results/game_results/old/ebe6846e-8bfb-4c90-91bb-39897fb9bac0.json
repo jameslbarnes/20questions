@@ -1,0 +1,36 @@
+{
+  "game_id": "ebe6846e-8bfb-4c90-91bb-39897fb9bac0",
+  "timestamp": "2025-03-21T21:51:15.483357",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "sun",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a natural object (not human-made)?",
+    "Is it a living organism?",
+    "Is it larger than a car?",
+    "Is it found on Earth?",
+    "Is it a celestial body like a planet, moon, or star?",
+    "Is it within our solar system?",
+    "Is it a planet?",
+    "Is it the Sun?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 9,
+  "final_guess": "sun",
+  "success": true,
+  "max_questions": 20
+}

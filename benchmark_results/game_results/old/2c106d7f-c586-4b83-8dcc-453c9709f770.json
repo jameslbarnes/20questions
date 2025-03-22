@@ -1,0 +1,40 @@
+{
+  "game_id": "2c106d7f-c586-4b83-8dcc-453c9709f770",
+  "timestamp": "2025-03-21T01:08:48.558553",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "penguin",
+  "category": "animals",
+  "questions": [
+    "Is the entity you\u2019re thinking of a physical object?",
+    "Question 2: Is the object you're thinking of man-made?",
+    "Question 3: Is the object you're thinking of a living organism?",
+    "Question 4: Is the living organism you're thinking of an animal?",
+    "Question 5: Is the animal you're thinking of a mammal?",
+    "Question 6: Does the animal have feathers?",
+    "Question 7: Can this bird fly?",
+    "Question 8: Is this bird primarily found in or near aquatic environments?",
+    "Question 9: Does this bird have a predominantly black and white coloration?",
+    "Question 10: Is this bird commonly associated with cold climates, such as Antarctica?",
+    "Question 11: Is the bird you're thinking of an Emperor Penguin?"
+  ],
+  "answers": [
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: penguin"
+  ],
+  "question_count": 11,
+  "final_guess": "penguin",
+  "success": true,
+  "max_questions": 20
+}

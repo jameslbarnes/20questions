@@ -1,0 +1,39 @@
+{
+  "game_id": "279cfd9c-c06f-48da-946e-6d9100380289",
+  "timestamp": "2025-03-21T21:17:51.318943",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it man-made (as opposed to naturally occurring)?",
+    "Is it a living organism (or part of one)?",
+    "Is it an animal (or part of an animal)?",
+    "Is it a vertebrate animal (or part of a vertebrate animal)?",
+    "Is it a mammal (or part of a mammal)?",
+    "Is it an entire animal (as opposed to just a part of an animal)?",
+    "Is it a domesticated animal (commonly kept as a pet or livestock)?",
+    "Is it commonly kept as a pet (rather than primarily as livestock/farm animal)?",
+    "Is it a canine (dog, wolf, fox family)?",
+    "<guess>DOG</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 11,
+  "final_guess": "DOG",
+  "success": true,
+  "max_questions": 20
+}

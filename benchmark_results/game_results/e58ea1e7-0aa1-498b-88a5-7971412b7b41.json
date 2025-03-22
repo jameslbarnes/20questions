@@ -1,0 +1,412 @@
+{
+  "game_id": "e58ea1e7-0aa1-498b-88a5-7971412b7b41",
+  "timestamp": "2025-03-22T13:09:03.626597",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "antibiotics",
+  "category": "medium",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it something that can fit in a typical room in a house?",
+    "Is it something that can be held in one hand by an average adult?",
+    "Is it a tool or device that has a specific practical function?",
+    "Is it something found in nature (not manufactured by humans)?",
+    "Is it primarily made of or derived from organic materials (e.g., plant, animal, or biological matter)?",
+    "Is it something you would typically eat or consume?",
+    "Is it a part of a living organism (either currently alive or once was alive)?",
+    "Is it something commonly used for decoration or display purposes?",
+    "Is it something that might be found in a kitchen or used in cooking/food preparation?",
+    "Is it something that is manufactured or processed from natural materials (like wood, leather, or plant fibers)?",
+    "Is it something that would typically be used as part of clothing or fashion?",
+    "Is it something related to hobbies, games, or entertainment?",
+    "Is it something used in personal hygiene or grooming?",
+    "Is it something used in an office or for educational purposes?",
+    "Is it something primarily made of wood?",
+    "Is it made primarily from plant fibers or plant-derived materials (like cotton, hemp, paper)?",
+    "Is it made primarily from animal-derived materials (like leather, wool, or bone)?",
+    "Is it something used in religious, spiritual, or ceremonial practices?",
+    "Is it derived from or primarily made of insect materials (like beeswax, silk, etc.)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Maybe.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on the information gathered, I'm trying to narrow down what could be a physical, hand-sized object primarily derived from organic materials but not from plants, animals, or insects. It's manufactured/processed from natural materials but has no specific practical function and isn't used for decoration, consumption, or in common domains like kitchen, office, hygiene, clothing, or entertainment. The fact that question #5 got a \"maybe\" about being found in nature is particularly interesting.\n\nGiven these constraints, my best guess would be:\n\n<guess>Amber (fossilized tree resin)</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "The question is: Is it a physical/tangible object?\n\nI need to determine if antibiotics are physical/tangible objects.\n\nAntibiotics are medications that can come in various physical forms like pills, capsules, tablets, liquids, creams, or intravenous solutions. They have a physical presence and can be touched, handled, and administered. They are tangible substances with mass and take up space.\n\nSo yes, antibiotics are physical/tangible objects."
+    },
+    {
+      "question_index": 2,
+      "thinking": "Let's analyze the question: \"Is it something that can fit in a typical room in a house?\"\n\nAntibiotics are medications that can come in various forms such as:\n- Pills/tablets\n- Capsules\n- Liquid solutions\n- Powder for reconstitution\n- Injectable vials\n\nAll of these forms of antibiotics would easily fit in a typical room in a house. In fact, most people store antibiotics in their medicine cabinet, bathroom, or kitchen. Antibiotics packaging is generally small - a typical bottle or package of antibiotic pills/capsules would be just a few inches in size.\n\nSo yes, antibiotics can definitely fit in a typical room in a house."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me think about antibiotics carefully.\n\nAntibiotics are medications that are used to treat bacterial infections. They typically come in various forms such as:\n- Pills/tablets/capsules\n- Liquid suspensions\n- Injectable solutions\n- Topical creams/ointments\n\nMost common consumer antibiotics like amoxicillin, azithromycin, etc. are dispensed in pill bottles or blister packs that are small enough to be held in one hand by an average adult. Even a typical bottle of antibiotic pills or a package of antibiotic capsules can easily be held in one hand.\n\nFor liquid antibiotics, they typically come in small bottles that are also easily held in one hand.\n\nThe question asks if \"it\" (antibiotics) can be held in one hand. Since typical antibiotic medications in their consumer packaging can be held in one hand, the answer is yes."
+    },
+    {
+      "question_index": 4,
+      "thinking": "The current question asks if antibiotics are a tool or device that has a specific practical function.\n\nAntibiotics are medications - they're pharmaceutical substances used to treat bacterial infections. They're not really \"tools\" or \"devices\" in the conventional sense. Tools and devices typically refer to physical implements or instruments used to perform tasks manually or mechanically. \n\nAntibiotics are substances (pills, capsules, liquids, creams, etc.) with a biochemical function. They do have a specific practical function (killing bacteria or preventing their growth), but they work through chemical/biological mechanisms rather than as mechanical tools or devices.\n\nSo I should answer \"no\" here, as antibiotics are medications/drugs, not tools or devices."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I need to determine if antibiotics are found in nature (not manufactured by humans).\n\nFacts about antibiotics:\n- Antibiotics are substances that kill or inhibit the growth of bacteria\n- The first antibiotic, penicillin, was discovered by Alexander Fleming in 1928 when he observed that a mold (Penicillium) produced a substance that killed bacteria\n- Many antibiotics were originally derived from natural sources:\n  - Penicillin comes from the Penicillium mold\n  - Streptomycin comes from soil bacteria (Streptomyces)\n  - Tetracyclines come from Streptomyces bacteria\n  - Many other antibiotics have natural origins\n\n- However, the antibiotics that people typically refer to and use are pharmaceutical products that have been manufactured, refined, standardized, and formulated for medical use\n- Modern antibiotics include both naturally derived compounds and fully synthetic compounds\n- The antibiotics that patients receive are manufactured products, even if their original source was natural\n\nFor this question, I need to be precise. When someone thinks of \"antibiotics,\" they're typically thinking of the medicine in pill form or liquid formulations that are manufactured. While the compounds themselves or similar compounds can be found in nature, the specific pharmaceutical products we call \"antibiotics\" are manufactured by humans.\n\nSo the accurate answer to \"Is it something found in nature (not manufactured by humans)?\" would be:"
+    },
+    {
+      "question_index": 6,
+      "thinking": "The current question is whether antibiotics are primarily made of or derived from organic materials (e.g., plant, animal, or biological matter).\n\nLet me think about antibiotics:\n\n1. Originally, antibiotics were discovered from natural sources. The first antibiotic, penicillin, was derived from the Penicillium mold. Many antibiotics have been discovered from fungi, soil bacteria, and other microorganisms.\n\n2. Today, antibiotics can be:\n   - Natural: Directly isolated from living organisms\n   - Semi-synthetic: Natural compounds that are chemically modified\n   - Synthetic: Completely made in laboratories through chemical synthesis\n\nHistorically and even today, many antibiotics are derived from biological sources or are modified versions of compounds found in nature. However, there are also fully synthetic antibiotics that are not derived from natural sources.\n\nFor the current question, antibiotics are often derived from organic materials (microorganisms), but modern antibiotics can also be synthesized. I should acknowledge this dual nature, but the historical and traditional understanding of antibiotics is that they are derived from biological sources.\n\nI think I should answer \"yes\" with a brief clarification that many antibiotics were originally derived from microorganisms, though some modern ones are synthetic."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let's think about antibiotics and whether they're something a person would typically eat or consume.\n\nAntibiotics are medications that are taken to fight bacterial infections. They can be taken in various forms:\n- Oral tablets, capsules, or liquids that are swallowed\n- Intravenous injections in hospitals\n- Topical creams or ointments applied to the skin\n\nWhile antibiotics are \"consumed\" in the sense that they are taken into the body when used as directed, they aren't typically considered something you \"eat\" like food. They're medication.\n\nAlso, antibiotics are not something people would \"typically\" consume, as they should only be taken when prescribed by a doctor for a specific bacterial infection. They're not meant to be taken regularly like food or even daily supplements.\n\nSo, while antibiotics can be consumed orally, they aren't something people would \"typically eat or consume\" in the sense that it's not a normal, regular part of diet or daily consumption.\n\nI think the most accurate answer here is \"no\" since antibiotics aren't something you would \"typically\" consume, though I could understand why someone might argue for \"maybe\" since they can be consumed when needed."
+    },
+    {
+      "question_index": 8,
+      "thinking": "The question is asking if antibiotics are a part of a living organism.\n\nAntibiotics are substances that kill or inhibit the growth of bacteria. Many antibiotics were originally discovered as natural compounds produced by bacteria or fungi as a defense mechanism. For example, penicillin was discovered from the Penicillium mold. So in that sense, antibiotics can be naturally occurring substances that were indeed parts of living organisms.\n\nHowever, many modern antibiotics are either synthetic versions of these natural compounds or entirely synthetic substances created in laboratories. They are not directly extracted from living organisms in their final form.\n\nThe question specifically asks if antibiotics are \"a part of\" a living organism. While some antibiotics are produced by living organisms, they are typically not considered structural parts of those organisms, but rather compounds they produce.\n\nGiven that:\n1. Some antibiotics are naturally produced by living organisms\n2. Many modern antibiotics are synthetic or semi-synthetic\n3. Even natural antibiotics are compounds produced by organisms rather than structural parts of them\n\nI should provide a nuanced answer, but leaning toward \"no\" since antibiotics themselves are not typically considered parts of organisms, even if some are produced by organisms."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let's think about antibiotics in relation to the question:\n\n\"Is it something commonly used for decoration or display purposes?\"\n\nAntibiotics are medications used to treat bacterial infections. They come in various forms like pills, capsules, liquid solutions, creams, etc. They are designed for medical treatment purposes.\n\nAntibiotics are not used for decoration or display purposes. They are kept in medicine cabinets, pharmacies, or medical facilities for their medical utility, not for their aesthetic or decorative qualities.\n\nSome people might have vintage medicine bottles on display, but the antibiotics themselves are not the decorative element - it would be the container. Modern antibiotics in their packaging are definitely not commonly used for decoration.\n\nThis is a clear \"no\" answer."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let's think about antibiotics in relation to this question.\n\nAntibiotics are medications used to treat bacterial infections. They're typically in the form of pills, capsules, liquids, or sometimes topical creams.\n\nWould antibiotics typically be found in a kitchen or used in cooking/food preparation?\n- Antibiotics are medications that are typically stored in medicine cabinets, bathroom cabinets, or other places where medications are kept.\n- They are not cooking ingredients or food preparation tools.\n- They are not normally stored in kitchens (though some people might keep medications in kitchen cabinets).\n- They are definitely not used in cooking or food preparation.\n\nSome people might store medications in the kitchen, but antibiotics are not a kitchen item by nature or purpose, and they're definitely not used in cooking.\n\nThe answer should be \"no.\""
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think about this question carefully. \n\nThe question asks if antibiotics are \"manufactured or processed from natural materials (like wood, leather, or plant fibers)?\"\n\nAntibiotics have different origins:\n1) Some antibiotics are derived from microorganisms found in nature (like penicillin, which was originally derived from the Penicillium mold)\n2) Some antibiotics are semi-synthetic (natural compounds that are chemically modified)\n3) Some antibiotics are fully synthetic (completely made in a laboratory)\n\nIn all cases, antibiotics used as medication are manufactured or processed. The original sources for many antibiotics are natural materials, though not specifically wood, leather, or plant fibers - they typically come from microorganisms like fungi and bacteria.\n\nSo antibiotics are indeed manufactured or processed products, and many have their origins in natural materials (microorganisms). The examples given (wood, leather, plant fibers) aren't the specific natural materials used for antibiotics, but the question is asking more generally about manufacturing from natural materials.\n\nI should answer \"yes\" since antibiotics are manufactured/processed, and many are derived from natural materials even if those natural materials are different from the examples given."
+    },
+    {
+      "question_index": 12,
+      "thinking": "The player is asking whether antibiotics would typically be used as part of clothing or fashion.\n\nAntibiotics are:\n- Medicines/pharmaceutical products\n- Used to treat bacterial infections\n- Either naturally derived (from microorganisms like fungi) or synthetically produced\n- Usually come in pill, capsule, liquid, or injectable forms\n- Used for medical purposes\n\nAntibiotics are not used in clothing or fashion items. They are medical products used to treat infections, not materials or components used in clothing.\n\nSo my answer should be a clear \"no\"."
+    },
+    {
+      "question_index": 13,
+      "thinking": "I need to determine if antibiotics are related to hobbies, games, or entertainment.\n\nAntibiotics are:\n- Medications/drugs used to treat bacterial infections\n- Used in healthcare and medicine\n- Often prescribed by doctors\n- Made from natural compounds (originally discovered from fungi/microorganisms) or synthetic derivatives\n- Used for treating illness, not for entertainment purposes\n\nAntibiotics are clearly not:\n- Used for hobbies\n- Used in games\n- Used for entertainment\n\nThey have a serious medical purpose and aren't related to recreational activities at all. The answer is clearly no."
+    },
+    {
+      "question_index": 14,
+      "thinking": "Let's examine whether antibiotics are used in personal hygiene or grooming:\n\nAntibiotics are medications used to treat bacterial infections. They work by killing bacteria or preventing them from reproducing.\n\nAre they used in personal hygiene or grooming products?\n- Antibiotics are primarily used as medicines to treat infections\n- They are not typically ingredients in regular hygiene products like soap, shampoo, deodorant, toothpaste, etc.\n- While some topical antibiotics might be applied to the skin, this would be for treating infections, not for routine hygiene or grooming\n- Some acne products may contain antibiotics, which could be considered part of a skincare/grooming routine, but this is a medicinal application rather than typical hygiene\n\nOverall, antibiotics are not primarily or commonly considered items used for personal hygiene or grooming. Their primary purpose is medical treatment of bacterial infections, not cleaning or maintaining appearance.\n\nI should answer \"no\" to this question."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let's think about whether antibiotics are used in an office or for educational purposes.\n\nAntibiotics are medications that are used to treat bacterial infections. They're primarily used in medical settings like hospitals, clinics, and pharmacies, and people take them at home when prescribed.\n\nAre antibiotics used in an office setting? Generally, no. They might be kept in a first aid kit, but they're not office supplies or equipment used for office work.\n\nAre antibiotics used for educational purposes? They might be studied in educational settings like biology classes, medical schools, or pharmaceutical training, but they're not primarily educational tools. They could be used as examples or specimens in educational contexts, but that's not their primary purpose.\n\nGiven that antibiotics are primarily medical treatments and not office supplies or educational tools, the answer should be \"no.\" However, there could be some limited contexts where antibiotics might appear in offices (first aid kits) or educational settings (as specimens or examples), but these aren't their primary uses.\n\nI'll go with a \"no\" since antibiotics are not primarily or commonly used in offices or for educational purposes."
+    },
+    {
+      "question_index": 16,
+      "thinking": "The question is asking if antibiotics are primarily made of wood. Let me consider this:\n\nAntibiotics are substances that can kill or inhibit the growth of bacteria. They are typically:\n- Made from microorganisms (like fungi or bacteria)\n- Or synthesized chemically in laboratories\n- Often derived from biological sources originally, though many modern antibiotics are synthetic\n- Typically come in the form of pills, capsules, liquids, or injectable solutions\n\nAntibiotics are definitely not made of wood. Wood is a plant material composed primarily of cellulose and lignin, while antibiotics are complex chemical compounds with specific antimicrobial properties.\n\nSo the answer is clearly \"no\" - antibiotics are not primarily made of wood."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Antibiotics are substances that can kill or inhibit the growth of bacteria. Many antibiotics were originally derived from natural sources like fungi, bacteria, or other microorganisms. However, modern antibiotics are often synthesized in laboratories or semi-synthesized (starting with a natural compound that is then chemically modified).\n\nLooking at the specific question: \"Is it made primarily from plant fibers or plant-derived materials (like cotton, hemp, paper)?\"\n\nAntibiotics are not made primarily from plant fibers or plant-derived materials like cotton, hemp, or paper. While some antibiotics originally came from natural sources, they typically come from:\n1. Fungi (like penicillin from Penicillium fungi)\n2. Bacteria (like streptomycin from Streptomyces bacteria)\n3. Chemical synthesis in laboratories\n\nNone of these sources are plant fibers or materials like cotton, hemp, or paper. So the answer is clearly \"no.\""
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let's think carefully about what antibiotics are made from:\n\nAntibiotics are substances that can kill or inhibit the growth of bacteria. They can be:\n1. Natural - produced by microorganisms like fungi or bacteria\n2. Semi-synthetic - natural antibiotics that are chemically modified\n3. Synthetic - completely created in laboratories\n\nMost common antibiotics historically came from microorganisms (like penicillin from the Penicillium mold), while many modern antibiotics are semi-synthetic or synthetic. \n\nThe question asks if antibiotics are made primarily from animal-derived materials like leather, wool, or bone. This is not the case. Antibiotics are primarily derived from:\n- Microorganisms (fungi, bacteria)\n- Chemical synthesis\n- Plant-derived compounds in some cases\n\nThey are not made from animal materials like leather, wool, or bone. So the answer should be no.\n\nThis is unambiguous, so I'll answer \"no\"."
+    },
+    {
+      "question_index": 19,
+      "thinking": "The question asks if antibiotics are used in religious, spiritual, or ceremonial practices.\n\nAntibiotics are pharmaceutical substances that kill or inhibit the growth of bacteria. They are:\n- Used for medical treatment of bacterial infections\n- Typically prescribed by doctors\n- Available as pills, capsules, injections, or topical applications\n- Derived from microorganisms or synthesized in laboratories\n\nAntibiotics are not used in religious, spiritual, or ceremonial practices. They are medical treatments with scientific basis and aren't associated with religious rituals or spiritual ceremonies.\n\nSo my answer should be \"no.\""
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let me think about whether antibiotics are derived from or primarily made of insect materials:\n\nAntibiotics are substances that can kill or inhibit the growth of bacteria. They can come from various sources:\n\n1. Some antibiotics are produced by microorganisms like fungi or bacteria. For example, penicillin comes from the Penicillium fungus.\n2. Some antibiotics are semi-synthetic, meaning they start with a naturally derived compound that is then chemically modified.\n3. Some antibiotics are fully synthetic and created in laboratories.\n\nAs far as I know, no commonly used antibiotics are derived primarily from insects or insect materials like beeswax or silk. The main sources are fungi, bacteria, or synthetic processes.\n\nSo for the question \"Is it derived from or primarily made of insect materials (like beeswax, silk, etc.)?\" the accurate answer would be:"
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 39,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1140,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1758,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2402,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3067,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3753,
+      "output_tokens": 32,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4483,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5220,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 6018,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6831,
+      "output_tokens": 27,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7679,
+      "output_tokens": 31,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8563,
+      "output_tokens": 24,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9465,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10390,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11335,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 12302,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 13283,
+      "output_tokens": 30,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 14308,
+      "output_tokens": 27,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 15358,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 16428,
+      "output_tokens": 32,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 17567,
+      "output_tokens": 128,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 273,
+      "output_tokens": 140,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 297,
+      "output_tokens": 167,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 322,
+      "output_tokens": 214,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 345,
+      "output_tokens": 184,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 367,
+      "output_tokens": 369,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 400,
+      "output_tokens": 311,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 420,
+      "output_tokens": 299,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 447,
+      "output_tokens": 312,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 468,
+      "output_tokens": 178,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 496,
+      "output_tokens": 202,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 528,
+      "output_tokens": 307,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 553,
+      "output_tokens": 136,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 577,
+      "output_tokens": 146,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 599,
+      "output_tokens": 230,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 621,
+      "output_tokens": 255,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 639,
+      "output_tokens": 176,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 670,
+      "output_tokens": 249,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 698,
+      "output_tokens": 229,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 722,
+      "output_tokens": 147,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 755,
+      "output_tokens": 212,
+      "total_tokens": 0
+    }
+  ]
+}

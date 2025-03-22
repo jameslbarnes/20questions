@@ -1,0 +1,36 @@
+{
+  "game_id": "bb548b47-b0fe-4590-b5ee-7150898e3f4f",
+  "timestamp": "2025-03-21T21:49:05.456610",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "sun",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it larger than a microwave oven?",
+    "Is it something commonly found in homes?",
+    "Is it something typically found outdoors?",
+    "Is it a natural object (not man-made)?",
+    "Is it a living thing?",
+    "Is it a geological formation?",
+    "Is it made of water (like a lake, river, or ocean)?",
+    "Is it something in the sky (like a cloud, the sun, or a star)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 9,
+  "final_guess": "sun",
+  "success": true,
+  "max_questions": 20
+}
