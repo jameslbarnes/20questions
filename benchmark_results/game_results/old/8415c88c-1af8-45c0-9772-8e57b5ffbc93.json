@@ -1,0 +1,40 @@
+{
+  "game_id": "8415c88c-1af8-45c0-9772-8e57b5ffbc93",
+  "timestamp": "2025-03-21T11:40:50.389910",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "wisdom",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll ask strategic yes/no questions to figure out what you're thinking of. Let's begin!\n\nIs it a physical object (as opposed to a concept or idea)?",
+    "Question 2: Is it an abstract concept (like love, justice, freedom, etc.)?\nAnswer:",
+    "Question 3: Is this concept related to human emotions or feelings?",
+    "Question 4: Is this concept related to society or social structures (like democracy, law, equality, etc.)?",
+    "I'll need to ask more specific questions to narrow down this abstract concept.\n\nQuestion 5: Is this concept something that exists in nature independent of human civilization (like time, gravity, evolution, etc.)?",
+    "I'll need to try a different approach since I'm getting \"I don't know\" responses to my category questions. Let me ask about specific abstract concepts.\n\nQuestion 6: Is the concept related to mathematics or logic (like infinity, probability, truth, etc.)?",
+    "I need to narrow down this abstract concept further since we know it's not related to mathematics or logic.\n\nQuestion 7: Is this abstract concept related to arts or creativity (like beauty, inspiration, imagination, etc.)?",
+    "I need to take a different approach since I'm getting several \"I don't know\" responses.\n\nQuestion 8: Is this abstract concept commonly discussed or taught in philosophy?",
+    "I'm making progress! The concept is abstract and commonly discussed in philosophy, but not related to mathematics or logic.\n\nQuestion 9: Is this abstract concept concerned with ethics or morality (like good/evil, right/wrong, virtue, etc.)?",
+    "I'll continue with more targeted philosophical questions since we know it's an abstract concept discussed in philosophy.\n\nQuestion 10: Is this abstract concept related to the nature of existence or reality (like being, consciousness, existence, etc.)?",
+    "I need to be more specific with my questions since I'm getting many \"I don't know\" responses.\n\nQuestion 11: Is this abstract concept something that can be considered a value or ideal that people strive for (like justice, freedom, equality, wisdom)?\nAnswer:"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "I don't know.",
+    "I don't know.",
+    "I don't know.",
+    "No.",
+    "I don't know.",
+    "Yes.",
+    "I don't know.",
+    "I don't know.",
+    "CORRECT! You've guessed the entity: wisdom"
+  ],
+  "question_count": 11,
+  "final_guess": "wisdom",
+  "success": true,
+  "max_questions": 20
+}

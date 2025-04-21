@@ -1,0 +1,22 @@
+{
+  "game_id": "effa97a2-ae4b-4fa5-a9b0-c9e7f3626527",
+  "timestamp": "2025-03-21T10:08:34.175412",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll play 20 Questions! Let me start with a broad question to narrow down the possibilities.\n\nIs it a physical object (as opposed to a concept, idea, or place)?",
+    "Question 2: Is this physical object larger than a microwave oven?"
+  ],
+  "answers": [
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 2,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

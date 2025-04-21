@@ -1,0 +1,34 @@
+{
+  "game_id": "20442200-1914-494c-8547-3226d86c0d11",
+  "timestamp": "2025-03-21T10:35:38.312314",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "chair",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the category.\n\nIs the entity a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object?",
+    "Question 3: Is this object commonly found in households?",
+    "Question 4: Is the object an electronic device or does it use electricity?",
+    "Question 5: Is this object primarily used/found in the kitchen?",
+    "Question 6: Is this object primarily found/used in the bathroom?",
+    "Question 7: Is this object primarily found/used in the living room or common areas?",
+    "Question 8: Is this object a piece of furniture (like a sofa, chair, or table)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: chair"
+  ],
+  "question_count": 8,
+  "final_guess": "chair",
+  "success": true,
+  "max_questions": 20
+}

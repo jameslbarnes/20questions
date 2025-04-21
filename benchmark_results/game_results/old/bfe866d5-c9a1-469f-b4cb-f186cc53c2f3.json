@@ -1,0 +1,34 @@
+{
+  "game_id": "bfe866d5-c9a1-469f-b4cb-f186cc53c2f3",
+  "timestamp": "2025-03-21T21:50:09.961072",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "sun",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a natural object (not manufactured by humans)?",
+    "Is it a living organism (currently alive)?",
+    "Is it something that was once alive (like wood, fossil, or remains of an organism)?",
+    "Is it a geological object (like a rock, mineral, or natural landform)?",
+    "Is it a celestial body (like a star, planet, moon, or asteroid)?",
+    "Is it a planet?",
+    "Is it a star (like our Sun)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 8,
+  "final_guess": "sun",
+  "success": true,
+  "max_questions": 20
+}

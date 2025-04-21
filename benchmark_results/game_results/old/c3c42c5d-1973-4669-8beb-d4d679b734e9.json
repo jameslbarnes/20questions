@@ -1,0 +1,38 @@
+{
+  "game_id": "c3c42c5d-1973-4669-8beb-d4d679b734e9",
+  "timestamp": "2025-03-21T15:13:16.599905",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "quantum entanglement",
+  "category": "complex",
+  "questions": [
+    "# 20 Questions Game\n\nI'll ask strategic yes/no questions to figure out what you're thinking of!\n\nMy first question: Is it a physical/tangible object?",
+    "Question 2: Is it something created or defined by humans (as opposed to something that would exist regardless of human civilization)?",
+    "Question 3: Is it a natural force, physical law, or phenomenon studied in physics (like gravity, electricity, magnetism, time, etc.)?",
+    "Question 4: Is it one of the four fundamental forces of nature (gravity, electromagnetism, strong nuclear force, or weak nuclear force)?",
+    "Question 5: Is it primarily a form of energy or a phenomenon related to energy transfer/transformation (like heat, light, sound, etc.)?",
+    "Question 6: Is it related to matter or the properties/states of matter (like pressure, density, states of matter, etc.)?",
+    "Question 7: Is it related to space, time, or spacetime (like the fabric of spacetime, time dilation, etc.)?",
+    "Question 8: Is it a law or principle in physics (rather than an observable phenomenon)?",
+    "Question 9: Is it a planetary or astronomical phenomenon (like eclipses, auroras, planetary motion, etc.)?",
+    "Question 10: Is it a quantum phenomenon or related to quantum physics (like quantum entanglement, superposition, tunneling)?"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "CORRECT! You've guessed quantum entanglement"
+  ],
+  "question_count": 10,
+  "final_guess": "quantum entanglement",
+  "success": true,
+  "max_questions": 20
+}

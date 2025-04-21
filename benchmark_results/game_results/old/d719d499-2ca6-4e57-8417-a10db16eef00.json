@@ -1,0 +1,43 @@
+{
+  "game_id": "d719d499-2ca6-4e57-8417-a10db16eef00",
+  "timestamp": "2025-03-21T21:16:54.477700",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it something that exists in the natural world (not fictional or conceptual)?",
+    "Is it alive or a living organism?",
+    "Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Is it a vertebrate (animal with a backbone/spine)?",
+    "Is it a mammal?",
+    "Is it a land mammal (lives primarily on land rather than in water)?",
+    "Is it larger than a typical house cat when fully grown?",
+    "Is it a carnivore (primarily meat-eating)?",
+    "Is it a wild animal (not typically domesticated)?",
+    "Is it commonly kept as a household pet?",
+    "Does it typically bark?",
+    "Based on the information gathered, I'm now quite confident in my answer.\n\n<guess>Dog</guess>"
+  ],
+  "answers": [
+    "Maybe.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Maybe.",
+    "Maybe.",
+    "No.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "Dog",
+  "success": true,
+  "max_questions": 20
+}

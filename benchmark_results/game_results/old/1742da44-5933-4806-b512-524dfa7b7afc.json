@@ -1,0 +1,41 @@
+{
+  "game_id": "1742da44-5933-4806-b512-524dfa7b7afc",
+  "timestamp": "2025-03-21T22:00:37.615781",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-5-sonnet-20241022",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "book",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object (something you can touch)?",
+    "Is it something manufactured/made by humans (as opposed to occurring naturally)?",
+    "Is it larger than a microwave oven?",
+    "Would you typically find this object in most homes?",
+    "Is it primarily used for a practical purpose (rather than decoration)?",
+    "Is it typically used in the kitchen?",
+    "Is it used for cleaning or maintaining something?",
+    "Is it used for entertainment or media consumption (like playing music, watching videos, or reading)?",
+    "Does it use electricity or batteries to function?",
+    "Is it something you hold in your hands while using it?",
+    "Is it made primarily of paper?",
+    "Given it's a paper-based entertainment item found in most homes that you hold in your hands, I'm quite confident in my guess.\n\n<guess>BOOK</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 12,
+  "final_guess": "BOOK",
+  "success": true,
+  "max_questions": 20
+}

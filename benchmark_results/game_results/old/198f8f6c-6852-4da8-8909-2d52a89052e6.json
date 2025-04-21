@@ -1,0 +1,42 @@
+{
+  "game_id": "198f8f6c-6852-4da8-8909-2d52a89052e6",
+  "timestamp": "2025-03-21T01:14:59.786369",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "tiger",
+  "category": "animals",
+  "questions": [
+    "Is the entity you're thinking of a living thing (such as a person or an animal)?",
+    "Question 2: Is the entity you're thinking of a human being?",
+    "Question 3: Is the entity you're thinking of an animal?",
+    "Question 4: Is the animal you're thinking of a mammal?",
+    "Question 5: Is the mammal you're thinking of primarily carnivorous?",
+    "Question 6: Is the animal you're thinking of a member of the cat family (Felidae)?",
+    "Question 7: Is the animal you're thinking of typically kept as a pet?",
+    "Question 8: Does this animal primarily live in Africa?",
+    "Question 9: Does the animal you're thinking of have a mane?",
+    "Question 10: Is the animal you're thinking of primarily native to Asia?",
+    "Question 11: Does the animal you're thinking of have stripes?",
+    "Question 12: Does this animal belong to the species commonly known as the tiger (Panthera tigris)?"
+  ],
+  "answers": [
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "No",
+    "I don't know. I don't know",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: tiger"
+  ],
+  "question_count": 12,
+  "final_guess": "tiger",
+  "success": true,
+  "max_questions": 20
+}

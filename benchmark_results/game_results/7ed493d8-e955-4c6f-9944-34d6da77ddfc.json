@@ -1,0 +1,412 @@
+{
+  "game_id": "7ed493d8-e955-4c6f-9944-34d6da77ddfc",
+  "timestamp": "2025-03-22T13:07:28.040430",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "cryptocurrency",
+  "category": "medium",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it an abstract concept or idea?",
+    "Is it related to human emotions or feelings?",
+    "Is it a concept related to science or mathematics?",
+    "Is it a mathematical concept (as opposed to a scientific concept)?",
+    "Is it a specific number or numerical value?",
+    "Is it a concept related to geometry or shapes?",
+    "Is it a concept related to algebra or equations?",
+    "Is it related to probability or statistics?",
+    "Is it a fundamental concept in probability rather than a specific statistical technique?",
+    "Is it a statistical test or method used for analyzing data?",
+    "Is it a measure of central tendency or spread in statistics?",
+    "Is it a type of probability distribution?",
+    "Is it a concept related to randomness or chance?",
+    "Is it related to calculating the likelihood of an event?",
+    "Is it a concept used in game theory or decision making under uncertainty?",
+    "Is it related to simulations or the Monte Carlo method?",
+    "Is it a random variable or related to the concept of random variables?",
+    "Is it related to the concept of expected value?",
+    "Is it related to entropy or information theory?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Maybe.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on all the information gathered, I'm going to make my best guess.\n\n<guess>Entropy</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I'm thinking of 'cryptocurrency', and I need to answer whether it's a physical/tangible object.\n\nCryptocurrency is a digital or virtual currency that uses cryptography for security. It exists only in digital form on distributed ledgers called blockchains. While cryptocurrencies can be represented by physical items like hardware wallets or commemorative coins, the cryptocurrency itself is not a physical object - it's digital data.\n\nSo the answer is clearly \"no\" - cryptocurrency is not a physical/tangible object. It's a digital asset."
+    },
+    {
+      "question_index": 2,
+      "thinking": "I need to determine if cryptocurrency is an abstract concept/idea.\n\nCryptocurrency is:\n- A digital or virtual form of currency\n- Uses cryptography for security\n- Typically operates on a decentralized system called blockchain\n- Has tangible value but no physical form\n- Functions as a medium of exchange\n\nIs it an abstract concept? Well, cryptocurrency itself is not purely abstract like \"love\" or \"justice\" would be. It has concrete implementations and specific technological underpinnings. However, it's also not a physical object as I already indicated.\n\nI think the best answer is \"yes\" with some clarification. Cryptocurrency is a digital concept with specific technological implementations, but it's not purely abstract either - it has concrete rules, implementations, and value. But in the context of the game, since it's not physical, categorizing it as an abstract concept or idea is reasonable."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me think about whether cryptocurrency is related to human emotions or feelings.\n\nCryptocurrency is:\n- A digital or virtual currency that uses cryptography for security\n- A medium of exchange\n- Often decentralized and based on blockchain technology\n- An asset class and technology concept\n\nIs cryptocurrency related to human emotions or feelings?\nWhile cryptocurrency trading and ownership can certainly evoke emotions (like excitement, fear, greed, etc.), the concept itself is not inherently about emotions or feelings. Cryptocurrency is fundamentally a technological and financial concept.\n\nCryptocurrency is primarily:\n- A technological system\n- A financial instrument\n- An economic construct\n- A method of exchange\n\nIt might indirectly relate to emotions in the sense that people feel things about their investments, but the core concept is not about emotions or feelings. The question is asking about the fundamental nature of what I'm thinking of, not the secondary reactions people might have to it.\n\nSo my answer should be \"no\" - cryptocurrency itself is not related to human emotions or feelings as its primary characteristic."
+    },
+    {
+      "question_index": 4,
+      "thinking": "The question is: \"Is it a concept related to science or mathematics?\"\n\nCryptocurrency is a digital or virtual form of currency that uses cryptography for security. Let me analyze:\n\n1. Cryptocurrencies are built on mathematical concepts, particularly cryptography, which is a branch of mathematics focused on secure communication.\n\n2. Blockchain technology, which underlies most cryptocurrencies, relies on mathematical principles and computer science.\n\n3. Mining cryptocurrencies often involves solving complex mathematical problems.\n\n4. Cryptocurrency also involves concepts from computer science, economics, and game theory.\n\nSo cryptocurrency is definitely related to mathematics (cryptography, computational problems) and computer science (which can be considered a branch of science or applied mathematics).\n\nTherefore, the accurate answer would be yes, cryptocurrency is a concept related to science or mathematics."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I need to answer whether cryptocurrency is a mathematical concept (rather than a scientific concept).\n\nCryptocurrency is definitely related to mathematics:\n- It relies heavily on cryptography, which is built on mathematical principles\n- It uses mathematical algorithms for security and verification\n- Concepts like public-key cryptography, hash functions, and consensus algorithms are all mathematical in nature\n- The mining process often involves solving mathematical puzzles\n- Blockchain, which underlies most cryptocurrencies, is a mathematical data structure\n\nWhile cryptocurrency also involves computer science, economics, and other disciplines, its core functionality is based on mathematical principles. \n\nSo I would say the answer is yes, it is primarily a mathematical concept, though it also has elements of computer science which can be considered partly mathematical and partly scientific."
+    },
+    {
+      "question_index": 6,
+      "thinking": "I need to consider whether cryptocurrency is a specific number or numerical value.\n\nCryptocurrency is a digital or virtual form of currency that uses cryptography for security. It's based on mathematical concepts and cryptographic principles, but it's not a specific number or numerical value itself. \n\nWhile cryptocurrencies involve numbers (like wallet addresses, transaction amounts, blockchain hashes, etc.), cryptocurrency as a concept is not a specific number or value. It's a broader concept/system of digital currency.\n\nSo the answer to \"Is it a specific number or numerical value?\" should be \"no.\""
+    },
+    {
+      "question_index": 7,
+      "thinking": "I need to determine if cryptocurrency is related to geometry or shapes.\n\nCryptocurrency is:\n- A digital or virtual form of currency\n- Based on cryptography for security\n- Often using blockchain technology\n- Involves mathematical concepts like cryptographic algorithms, proof-of-work/proof-of-stake, and hashing functions\n\nThe mathematical concepts involved in cryptocurrency are primarily:\n- Cryptography (secure communication techniques)\n- Distributed systems\n- Consensus algorithms\n- Number theory\n- Hash functions\n\nThese mathematical foundations don't generally involve geometry or shapes. The mathematical concepts in cryptocurrency are more related to:\n- Number theory\n- Algebra\n- Cryptography\n- Computer science algorithms\n\nWhile some visualization tools might represent blockchain or network connections in geometric ways, the core mathematical concepts of cryptocurrency are not fundamentally related to geometry or shapes.\n\nTherefore, my answer should be \"no\" - cryptocurrency as a concept is not related to geometry or shapes."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me analyze if cryptocurrency is related to algebra or equations.\n\nCryptocurrency fundamentally relies on cryptography and mathematical algorithms. These include:\n\n1. Hash functions (like SHA-256)\n2. Elliptic curve cryptography \n3. Public-key cryptography\n4. Mathematical consensus mechanisms (like Proof of Work)\n\nWhile these involve advanced mathematics, they're more closely related to:\n- Number theory\n- Cryptography\n- Discrete mathematics\n- Algorithm design\n\nAlgebra (in the traditional sense of solving equations, working with variables, etc.) is a component of the mathematics used in cryptocurrency, but cryptocurrency is not primarily an algebraic concept. The cryptographic functions involve complex mathematical operations that extend beyond traditional algebra.\n\nI should answer \"no\" here, as cryptocurrency itself isn't specifically a concept related to algebra or equations, even though some mathematical elements of cryptography do use algebraic principles. It's more specifically a digital asset/currency system built on cryptographic principles."
+    },
+    {
+      "question_index": 9,
+      "thinking": "I need to determine if cryptocurrency is related to probability or statistics.\n\nCryptocurrency does involve some statistical and probabilistic concepts:\n1. Mining cryptocurrencies like Bitcoin involves solving complex mathematical problems where probability plays a role\n2. Proof-of-work algorithms essentially involve a probabilistic process where miners compete to find a valid hash\n3. Cryptocurrency markets use statistical analysis for price predictions\n4. There are cryptographic functions that rely on probabilistic assumptions\n\nHowever, while cryptocurrency uses some concepts from probability and statistics, I wouldn't say probability/statistics are fundamental defining characteristics of cryptocurrency. Cryptocurrency is primarily defined by:\n- Digital/virtual currency\n- Use of cryptography for security\n- Decentralized control (typically via blockchain)\n- Not issued by any central authority\n\nThe connection to probability is secondary - it's in the implementation details rather than the core definition. \n\nSo while there is some relation to probability and statistics, especially in the mining processes and market analysis, it's not primarily defined by these concepts. It's more defined by cryptography, blockchain technology, and decentralized finance concepts.\n\nI should answer \"yes\" but clarify that the relationship is partial."
+    },
+    {
+      "question_index": 10,
+      "thinking": "I need to consider whether cryptocurrency is a fundamental concept in probability rather than a specific statistical technique.\n\nCryptocurrency is a digital or virtual currency that uses cryptography for security and typically operates on a decentralized system called blockchain. While cryptocurrencies do use some concepts from probability and statistics (such as in mining algorithms and cryptographic functions), cryptocurrency itself is not a fundamental concept in probability.\n\nCryptocurrency uses cryptographic algorithms which may involve probability in their security mechanisms, but cryptocurrency is:\n- Primarily a financial/technological innovation\n- A specific application of cryptography, mathematics, and computer science\n- Not considered a fundamental concept in probability theory\n- Not a statistical technique either\n\nSo the answer should be \"no\" - cryptocurrency is not a fundamental concept in probability. It's actually more of a technological and financial innovation that applies various mathematical concepts including some from probability, but it's not a concept within probability theory itself."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think about the question and determine if cryptocurrency is a statistical test or method used for analyzing data.\n\nCryptocurrency is a digital or virtual form of currency that uses cryptography for security and operates on decentralized networks based on blockchain technology. Examples include Bitcoin, Ethereum, etc.\n\nIs cryptocurrency a statistical test or method used for analyzing data? \n\nNo, cryptocurrency is not a statistical test or method for analyzing data. While cryptocurrency systems may use statistical concepts and cryptographic algorithms, and data analysis might be performed on cryptocurrency markets, the cryptocurrency itself is not a statistical test or method.\n\nCryptocurrency is more accurately described as:\n- A digital asset/currency\n- A financial technology\n- A decentralized payment system\n- An application of cryptography and blockchain\n\nSo the answer should be \"no\"."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about whether cryptocurrency is a measure of central tendency or spread in statistics.\n\nMeasures of central tendency in statistics include things like:\n- Mean (average)\n- Median\n- Mode\n\nMeasures of spread in statistics include:\n- Variance\n- Standard deviation\n- Range\n- Interquartile range\n\nCryptocurrency is not a statistical concept at all. It's a digital or virtual currency that uses cryptography for security. Examples include Bitcoin, Ethereum, etc. It's not a measure used in statistics.\n\nI think I answered \"yes\" to the question about it being related to probability or statistics because cryptocurrency does involve cryptographic algorithms that rely on mathematical concepts that can be related to probability in some sense (hash functions, etc.). But cryptocurrency itself is not a statistical measure.\n\nSo the answer should be \"no\" - cryptocurrency is not a measure of central tendency or spread in statistics."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me think about this carefully. The item I'm thinking of is \"cryptocurrency\".\n\nThe question is: \"Is it a type of probability distribution?\"\n\nA cryptocurrency is:\n- A digital or virtual currency that uses cryptography for security\n- A decentralized form of currency not issued by any central authority\n- Based on blockchain technology\n- Examples include Bitcoin, Ethereum, etc.\n\nA probability distribution is a mathematical function that provides the probabilities of occurrence of different possible outcomes for an experiment.\n\nCryptocurrency is not a type of probability distribution. While cryptocurrencies may involve some probabilistic elements in their mining algorithms and security mechanisms, the concept itself is not a probability distribution.\n\nSo my answer should be:"
+    },
+    {
+      "question_index": 14,
+      "thinking": "I need to determine if cryptocurrency is related to randomness or chance.\n\nCryptocurrency does involve certain elements of randomness and chance:\n1. Mining often involves solving complex mathematical puzzles that have an element of chance in terms of which miner finds the solution first\n2. Proof-of-work systems rely on random nonce values to generate valid hashes\n3. Many cryptographic algorithms used in cryptocurrencies rely on random number generation\n4. There is randomness in market behavior and price fluctuations\n\nHowever, cryptocurrencies themselves are deterministic systems built on cryptography, mathematics, and computer science. While they employ randomness in their operation, they are not fundamentally concepts about randomness or chance themselves.\n\nCryptocurrency is primarily a digital currency system based on blockchain technology, cryptography, and decentralized networks. The core concept is not about randomness, though randomness is utilized in implementation.\n\nSo while randomness is a component used in cryptocurrency systems, cryptocurrency itself is not a concept that's primarily about randomness or chance."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let me think about whether cryptocurrency is related to calculating the likelihood of an event.\n\nCryptocurrency does involve some probabilistic concepts, particularly in mining processes where computers solve complex mathematical problems. However, cryptocurrency itself is not directly about calculating the likelihood of events.\n\nCryptocurrency is:\n- A digital or virtual currency that uses cryptography for security\n- Often based on blockchain technology\n- Decentralized and typically not issued by any central authority\n- Involves mining (for many cryptocurrencies) which uses computational power to solve mathematical problems\n\nThe mining process does involve finding solutions to cryptographic puzzles, which has a random/probabilistic element, but cryptocurrency as a concept is not fundamentally about calculating likelihoods or probabilities of events.\n\nSo the answer should be no. Cryptocurrency relates to cryptography, digital assets, and blockchain technology, not to calculating event likelihoods."
+    },
+    {
+      "question_index": 16,
+      "thinking": "I'm thinking of 'cryptocurrency'. The player is asking if it's a concept used in game theory or decision making under uncertainty.\n\nCryptocurrency does involve aspects of decision making under uncertainty (investing, mining, etc.) and some game theoretical concepts do apply to cryptocurrency networks (like incentive structures for miners and validators). However, cryptocurrency itself is not primarily a concept from game theory or decision theory.\n\nCryptocurrency is a digital or virtual currency that uses cryptography for security and typically operates on a decentralized system called a blockchain. While game theory principles are used in analyzing cryptocurrency systems and protocols, cryptocurrency itself is not fundamentally a game theory concept.\n\nSo the most accurate answer would be:"
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me think about whether cryptocurrency is related to simulations or the Monte Carlo method.\n\nCryptocurrency:\n- Cryptocurrency is a digital or virtual currency that uses cryptography for security\n- It typically uses blockchain technology to record transactions\n- It often involves mathematical concepts like cryptographic hash functions, digital signatures, and consensus algorithms\n- The mining process in many cryptocurrencies involves solving complex mathematical problems as a proof-of-work\n\nMonte Carlo method:\n- A computational algorithm that relies on repeated random sampling to obtain numerical results\n- Used for optimization, numerical integration, and generating draws from probability distributions\n- Used to model phenomena with significant uncertainty in inputs\n\nWhile cryptocurrency mining does involve computational processes and randomness in the sense that miners are trying to find specific hash values, it doesn't specifically use Monte Carlo simulations or methods. The mining process is more about brute-force hash calculations rather than simulations or random sampling to estimate probabilities.\n\nSome blockchain projects might use Monte Carlo simulations for testing or optimization purposes, but this isn't a defining or core characteristic of cryptocurrency.\n\nSo cryptocurrency is not directly related to simulations or the Monte Carlo method in its core definition or operation."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let me think about whether cryptocurrency is a random variable or related to the concept of random variables.\n\nA random variable is a variable whose value is subject to variations due to chance or randomness. It's a function that maps outcomes of a random phenomenon to numerical values.\n\nCryptocurrency itself is not a random variable in the statistical sense. While the price or value of cryptocurrency can fluctuate randomly and could be modeled as a random variable, the concept of cryptocurrency itself is:\n- A digital or virtual currency\n- Uses cryptography for security\n- Typically operates on decentralized blockchain technology\n- Not controlled by central authorities\n\nThe concept of cryptocurrency doesn't directly map to being a random variable, though certain aspects of cryptocurrency (like price movements, mining outcomes, etc.) can be treated as random variables for analysis purposes.\n\nSo my answer should be \"no\" - cryptocurrency itself is not a random variable, though its behavior in markets might be analyzed using random variable concepts."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me think about whether cryptocurrency is related to expected value.\n\nExpected value is a concept in probability that represents the long-run average outcome of a random process. It's a weighted average of all possible outcomes, with the weights being the probabilities of each outcome.\n\nCryptocurrency has some relationship to probability and randomness, particularly in:\n1. Mining processes which often involve solving complex mathematical problems with elements of randomness\n2. Price fluctuations and market behavior which have probabilistic components\n3. Some investors might use expected value calculations when deciding whether to invest in cryptocurrencies\n\nHowever, expected value is not a core defining characteristic of cryptocurrency. Cryptocurrency is fundamentally a digital or virtual currency that uses cryptography for security and operates on decentralized networks (typically blockchain).\n\nWhile investors might use expected value calculations when deciding whether to buy/sell cryptocurrencies, this is true of many investments and isn't specific to or defining of cryptocurrency.\n\nSo while there's some relation, it's not a strong or direct relationship. I'll answer \"no\" since expected value isn't a fundamental or defining aspect of cryptocurrency."
+    },
+    {
+      "question_index": 20,
+      "thinking": "I need to determine if cryptocurrency is related to entropy or information theory.\n\nCryptocurrency does use cryptography, which has connections to information theory. In particular, cryptographic hash functions aim to maximize entropy in their outputs, and information theory concepts like entropy are important in analyzing the security of cryptographic systems.\n\nAdditionally, proof-of-work systems in cryptocurrencies like Bitcoin involve finding inputs that produce outputs with specific entropy-related properties (like having a certain number of leading zeros in a hash).\n\nHowever, while there are connections to entropy and information theory, I wouldn't say that cryptocurrency is primarily or directly related to these concepts. Cryptocurrency is more directly related to:\n- Cryptography\n- Distributed ledger technology\n- Digital assets/money\n- Blockchain technology\n- Consensus mechanisms\n\nThe connection to entropy and information theory exists but is somewhat indirect - they are used in the cryptographic foundations that make cryptocurrencies possible.\n\nGiven this, I think the most accurate answer is \"yes\" with a clarification that while cryptocurrency relies on cryptographic principles that have connections to entropy and information theory, they are not the defining or primary characteristics of cryptocurrency."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 45,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1146,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1752,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2378,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3025,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3698,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4386,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5095,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5851,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6623,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7425,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8247,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9091,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 9949,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 10831,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 11734,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 12664,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 13614,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 14590,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 15582,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 16619,
+      "output_tokens": 28,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 269,
+      "output_tokens": 150,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 287,
+      "output_tokens": 231,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 306,
+      "output_tokens": 255,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 326,
+      "output_tokens": 207,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 349,
+      "output_tokens": 203,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 368,
+      "output_tokens": 139,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 388,
+      "output_tokens": 219,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 408,
+      "output_tokens": 227,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 426,
+      "output_tokens": 293,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 450,
+      "output_tokens": 227,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 472,
+      "output_tokens": 187,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 494,
+      "output_tokens": 210,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 512,
+      "output_tokens": 168,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 533,
+      "output_tokens": 258,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 554,
+      "output_tokens": 204,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 578,
+      "output_tokens": 187,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 600,
+      "output_tokens": 263,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 624,
+      "output_tokens": 219,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 644,
+      "output_tokens": 251,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 663,
+      "output_tokens": 284,
+      "total_tokens": 0
+    }
+  ]
+}

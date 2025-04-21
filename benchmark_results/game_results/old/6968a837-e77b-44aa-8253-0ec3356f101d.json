@@ -1,0 +1,38 @@
+{
+  "game_id": "6968a837-e77b-44aa-8253-0ec3356f101d",
+  "timestamp": "2025-03-21T01:33:51.708532",
+  "questioner_provider": "openai",
+  "questioner_model": "gpt-4o",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "penguin",
+  "category": "animals",
+  "questions": [
+    "Is the entity you are thinking of a living thing?",
+    "Question 2: Is the entity you are thinking of a human?",
+    "Question 3: Is the entity you are thinking of an animal?",
+    "Question 4: Does the animal you are thinking of live primarily in water?",
+    "Question 5: Is the animal you are thinking of a mammal?",
+    "Question 6: Does the animal you are thinking of have feathers?",
+    "Question 7: Can the animal you are thinking of fly?",
+    "Question 8: Is the animal you are thinking of commonly associated with water environments, like wetlands or marshes?",
+    "Question 9: Is the animal you are thinking of a flightless bird typically found in the Southern Hemisphere?",
+    "Is the animal you are thinking of a penguin?"
+  ],
+  "answers": [
+    "Yes",
+    "No",
+    "Yes",
+    "I don't know. I don't know",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: penguin"
+  ],
+  "question_count": 10,
+  "final_guess": "penguin",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,41 @@
+{
+  "game_id": "72dd5434-ce08-49d7-b582-824d6e4fd27c",
+  "timestamp": "2025-03-21T21:37:23.252817",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a man-made object (as opposed to naturally occurring)?",
+    "Is it alive or was once alive (organic material)?",
+    "Is it currently alive (as opposed to dead or formerly living material)?",
+    "Is it derived from the plant kingdom (as opposed to the animal kingdom)?",
+    "Is it something commonly used by humans for some purpose (food, construction, decoration, etc.)?",
+    "Is it primarily used as food or an ingredient in food?",
+    "Is it a fruit (in the culinary sense)?",
+    "Does it grow on trees (as opposed to vines, bushes, or other plants)?",
+    "Is it typically red when ripe?",
+    "Is it round/spherical in shape?",
+    "<guess>Apple</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 12,
+  "final_guess": "Apple",
+  "success": true,
+  "max_questions": 20
+}

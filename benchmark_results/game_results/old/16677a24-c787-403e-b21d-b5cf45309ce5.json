@@ -1,0 +1,41 @@
+{
+  "game_id": "16677a24-c787-403e-b21d-b5cf45309ce5",
+  "timestamp": "2025-03-21T21:11:42.813900",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it larger than a microwave oven?",
+    "Is it a natural object (not manufactured by humans)?",
+    "Is it something you would find outdoors in nature (rather than typically inside a building)?",
+    "Is it a living thing or part of a living thing?",
+    "Is it part of a plant (rather than an animal)?",
+    "Is it a fruit or vegetable that people commonly eat?",
+    "Is it typically round in shape?",
+    "Is it primarily red when ripe?",
+    "Does it grow on a tree (rather than a bush, vine, or other plant)?",
+    "Is it commonly eaten raw (rather than typically cooked)?",
+    "<guess>APPLE</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Maybe.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Maybe.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 12,
+  "final_guess": "APPLE",
+  "success": true,
+  "max_questions": 20
+}

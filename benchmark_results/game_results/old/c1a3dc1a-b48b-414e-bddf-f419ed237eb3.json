@@ -1,0 +1,38 @@
+{
+  "game_id": "c1a3dc1a-b48b-414e-bddf-f419ed237eb3",
+  "timestamp": "2025-03-21T21:46:26.581239",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it alive or of organic origin (was once alive)?",
+    "Is it currently alive (as opposed to something that was once alive but is now a product/material)?",
+    "Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Is it a vertebrate (animal with a backbone/spine)?",
+    "Is it a mammal?",
+    "Is it a domestic animal (commonly kept as a pet or livestock)?",
+    "Is it commonly kept as a pet (as opposed to primarily being kept as livestock)?",
+    "Is it larger than a typical house cat when fully grown?",
+    "Is it a dog (any breed)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT!"
+  ],
+  "question_count": 10,
+  "final_guess": "dog",
+  "success": true,
+  "max_questions": 20
+}

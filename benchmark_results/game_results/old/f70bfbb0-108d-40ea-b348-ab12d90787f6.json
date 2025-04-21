@@ -1,0 +1,38 @@
+{
+  "game_id": "f70bfbb0-108d-40ea-b348-ab12d90787f6",
+  "timestamp": "2025-03-21T14:42:37.336331",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "I'll start with a fundamental question to divide possibilities efficiently.\n\nQuestion 1: Is it a physical, tangible object?",
+    "Question 2: Is it something that is alive or was once alive (organic in nature)?",
+    "Question 3: Is it currently alive (as opposed to something that was once alive but has been processed, preserved, or is now dead)?",
+    "Question 4: Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Question 5: Is it a vertebrate (an animal with a backbone, like mammals, birds, reptiles, fish, or amphibians)?",
+    "Question 6: Is it a mammal (animals that typically have hair/fur and produce milk for their young)?",
+    "Question 7: Is it a domesticated mammal (one that commonly lives with or is kept by humans, as opposed to a wild mammal)?",
+    "Question 8: Is it a large domesticated mammal (such as a horse, cow, or sheep) as opposed to a smaller pet like a cat or dog?",
+    "Question 9: Is it a canine (such as a dog, wolf, or fox family member)?",
+    "Question 10: Is it a domestic dog (Canis familiaris) rather than another domesticated canine like a fox?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "CORRECT! You've guessed dog."
+  ],
+  "question_count": 10,
+  "final_guess": "dog",
+  "success": true,
+  "max_questions": 20
+}

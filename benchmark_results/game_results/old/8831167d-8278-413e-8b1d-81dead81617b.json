@@ -1,0 +1,35 @@
+{
+  "game_id": "8831167d-8278-413e-8b1d-81dead81617b",
+  "timestamp": "2025-03-21T00:44:24.195750",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "table",
+  "category": "common_objects",
+  "questions": [
+    "Question 1: Is the entity you're thinking of a living thing?",
+    "Question 2: Is the entity you're thinking of man-made?",
+    "Question 3: Is the entity you're thinking of an electronic device?",
+    "Question 4: Is the entity you're thinking of typically found in a household?",
+    "Question 5: Is the entity primarily used in the kitchen?",
+    "",
+    "",
+    "Question 7: For the new entity, is it a living thing?",
+    "Alright, I'll make my final guess."
+  ],
+  "answers": [
+    "No. It is not a living thing.",
+    "Yes. It is man-made.",
+    "No. It is not an electronic device.",
+    "Yes. It is typically found in a household.",
+    "No. While tables can be found in kitchens, they are not primarily used only in kitchens. They are common in many rooms of a house.",
+    "I apologize, but I notice that in Question 5, I accidentally revealed the entity I'm thinking of (table). This was a mistake on my part. Since the entity has been revealed, we should either restart the game with a new entity",
+    "I apologize for my error in the previous response. You're right to point this out.\n\nSince the entity \"table\" was accidentally revealed, we should restart the game with a new entity. Would you like me to think of something new,",
+    "I apologize for the confusion, but we should continue with the original entity \"table\" since that was the assigned entity for this game. Let me properly answer the current question.\n\nNo. It is not a living thing."
+  ],
+  "question_count": 9,
+  "final_guess": "table.",
+  "success": true,
+  "max_questions": 20
+}

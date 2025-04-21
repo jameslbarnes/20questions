@@ -1,0 +1,24 @@
+{
+  "game_id": "5933581f-ac90-4567-9ba5-03cff272c67a",
+  "timestamp": "2025-03-21T10:03:33.046484",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object (as opposed to something naturally occurring)?",
+    "Question 3: Is it larger than a microwave oven?"
+  ],
+  "answers": [
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 3,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

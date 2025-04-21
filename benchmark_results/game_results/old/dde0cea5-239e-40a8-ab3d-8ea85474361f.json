@@ -1,0 +1,36 @@
+{
+  "game_id": "dde0cea5-239e-40a8-ab3d-8ea85474361f",
+  "timestamp": "2025-03-21T01:04:34.034086",
+  "questioner_provider": "openai",
+  "questioner_model": "o3-mini",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "book",
+  "category": "common_objects",
+  "questions": [
+    "My first question: Is the entity you're thinking of a living thing?",
+    "Question 2: Is the entity you're thinking of a man-made object?",
+    "Question 3: Does the object require electricity to function?",
+    "Question 4: Is the object you're thinking of commonly found in a household?",
+    "Question 5: Is the object you're thinking of primarily used in the kitchen?",
+    "Question 6: Is the object you're thinking of a piece of furniture?",
+    "Question 7: Is the object you're thinking of typically handheld?",
+    "Question 8: Is the object primarily used for reading?",
+    "Question 9: Is the object you're thinking of a bound collection of pages, like a book?"
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: book"
+  ],
+  "question_count": 9,
+  "final_guess": "book",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,452 @@
+{
+  "game_id": "2f705fa3-77a3-4b58-8b80-2dafad730681",
+  "timestamp": "2025-03-22T13:18:59.402698",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Beethoven",
+  "category": "people",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a concept or idea (something that exists primarily in the mind)?",
+    "Is it an action, event, or process that occurs over time?",
+    "Is it something digital or virtual (like software, a website, or digital media)?",
+    "Is it a place or location?",
+    "Is it a person (real or fictional)?",
+    "Is this person a real (non-fictional) person?",
+    "Is this person currently alive?",
+    "Did this person die within the last 100 years?",
+    "Was this person male?",
+    "Was this person primarily known as a political or military leader?",
+    "Was this person known primarily for scientific, academic, or intellectual achievements?",
+    "Was this person known primarily for artistic or creative achievements (art, music, literature, etc.)?",
+    "Was this person primarily known as a writer or poet?",
+    "Was this person primarily known as a painter, sculptor, or other visual artist?",
+    "Was this person primarily known as a musician or composer?",
+    "Was this person from the Classical period (approximately 1750-1820)?",
+    "Is this composer widely known for his nine symphonies?",
+    "<guess>Ludwig van Beethoven</guess>"
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 19,
+  "final_guess": "Ludwig van Beethoven",
+  "success": true,
+  "max_questions": 20,
+  "questioner_thinking": [
+    {
+      "question_index": 0,
+      "thinking": "I'm playing 20 Questions, and I need to identify what the answerer is thinking through yes/no questions. I should start with the broadest possible divisions to narrow down the possibilities efficiently.\n\nFor my first question, I want to establish whether we're dealing with something physical/tangible or something abstract/conceptual. This is a fundamental division that will help shape my subsequent questions.\n\nQuestion 1: Is it physical/tangible?"
+    },
+    {
+      "question_index": 1,
+      "thinking": "Alright, so I've learned that the answer is not a physical/tangible object. This means it's something abstract, conceptual, theoretical, or non-material. This could include:\n\n- Emotions or feelings (love, happiness, fear)\n- Ideas or concepts (democracy, justice, time)\n- Processes or activities (meditation, running, thinking)\n- Cultural phenomena (holiday, tradition, language)\n- Digital/virtual entities (software, website, cryptocurrency)\n- Theories or fields of study (quantum physics, philosophy)\n\nI should continue with broad questions to further narrow down the category.\n\nMy next question should determine if it's something that exists in people's minds (conceptual) or something that has some other form of non-physical existence."
+    },
+    {
+      "question_index": 2,
+      "thinking": "So far I know:\n- It's not a physical/tangible object\n- It's not a concept or idea that exists primarily in the mind\n\nThis narrows things down considerably. If it's not physical and not a concept, it could be:\n- An event or occurrence\n- A process or activity\n- A fictional entity\n- A digital or virtual entity\n- A phenomenon (like light, sound, etc.)\n- An emotion or feeling\n- A relationship between entities\n- A state of being\n\nLet me try to narrow this down further by asking about whether it's an action or event that occurs in time."
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me analyze what we know so far:\n- Not a physical/tangible object\n- Not a concept or idea\n- Not an action, event, or process\n\nThis is interesting and somewhat challenging. If it's not physical, not conceptual, and not an action/event, I need to think about what major categories remain.\n\nPossible categories that might still fit:\n1. Digital/virtual entities (software, websites, virtual spaces)\n2. Fictional characters or entities\n3. Media/content (music, stories, art in abstract)\n4. Relationships or connections between things\n5. Places (though these might be considered physical)\n6. Phenomena (natural or supernatural)\n7. Emotions or sensations\n8. Systems or networks\n\nLet me try to narrow this down further by asking if it exists in the digital/virtual realm."
+    },
+    {
+      "question_index": 4,
+      "thinking": "I'm trying to understand what this could be. So far I know:\n- Not a physical/tangible object\n- Not a concept or idea\n- Not an action, event, or process\n- Not something digital or virtual\n\nThis is challenging because I've eliminated many major categories. Let me think about what remains:\n\n- Could it be a place or location?\n- Could it be a fictional character or entity?\n- Could it be a sensation or feeling?\n- Could it be a relationship between things?\n- Could it be a state of being?\n- Could it be a sound or musical element?\n- Could it be something supernatural or imaginary?\n\nI'll ask about places first, as that's a significant category I haven't ruled out yet."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I've eliminated several major categories:\n- Not a physical/tangible object\n- Not a concept or idea\n- Not an action, event, or process\n- Not something digital or virtual\n- Not a place or location\n\nLet me think about what else it could be:\n1. A person (real or fictional)\n2. A fictional character\n3. A feeling or emotion\n4. A time period\n5. A language or form of communication\n6. A relationship or connection between things\n7. A sensory experience\n8. A sound or type of sound\n9. A work of art/media (movie, book, song, etc.)\n10. A measure or unit (like time, distance, etc.)\n11. A state of being\n\nI should try to further narrow down these possibilities."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Great! Now I know it's a person (real or fictional). I need to narrow this down further. I should try to establish:\n1. Real vs. fictional\n2. Time period (modern vs. historical)\n3. Category (political figure, entertainer, athlete, etc.)\n\nLet me start by determining if they're real or fictional, as that will significantly narrow my search space."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Great, we're narrowing things down. So far I know:\n- It's a person\n- The person is real (non-fictional)\n\nNow I should try to further narrow down the category of person. I'll try to divide the space of real people in half. I could ask:\n- Is this person alive today?\n- Is this person male/female?\n- Is this person famous/well-known?\n- Is this person from a particular time period?\n- Is this person known for a particular field/profession?\n\nI think asking if the person is currently alive would be a good next question, as it immediately cuts the possibility space in half."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let's analyze what we know so far:\n- It's a person (not an object, concept, event, digital entity, or place)\n- The person is real (not fictional)\n- The person is not currently alive\n\nThis narrows things down considerably but still leaves many possibilities across history. I should try to narrow down the time period and perhaps their field of prominence.\n\nMy next questions should aim to:\n1. Determine a rough time period (ancient, medieval, modern)\n2. Determine their field or why they were known\n3. Determine their gender\n4. Determine their nationality or region\n\nLet me ask about the time period first, as this could significantly narrow the search space."
+    },
+    {
+      "question_index": 9,
+      "thinking": "So I've established that:\n- It is a person (not a physical object, concept, action, digital thing, or place)\n- The person is real (non-fictional)\n- The person is not currently alive\n- The person died more than 100 years ago (before 1924 approximately)\n\nThis narrows it down to historical figures who died before the early 20th century. I should try to divide the remaining possibilities efficiently.\n\nGood dividing questions could be:\n1. Gender (male/female)\n2. Geographic region (Western/Eastern world, or specific continents)\n3. Famous for what field (politics/science/arts/military/religion)\n4. Time period (ancient history vs. medieval vs. early modern)\n\nGender would be a good dividing question as it roughly splits the search space in half, especially for historical figures where men tended to be more frequently recorded in history."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let's analyze what we know so far:\n- It's a real (non-fictional) person\n- Male\n- Not currently alive\n- Died more than 100 years ago\n\nThis narrows it down considerably, but there are still many historical figures who fit this description. I need to narrow down further.\n\nI should try to determine their significance or domain of influence. Major categories could include:\n- Political/military leaders\n- Scientists/inventors\n- Artists/writers\n- Religious figures\n- Explorers/adventurers\n- Philosophers\n\nA good split would be to first determine if they were primarily known for political/military leadership versus other domains, as this might divide the historical figures roughly in half."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me summarize what I know so far:\n- It's a person (not an object, concept, event, digital entity, or place)\n- The person is real (not fictional)\n- The person is no longer alive\n- The person died more than 100 years ago\n- The person was male\n- The person was not primarily known as a political or military leader\n\nThis narrows down the field considerably. I should focus on determining what field or area this person was known for. The major categories for historical figures might include:\n- Scientists and inventors\n- Artists, writers, and musicians\n- Philosophers and religious figures\n- Explorers and adventurers\n\nLet me ask about whether this person was known for scientific or intellectual achievements first, as that covers a broad category of historical figures."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me review what I know so far:\n- It's a person (not an object, concept, event, digital entity, or place)\n- Real/non-fictional person\n- Not currently alive\n- Died more than 100 years ago\n- Male\n- Not primarily known as a political/military leader\n- Not primarily known for scientific/academic/intellectual achievements\n\nThis narrows it down quite a bit. If the person isn't known primarily for political/military leadership or scientific/intellectual achievements, I should consider other major categories of historical figures:\n\n- Religious figures (prophets, saints, religious leaders)\n- Artists (painters, sculptors, architects)\n- Writers/poets/philosophers\n- Explorers/adventurers\n- Entertainers/performers of some kind\n- Business/commercial figures\n\nGiven that the person died more than 100 years ago, I should focus on categories that were prominent in pre-modern times. Let me ask about artistic or creative achievements next."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let's analyze what we know:\n- A real person (not fictional)\n- Male\n- Not alive\n- Died more than 100 years ago\n- Not primarily known as a political/military leader\n- Not primarily known for scientific/academic/intellectual achievements\n- Known primarily for artistic or creative achievements\n\nThis narrows it down quite a bit. I should focus on determining what type of artistic field he was in, and then possibly narrow down the time period more precisely.\n\nSome possibilities include:\n- Writers/poets (Shakespeare, Dante, etc.)\n- Painters/sculptors (Michelangelo, Da Vinci, Rembrandt, etc.)\n- Composers (Mozart, Bach, Beethoven, etc.)\n- Architects (from ancient times)\n\nLet me first determine the artistic domain:"
+    },
+    {
+      "question_index": 14,
+      "thinking": "Let me analyze what I know so far:\n- A real person (not fictional)\n- Male\n- Not currently alive\n- Died more than 100 years ago\n- Not primarily known as political/military leader\n- Not primarily known for scientific/academic/intellectual achievements\n- Known primarily for artistic/creative achievements\n- Not primarily a writer or poet\n\nThis suggests they were likely known for other art forms like:\n- Visual arts (painting, sculpture)\n- Music (composer, musician)\n- Theater/drama\n- Architecture\n\nThese are the most likely categories. Let me ask about visual arts first since that's a major category of creative achievement from historical figures."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let's analyze what I know:\n- A real (non-fictional) person\n- Male\n- No longer alive, died more than 100 years ago\n- Known primarily for artistic/creative achievements\n- Not a writer/poet\n- Not a painter/sculptor/visual artist\n\nGiven these constraints, the person is likely a musician or composer from before the 20th century. Famous composers from that era include Bach, Mozart, Beethoven, Handel, Chopin, etc.\n\nLet me narrow this down further by asking about whether they were a musician/composer."
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let's think about what we know so far:\n- A real, non-fictional person\n- Male\n- Not alive\n- Died more than 100 years ago\n- Known primarily for artistic achievements\n- Specifically as a musician or composer\n\nThis points to a classical composer. Famous classical composers who died more than 100 years ago include:\n- Johann Sebastian Bach (died 1750)\n- Wolfgang Amadeus Mozart (died 1791)\n- Ludwig van Beethoven (died 1827)\n- Franz Schubert (died 1828)\n- Fr\u00e9d\u00e9ric Chopin (died 1849)\n- Robert Schumann (died 1856)\n- Franz Liszt (died 1886)\n- Pyotr Ilyich Tchaikovsky (died 1893)\n\nLet me ask if this person was from a specific time period to narrow it down."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Let me analyze what I know so far:\n- The person is a real male composer from the Classical period (1750-1820) who is no longer alive and died more than 100 years ago.\n\nThe most famous Classical period composers who fit this description would include:\n1. Wolfgang Amadeus Mozart (1756-1791)\n2. Ludwig van Beethoven (1770-1827)\n3. Joseph Haydn (1732-1809)\n4. Franz Schubert (1797-1828)\n\nAmong these, Mozart and Beethoven are the most widely recognized. I think I have enough information to make a reasonable guess, but I'll ask one more question to help narrow it down further."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Based on the information gathered, I have strong evidence to make a confident guess:\n\n1. A real, non-fictional person who is no longer alive\n2. Male\n3. Died more than 100 years ago\n4. Known primarily for artistic/creative achievements\n5. Specifically a musician/composer\n6. From the Classical period (1750-1820)\n7. Known for his nine symphonies\n\nThe most famous composer matching these criteria is Ludwig van Beethoven. He lived from 1770-1827, which places him squarely in the Classical period. He's especially famous for his nine symphonies, particularly the 5th and 9th symphonies. The 9th symphony (\"Choral\") with the \"Ode to Joy\" is particularly renowned.\n\nI'm very confident (>90%) that the answer is Beethoven, so I'll make my guess now rather than asking another question."
+    }
+  ],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "The question is asking if Beethoven is a physical/tangible object.\n\nLudwig van Beethoven was a person - specifically a German composer and pianist who lived from 1770 to 1827. People are not considered \"objects\" - they are human beings. While his physical body existed, when we refer to \"Beethoven\" in this context, we're referring to a historical person, not an object.\n\nAdditionally, \"Beethoven\" could refer to:\n- His musical works/compositions\n- Books about him\n- Recordings of his music\n- Portraits or statues of him\n\nBut the primary reference is to the person himself, and people are not objects.\n\nSo the answer should be no."
+    },
+    {
+      "question_index": 2,
+      "thinking": "The player is asking if Beethoven is a concept or idea that exists primarily in the mind.\n\nBeethoven refers to Ludwig van Beethoven, who was a real historical person - a German composer and pianist who lived from 1770 to 1827. He was a famous classical composer who created many renowned musical works like the Fifth Symphony, the Ninth Symphony (with the \"Ode to Joy\"), Moonlight Sonata, and many others.\n\nSince Beethoven was a real human being who physically existed, he is not primarily a concept or idea that exists in the mind. He was a real historical figure.\n\nSo my answer should be:"
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me think about whether Beethoven can be classified as an action, event, or process that occurs over time.\n\nBeethoven refers to Ludwig van Beethoven, who was a famous classical composer and pianist from the late 18th to early 19th century. He was a person, not an action, event, or process.\n\nSo my answer should be:"
+    },
+    {
+      "question_index": 4,
+      "thinking": "I need to determine if Ludwig van Beethoven can be considered something digital or virtual.\n\nBeethoven was a famous German composer and pianist who lived from 1770 to 1827. He was a real historical person, not a digital or virtual entity. While there may be digital representations of Beethoven's music, recordings, or digital content about him, Beethoven himself is not inherently digital or virtual.\n\nSo the answer to whether Beethoven is something digital or virtual is clearly no."
+    },
+    {
+      "question_index": 5,
+      "thinking": "The question is asking if what I'm thinking of (Beethoven) is a place or location.\n\nBeethoven refers to Ludwig van Beethoven, who was a famous German composer and pianist. Beethoven is a person, specifically a historical figure, not a place or location. \n\nThere are some places named after Beethoven (like concert halls or streets), but the primary reference of \"Beethoven\" is to the person, not to any place.\n\nSo the answer to whether Beethoven is a place or location is clearly no."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me think about the question \"Is it a person (real or fictional)?\"\n\nI am thinking of Beethoven, who was a real person - Ludwig van Beethoven, the famous German composer who lived from 1770 to 1827. He is one of the most famous and influential composers of Western classical music.\n\nSince Beethoven was a real person, the answer to this question is clearly yes."
+    },
+    {
+      "question_index": 7,
+      "thinking": "The question is asking whether the person I'm thinking of (Beethoven) is a real, non-fictional person.\n\nLudwig van Beethoven (1770-1827) was a real historical figure, a German composer and pianist who is considered one of the most influential and significant composers of all time. He was definitely a real person who lived, not a fictional character.\n\nSo the answer to this question is clearly yes."
+    },
+    {
+      "question_index": 8,
+      "thinking": "The question is asking whether Beethoven is currently alive.\n\nLudwig van Beethoven was a famous German composer and pianist who lived from 1770 to 1827. He died almost 200 years ago, so he is definitely not alive today.\n\nThe correct answer is clearly \"no\"."
+    },
+    {
+      "question_index": 9,
+      "thinking": "I need to determine if Ludwig van Beethoven died within the last 100 years.\n\nBeethoven was born in December 1770 and died on March 26, 1827.\n\nIt is now 2023, so 100 years ago would be 1923.\nBeethoven died in 1827, which is almost 200 years ago, well beyond the 100-year timeframe asked about.\n\nSo my answer should be \"no\" - Beethoven did not die within the last 100 years."
+    },
+    {
+      "question_index": 10,
+      "thinking": "I'm thinking of Beethoven, and the player is asking if this person was male.\n\nLudwig van Beethoven was indeed a male composer. He was born in 1770 and died in 1827. \n\nSo the answer to \"Was this person male?\" is yes."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me think through this question carefully. \n\nThe person I'm thinking of is Ludwig van Beethoven, the famous classical composer who lived from 1770 to 1827.\n\nThe question asks if Beethoven was primarily known as a political or military leader.\n\nBeethoven was not a political leader - he never held political office or led a political movement. He had some political views and admired certain revolutionary ideals, but he was not primarily known for politics.\n\nBeethoven was also not a military leader - he never served in the military in a leadership capacity or led troops in battle.\n\nBeethoven was primarily known as a composer and musician. His main contribution to the world was his music compositions, including his symphonies, piano sonatas, and other classical works.\n\nSo the answer to \"Was this person primarily known as a political or military leader?\" is clearly no."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about whether Ludwig van Beethoven was primarily known for scientific, academic, or intellectual achievements.\n\nBeethoven (1770-1827) was one of the most famous and influential composers in Western classical music. He was a musical genius who composed symphonies, concertos, sonatas, string quartets, and one opera.\n\nWhile he was certainly intellectually gifted and his compositions show tremendous musical intellect and innovation, he is not primarily categorized as a scientist, academic, or intellectual in the usual sense of these terms. He's primarily known as a composer and musician - an artist.\n\nHis achievements were in the realm of art and music rather than science or traditional academic fields. He didn't work in research, wasn't primarily an educator, and wasn't known for scientific discoveries or academic publications.\n\nSo the answer to \"Was this person known primarily for scientific, academic, or intellectual achievements?\" should be:"
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let's think about whether Beethoven was known primarily for artistic or creative achievements:\n\nLudwig van Beethoven (1770-1827) was one of the most famous and influential composers of classical music. He was renowned for his piano sonatas, symphonies, concertos, string quartets, and other compositions. His works are considered masterpieces of classical music and he bridged the Classical and Romantic eras in Western classical music.\n\nBeethoven's contribution to art and music is enormous - he is considered one of the greatest composers of all time. His artistic and creative achievements in music are what he is primarily known for.\n\nSo the answer to whether Beethoven was known primarily for artistic or creative achievements is definitely yes."
+    },
+    {
+      "question_index": 14,
+      "thinking": "I need to answer whether Beethoven was primarily known as a writer or poet.\n\nLudwig van Beethoven was a German composer and pianist who lived from 1770 to 1827. He is widely regarded as one of the greatest composers in the history of Western music. Beethoven is known for his symphonies, piano concertos, string quartets, piano sonatas, and other compositions.\n\nWhile Beethoven did write (letters, journals, etc.) and some of his writing has been published and studied, he was not primarily known as a writer or poet. His primary claim to fame and his primary professional identity was as a composer and musician.\n\nSo the answer to whether Beethoven was primarily known as a writer or poet is clearly \"no.\""
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let's think about who Beethoven was:\n\nLudwig van Beethoven was a German composer and pianist who lived from 1770 to 1827. He is widely regarded as one of the greatest and most influential composers of all time. He was primarily known for his musical compositions including symphonies, concertos, sonatas, string quartets, and one opera.\n\nWas Beethoven primarily known as a painter, sculptor, or other visual artist?\nNo, Beethoven was not primarily known as a visual artist of any kind. He was primarily known as a composer and musician. His primary field was music composition, not visual arts.\n\nSo I should answer \"no\" to this question."
+    },
+    {
+      "question_index": 16,
+      "thinking": "I'm thinking of Beethoven, who was one of history's most famous composers and musicians. \n\nThe question asks if the person I'm thinking of was primarily known as a musician or composer. Ludwig van Beethoven was certainly primarily known as a composer of classical music, and also as a pianist. His compositions include 9 symphonies, 32 piano sonatas, 5 piano concertos, and many other works that are considered masterpieces of Western classical music.\n\nSo the answer to \"Was this person primarily known as a musician or composer?\" is clearly yes."
+    },
+    {
+      "question_index": 17,
+      "thinking": "Ludwig van Beethoven was a composer who lived from 1770 to 1827. \n\nThe question asks if Beethoven was from the Classical period, which is approximately 1750-1820.\n\nBeethoven is often classified as a composer who bridged the Classical and Romantic periods. His early works were firmly in the Classical tradition, following composers like Mozart and Haydn. But his later works, especially after his hearing began to deteriorate, moved into what is now considered the early Romantic period.\n\nGiven that Beethoven lived from 1770 to 1827, and was active as a composer from roughly the 1790s to 1827, he was indeed composing during the Classical period (1750-1820), though his later works extended into the early Romantic period.\n\nFor the purposes of this question, it would be accurate to say \"yes\" with a clarification that he bridged Classical and Romantic periods."
+    },
+    {
+      "question_index": 18,
+      "thinking": "The question is asking if the composer I'm thinking of (Beethoven) is widely known for his nine symphonies.\n\nLudwig van Beethoven (1770-1827) is indeed widely known for his nine symphonies. His symphonies are considered masterpieces and are among his most famous works. The Symphony No. 5 with its famous \"fate knocking at the door\" motif and the Symphony No. 9 \"Choral\" with the \"Ode to Joy\" are particularly famous. Beethoven's nine symphonies are considered a cornerstone of classical music and are frequently performed, recorded, and studied.\n\nSo the correct answer to this question is yes, Beethoven is widely known for his nine symphonies."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 558,
+      "output_tokens": 136,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1163,
+      "output_tokens": 197,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1783,
+      "output_tokens": 163,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2426,
+      "output_tokens": 218,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3099,
+      "output_tokens": 186,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3779,
+      "output_tokens": 199,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4480,
+      "output_tokens": 113,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5206,
+      "output_tokens": 165,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5969,
+      "output_tokens": 180,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6760,
+      "output_tokens": 221,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7559,
+      "output_tokens": 182,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8387,
+      "output_tokens": 202,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9241,
+      "output_tokens": 250,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10131,
+      "output_tokens": 207,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11033,
+      "output_tokens": 176,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 11966,
+      "output_tokens": 151,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 12915,
+      "output_tokens": 237,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 13895,
+      "output_tokens": 188,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 14893,
+      "output_tokens": 226,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 277,
+      "output_tokens": 187,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 302,
+      "output_tokens": 185,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 326,
+      "output_tokens": 109,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 353,
+      "output_tokens": 125,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 370,
+      "output_tokens": 135,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 389,
+      "output_tokens": 107,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 411,
+      "output_tokens": 108,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 427,
+      "output_tokens": 93,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 449,
+      "output_tokens": 152,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 464,
+      "output_tokens": 80,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 486,
+      "output_tokens": 219,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 510,
+      "output_tokens": 232,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 540,
+      "output_tokens": 173,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 561,
+      "output_tokens": 189,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 587,
+      "output_tokens": 178,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 608,
+      "output_tokens": 142,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 634,
+      "output_tokens": 247,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 656,
+      "output_tokens": 182,
+      "total_tokens": 0
+    }
+  ]
+}

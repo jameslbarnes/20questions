@@ -1,0 +1,40 @@
+{
+  "game_id": "1e0d4fc3-116c-40f8-b81e-fc08409d2f0c",
+  "timestamp": "2025-03-21T11:16:01.439386",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "tiger",
+  "category": "animals",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nQuestion 1: Is it a physical object (something you can touch)?",
+    "Question 2: Is it a living thing or derived from something that was once living (like wood or leather)?",
+    "Question 3: Is it currently alive (as opposed to a product made from something once living)?",
+    "Question 4: Is it an animal (including humans)?",
+    "Question 5: Is it a mammal?",
+    "Question 6: Is it a human?\nAnswer: No.",
+    "Question 7: Is it a domesticated animal (pet or farm animal)?",
+    "Question 8: Is it a mammal that primarily lives in water (like a whale, dolphin, or seal)?",
+    "Question 9: Is it a carnivorous animal (primarily eats meat)?",
+    "Question 10: Is it a large mammal (bigger than a typical human when fully grown)?",
+    "Question 11: Is it a feline (member of the cat family, like a lion, tiger, or leopard)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: tiger"
+  ],
+  "question_count": 11,
+  "final_guess": "tiger",
+  "success": true,
+  "max_questions": 20
+}

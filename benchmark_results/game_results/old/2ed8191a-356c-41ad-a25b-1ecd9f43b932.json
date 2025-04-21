@@ -1,0 +1,26 @@
+{
+  "game_id": "2ed8191a-356c-41ad-a25b-1ecd9f43b932",
+  "timestamp": "2025-03-21T11:24:27.178191",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "truth",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it an abstract concept (like love, justice, freedom, etc.)?",
+    "Question 3: Is it an emotion (like happiness, sadness, fear, etc.)?",
+    "Question 4: Is it related to philosophy, ethics, or morality (like justice, truth, virtue)?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "No.",
+    "CORRECT! You've guessed the entity: truth"
+  ],
+  "question_count": 4,
+  "final_guess": "truth",
+  "success": true,
+  "max_questions": 20
+}

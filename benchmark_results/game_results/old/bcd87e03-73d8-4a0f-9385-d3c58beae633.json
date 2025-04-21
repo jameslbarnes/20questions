@@ -1,0 +1,42 @@
+{
+  "game_id": "bcd87e03-73d8-4a0f-9385-d3c58beae633",
+  "timestamp": "2025-03-21T11:14:48.050113",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "tiger",
+  "category": "animals",
+  "questions": [
+    "I'll play 20 Questions and try to figure out what you're thinking of by asking yes/no questions one at a time.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it larger than a microwave oven?",
+    "Question 3: Is it something you would typically find inside a home?",
+    "Question 4: Is it a vehicle or a means of transportation?",
+    "Question 5: Is it found in nature (not man-made)?",
+    "Question 6: Is it a living organism?",
+    "Question 7: Is it an animal (as opposed to a plant or fungus)?",
+    "Question 8: Is it a mammal?",
+    "Question 9: Is it a wild animal (not typically domesticated)?",
+    "Question 10: Is it a predator (carnivore)?",
+    "Question 11: Does it live primarily on land (as opposed to water or air)?",
+    "Question 12: Is it a large cat (like a lion, tiger, or leopard)?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: tiger"
+  ],
+  "question_count": 12,
+  "final_guess": "tiger",
+  "success": true,
+  "max_questions": 20
+}

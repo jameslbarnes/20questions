@@ -1,0 +1,40 @@
+{
+  "game_id": "23d9f9a9-3a95-4e5e-955e-3a2915029e0d",
+  "timestamp": "2025-03-21T22:03:07.440634",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "car",
+  "category": "simple",
+  "questions": [
+    "Is it something physical/tangible (as opposed to an abstract concept, idea, or digital entity)?",
+    "Is it alive or organic in nature (as opposed to inanimate/manufactured)?",
+    "Is it smaller than a microwave oven?",
+    "Is it commonly found inside a typical home?",
+    "Is it primarily found outdoors or in outdoor environments?",
+    "Is it stationary/fixed in place (as opposed to something that moves or can be moved)?",
+    "Is it primarily used for transportation of people or goods?",
+    "Does it primarily travel on roads or paved surfaces?",
+    "Is it primarily designed to transport goods rather than people?",
+    "Is it used primarily for public transportation (rather than private/personal transportation)?",
+    "Is it a standard passenger car (as opposed to a specialty vehicle like an SUV, truck, motorcycle, etc.)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 11,
+  "final_guess": "car",
+  "success": true,
+  "max_questions": 20
+}

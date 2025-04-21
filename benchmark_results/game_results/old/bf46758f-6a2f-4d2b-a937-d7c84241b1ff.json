@@ -1,0 +1,40 @@
+{
+  "game_id": "bf46758f-6a2f-4d2b-a937-d7c84241b1ff",
+  "timestamp": "2025-03-21T11:04:32.089905",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "penguin",
+  "category": "animals",
+  "questions": [
+    "I'll start with a broad question to narrow down the category.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object (as opposed to something that occurs naturally)?",
+    "Question 3: Is it a living thing?",
+    "Question 4: Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Question 5: Is it a mammal?",
+    "Question 6: Is it a bird?",
+    "Question 7: Can this bird fly?",
+    "Question 8: Is it a large bird (taller than an average human when fully grown)?",
+    "Question 9: Does this bird typically live in cold environments or regions (like Antarctica or the Arctic)?",
+    "Question 10: Is this bird primarily black and white in coloration?",
+    "Question 11: Is this bird a penguin?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: penguin"
+  ],
+  "question_count": 11,
+  "final_guess": "penguin",
+  "success": true,
+  "max_questions": 20
+}

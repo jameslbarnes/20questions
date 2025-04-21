@@ -1,0 +1,37 @@
+{
+  "game_id": "e87c9baa-f603-49e1-9538-4d95969b9145",
+  "timestamp": "2025-03-21T21:16:10.815302",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-5-sonnet-20241022",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object (something you can touch)?",
+    "Is it larger than a microwave oven?",
+    "Is it manufactured/man-made (as opposed to occurring naturally)?",
+    "Is it primarily used for eating or drinking?",
+    "Is it a type of container (like a cup, bowl, or plate)?",
+    "Is it something you would consume (eat or drink)?",
+    "Is it a solid (as opposed to a liquid or gas)?",
+    "Is it commonly sweet (like desserts, candy, or fruit)?",
+    "Can it grow on trees?",
+    "Given that it's a sweet, solid food that grows on trees and can be both natural and manufactured (perhaps processed), I'm thinking it's likely an apple. They're commonly eaten both fresh from trees and in processed forms (dried, candied, etc.).\n\n<guess>Apple</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Maybe.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 10,
+  "final_guess": "Apple",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,348 @@
+{
+  "game_id": "b0123d7a-205b-49a6-8cf5-c6e409319ae0",
+  "timestamp": "2025-03-22T12:58:36.169063",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "dog",
+  "category": "simple",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it manufactured/made by humans?",
+    "Is it a living organism or part of a living organism?",
+    "Is it an animal (as opposed to a plant, fungus, or microorganism)?",
+    "Is it a vertebrate (animal with a backbone)?",
+    "Is it a mammal?",
+    "Is it commonly kept as a pet or domestic animal?",
+    "Is it carnivorous (primarily eats meat)?",
+    "Is it larger than a typical house cat when fully grown?",
+    "Is it commonly used as a farm animal (for food, products, or work)?",
+    "Is it commonly kept primarily as an indoor pet (as opposed to outdoor)?",
+    "Is it a rodent (like a hamster, guinea pig, or rat)?",
+    "Is it a rabbit?",
+    "Is it a dog?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "CORRECT!"
+  ],
+  "question_count": 14,
+  "final_guess": "dog",
+  "success": true,
+  "max_questions": 20,
+  "questioner_thinking": [
+    {
+      "question_index": 0,
+      "thinking": "I'm playing 20 Questions, where I need to identify what the answerer is thinking of through yes/no questions. I should start with very broad questions that help divide the universe of possibilities.\n\nFor my first question, I should establish whether the thing is physical/tangible or something abstract/conceptual. This is one of the most fundamental divisions.\n\nQuestion 1: \"Is it physical/tangible?\""
+    },
+    {
+      "question_index": 1,
+      "thinking": "Great, I've established that the object is physical/tangible. Now I need to narrow down further using binary tree thinking to efficiently split the remaining possibilities.\n\nSince I know it's physical, I should determine if it's:\n1. Natural vs. manufactured\n2. Living vs. non-living\n3. Size categorization\n4. Common vs. rare\n\nI think asking if it's manufactured by humans would be a good way to split the possibilities.\n\nQuestion 2: Is it manufactured by humans?"
+    },
+    {
+      "question_index": 2,
+      "thinking": "So far I know:\n1. It is a physical/tangible object\n2. It is NOT manufactured/made by humans\n\nThis suggests it's something natural. It could be:\n- A natural formation (mountain, river, cave)\n- A celestial body (planet, star, moon)\n- A plant (tree, flower, fruit)\n- An animal\n- A mineral/stone\n- A natural material (water, air, soil)\n\nLet me continue with more fundamental divisions to narrow this down. I should determine if it's organic/living or not."
+    },
+    {
+      "question_index": 3,
+      "thinking": "What we know so far:\n1. It's a physical/tangible object\n2. It's not manufactured/made by humans\n3. It's a living organism or part of a living organism\n\nNow I need to narrow down what type of living organism we're dealing with. I should first determine if it's a plant, animal, or another category of organism. This is a fundamental division that will help narrow down the search space efficiently."
+    },
+    {
+      "question_index": 4,
+      "thinking": "I'm making good progress. So far I know:\n1. It's a physical/tangible object\n2. It's not manufactured by humans\n3. It's a living organism or part of a living organism\n4. It's an animal (not a plant, fungus, or microorganism)\n\nNow I'll continue narrowing down by determining the broad taxonomic category. I should find out if it's a vertebrate or invertebrate, which will eliminate a large portion of the animal kingdom."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I'm making good progress in narrowing down what the object is. So far I know:\n- It's a physical/tangible object\n- It's not manufactured/made by humans\n- It's a living organism or part of a living organism\n- It's an animal\n- It's a vertebrate (has a backbone)\n\nNow I need to determine which class of vertebrate it belongs to. The main vertebrate classes are:\n- Mammals\n- Birds\n- Reptiles\n- Amphibians\n- Fish\n\nA good question to split this further would be to ask if it's a mammal, which would cut the space roughly in half."
+    },
+    {
+      "question_index": 6,
+      "thinking": "I've narrowed down that the answer is a mammal. Now I need to further narrow down what type of mammal it is. There are many ways I can divide mammals:\n- Domestic vs. wild\n- Size (large, medium, small)\n- Common vs. rare\n- Terrestrial vs. aquatic vs. flying\n- Carnivore vs. herbivore vs. omnivore\n- Geographic region\n\nI think asking about whether it's a domestic/pet animal would be a good dividing question, as it splits the mammal category roughly in half."
+    },
+    {
+      "question_index": 7,
+      "thinking": "So far I know:\n- It's a physical/tangible object\n- It's not manufactured/made by humans\n- It's a living organism or part of a living organism\n- It's an animal\n- It's a vertebrate (has a backbone)\n- It's a mammal\n- It's commonly kept as a pet or domestic animal\n\nThis narrows it down quite a bit. Common mammalian pets include:\n- Dogs\n- Cats\n- Rabbits\n- Hamsters\n- Guinea pigs\n- Ferrets\n- Mice/rats\n\nI need to determine whether it's a carnivore (cats, dogs, ferrets) or an herbivore/omnivore (rabbits, hamsters, guinea pigs), and also differentiate by size."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let's analyze what we know:\n- It's a physical/tangible object\n- It's not manufactured by humans\n- It's a living organism or part of a living organism\n- It's an animal\n- It's a vertebrate\n- It's a mammal\n- It's commonly kept as a pet or domestic animal\n- It's not carnivorous (primarily eats meat)\n\nSo we're looking at herbivorous or omnivorous mammals commonly kept as pets. Common mammals kept as pets include:\n- Dogs (omnivorous)\n- Cats (carnivorous) - ruled out\n- Rabbits (herbivorous)\n- Guinea pigs (herbivorous)\n- Hamsters (omnivorous)\n- Gerbils (omnivorous)\n- Mice/rats (omnivorous)\n- Ferrets (carnivorous) - ruled out\n- Horses (herbivorous)\n- Cows (herbivorous)\n- Pigs (omnivorous)\n- Sheep (herbivorous)\n- Goats (herbivorous)\n\nI should try to divide this large set further. One good division might be size - larger vs. smaller mammals. Another could be livestock vs. strictly pets."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let me summarize what I know so far:\n1. It's a physical/tangible object\n2. It's not manufactured/made by humans\n3. It's a living organism or part of a living organism\n4. It's an animal\n5. It's a vertebrate (has a backbone)\n6. It's a mammal\n7. It's commonly kept as a pet or domestic animal\n8. It's not carnivorous (doesn't primarily eat meat)\n9. It's larger than a typical house cat when fully grown\n\nSo I'm looking for a domestic mammal that's:\n- Not primarily carnivorous\n- Larger than a cat\n\nCommon domesticated mammals that are larger than cats and not primarily carnivorous include:\n- Horse/pony\n- Cow\n- Sheep\n- Goat\n- Pig\n- Rabbit (some breeds can be larger than cats)\n- Guinea pig (probably not larger than cats)\n- Hamster (definitely not larger than cats)\n\nLet me narrow this down further by asking about its use or function in human society. This should help differentiate between farm animals and pets."
+    },
+    {
+      "question_index": 10,
+      "thinking": "Let me analyze what I know so far:\n- It's a physical/tangible object\n- It's not manufactured by humans\n- It's a living organism or part of a living organism\n- It's an animal\n- It's a vertebrate\n- It's a mammal\n- It's commonly kept as a pet\n- It's not carnivorous (so likely herbivore or omnivore)\n- It's larger than a typical house cat\n- It's not commonly used as a farm animal\n\nSo I'm looking for a mammal that's a common pet, larger than a cat, not carnivorous, and not typically a farm animal.\n\nCommon large pet mammals that aren't primarily carnivores or farm animals include:\n- Rabbit (though some might argue about the size comparison to cats)\n- Guinea pig (though smaller than cats)\n- Chinchilla (though smaller than cats)\n- Ferret (omnivore, but might be considered carnivorous)\n- Hamster (smaller than cats)\n- Gerbil (smaller than cats)\n\nMost rodent pets are smaller than cats, so they're likely not the answer.\n\nLet me think about other possibilities:\n- Dogs are common pets but many are carnivorous\n- Horses are larger than cats but often considered farm animals\n- Pot-bellied pigs are pets and larger than cats\n- Large birds like parrots are pets, but they're not mammals\n\nI should narrow down on what kind of non-carnivorous mammal pet that's larger than a cat we might be looking at.\n\nLet me ask if it's a common indoor pet (vs outdoor). This should help eliminate some options."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let me review what I know so far:\n- It's a physical/tangible object\n- It's not manufactured by humans\n- It's a living organism or part of one\n- It's an animal\n- It's a vertebrate\n- It's a mammal\n- It's commonly kept as a pet or domestic animal\n- It's not carnivorous (primarily eats meat)\n- It's larger than a typical house cat when fully grown\n- It's not commonly used as a farm animal\n- It's commonly kept primarily as an indoor pet\n\nSo I'm looking for a non-carnivorous mammal that's:\n- Larger than a house cat\n- Kept as a pet indoors\n- Not typically a farm animal\n\nThe options that come to mind are:\n- Rabbit (some breeds can be quite large)\n- Guinea pig (though typically smaller than cats)\n- Ferret (though they are omnivores with carnivorous tendencies)\n- Chinchilla (though typically smaller than cats)\n- Hamsters (much smaller than cats)\n\nGiven the size requirement (larger than a house cat), I'm leaning toward a rabbit, particularly one of the larger breeds. Rabbits are herbivores, commonly kept as indoor pets, and while sometimes kept on farms, they're not traditional \"farm animals\" in the way cows, pigs, etc. are.\n\nLet me ask a question to narrow this down further."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me analyze what I know so far:\n- Physical/tangible object\n- Not manufactured/made by humans\n- A living organism\n- An animal\n- A vertebrate\n- A mammal\n- Commonly kept as a pet/domestic animal\n- Not carnivorous (primarily)\n- Larger than a typical house cat\n- Not commonly used as a farm animal\n- Commonly kept primarily indoors\n- Not a rodent\n\nThis is narrowing things down significantly. I'm thinking about indoor pets that are:\n- Mammals\n- Herbivores or omnivores\n- Larger than cats\n- Not farm animals\n- Not rodents\n\nSome possibilities that come to mind:\n- Rabbits (though these might be borderline on the \"larger than a house cat\" question)\n- Certain exotic pets like chinchillas (though these might be considered rodents)\n- Pet pigs (like potbelly pigs)\n- Certain monkey species kept as pets\n\nLet me ask about rabbits first, since they're a common indoor pet that fits many of these criteria."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me analyze what I know so far:\n- It's a physical/tangible object\n- It's not manufactured/made by humans\n- It's a living organism or part of one\n- It's an animal\n- It's a vertebrate\n- It's a mammal\n- It's commonly kept as a pet or domestic animal\n- It's not carnivorous (primarily)\n- It's larger than a typical house cat when fully grown\n- It's not commonly used as a farm animal\n- It's commonly kept primarily as an indoor pet\n- It's not a rodent\n- It's not a rabbit\n\nSo I'm looking for a mammal that is:\n- Larger than a cat\n- Kept as an indoor pet\n- Not a farm animal\n- Not carnivorous\n- Not a rodent or rabbit\n\nThis narrows things down quite a bit. Some possibilities that come to mind:\n1. Dog (some breeds are herbivores/omnivores and larger than cats)\n2. Certain exotic pets like a capybara (though \"commonly kept\" is debatable)\n3. Larger pet birds (though not mammals)\n\nGiven that it's a mammal, larger than a cat, commonly kept as an indoor pet, but not a rodent or rabbit, I'm thinking it's most likely a dog. Some dogs are primarily herbivorous in their diets, though most are omnivores.\n\nI'll ask directly if it's a dog."
+    }
+  ],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I'm playing 20 Questions and I'm thinking of \"dog\". The player is asking whether it's a physical/tangible object.\n\nA dog is a living animal, which is indeed physical and tangible - you can touch, see, and interact with a dog physically. Dogs have physical bodies, they take up space in the physical world, and they can be touched.\n\nSo the answer to this question is definitely yes. A dog is a physical/tangible object/being.\n\nI need to respond with the exact format requested:\n<answer>yes</answer>"
+    },
+    {
+      "question_index": 2,
+      "thinking": "I am thinking of 'dog' and need to respond accurately to the question.\n\nQuestion: \"Is it manufactured/made by humans?\"\n\nDogs are animals - they are living creatures that exist in nature. While humans have engaged in selective breeding of dogs over thousands of years to create different breeds with specific characteristics, dogs as a species were not manufactured or made by humans originally. Dogs evolved from wolves through a process of domestication.\n\nSo while humans have influenced dog breeds through selective breeding, dogs themselves are not manufactured objects - they are living beings that reproduce naturally. They are not manufactured like a table, car, or machine would be.\n\nThe accurate answer is:"
+    },
+    {
+      "question_index": 3,
+      "thinking": "Let me analyze the question: \"Is it a living organism or part of a living organism?\"\n\nI'm thinking of \"dog\". A dog is definitely a living organism. Dogs are mammals, they're alive, they breathe, grow, reproduce, etc. So a dog is definitely a living organism.\n\nThe question asks \"Is it a living organism OR part of a living organism?\" Since a dog is a whole living organism, not just a part of one, the answer is yes.\n\nI should answer with \"yes\" since a dog is a living organism."
+    },
+    {
+      "question_index": 4,
+      "thinking": "Let's think about this. I'm thinking of 'dog' for this 20 Questions game.\n\nThe current question is: \"Is it an animal (as opposed to a plant, fungus, or microorganism)?\"\n\nA dog is definitely an animal. Dogs are mammals belonging to the family Canidae. They are not plants, fungi, or microorganisms. They are vertebrate animals in the kingdom Animalia.\n\nSo the answer is clearly yes."
+    },
+    {
+      "question_index": 5,
+      "thinking": "Let me think through this question carefully:\n\nThe player is asking if a dog is a vertebrate (animal with a backbone).\n\nDogs are mammals, and all mammals are vertebrates. Dogs have a spine/backbone as part of their skeletal structure, which places them firmly in the vertebrate classification.\n\nVertebrates include:\n- Mammals (dogs, cats, humans, etc.)\n- Birds\n- Reptiles\n- Amphibians\n- Fish\n\nSince dogs are mammals and mammals are vertebrates, the answer is clearly yes."
+    },
+    {
+      "question_index": 6,
+      "thinking": "Let me think about whether a dog is a mammal.\n\nDogs are indeed mammals. They belong to class Mammalia and have all the characteristics of mammals:\n- They give birth to live young (not eggs)\n- They have fur/hair\n- They nurse their young with milk from mammary glands\n- They are warm-blooded\n- They have a four-chambered heart\n\nSo the answer is definitely yes, a dog is a mammal."
+    },
+    {
+      "question_index": 7,
+      "thinking": "Let me carefully analyze this question to provide an accurate answer about dogs.\n\nThe question is: \"Is it commonly kept as a pet or domestic animal?\"\n\nDogs are one of the most common pets worldwide. They have been domesticated for thousands of years and are kept as companion animals, working animals, and service animals in households across the globe. Dogs are definitely commonly kept as pets or domestic animals.\n\nSo the answer is clearly \"yes\" - dogs are very commonly kept as pets and are one of the most popular domestic animals in the world."
+    },
+    {
+      "question_index": 8,
+      "thinking": "I need to determine if a dog is carnivorous (primarily eats meat).\n\nDogs are actually omnivores, not strict carnivores. While they evolved from carnivorous ancestors (wolves) and have teeth adapted for eating meat, domestic dogs can and do eat both meat and plant matter. Their digestive systems can process both animal proteins and plant-based foods.\n\nDogs in the wild or as pets typically eat a diet that contains meat, but they can also digest carbohydrates, vegetables, and fruits. Commercial dog foods often contain a mix of meat and plant-based ingredients.\n\nSo while dogs do eat meat and have a preference for it, they are not \"primarily\" meat eaters in the strict sense like obligate carnivores (such as cats). They're better classified as omnivores with carnivorous tendencies.\n\nGiven this information, the most accurate answer would be \"no\" with a clarification that dogs are actually omnivores, not strict carnivores."
+    },
+    {
+      "question_index": 9,
+      "thinking": "The question is asking if a dog is larger than a typical house cat when fully grown.\n\nLet's think about this:\n- Dogs come in many breeds and sizes, from tiny Chihuahuas to large Great Danes\n- Typical house cats usually weigh between 8-10 pounds and are about 18-20 inches long (excluding tail)\n- Some small dog breeds (like Chihuahuas, toy poodles, etc.) can be smaller than typical house cats\n- However, most dog breeds are larger than typical house cats\n- Medium and large dog breeds are definitely larger than cats\n\nSince the question is asking about a \"dog\" in general, without specifying a breed, I should consider what most people would think of as a typical dog. The majority of dog breeds are larger than typical house cats.\n\nHowever, since some dog breeds are smaller than cats, this creates a bit of ambiguity. But I need to give a clear yes/no answer.\n\nGiven that most dog breeds are larger than cats, and when people think of a generic \"dog\" they typically imagine a medium-sized dog (like a Labrador or Golden Retriever), I think the most accurate answer is \"yes\" with a clarification that some dog breeds can be smaller."
+    },
+    {
+      "question_index": 10,
+      "thinking": "The question is asking if a dog is commonly used as a farm animal for food, products, or work.\n\nLet's think about this:\n- Dogs are not commonly raised for food in most Western cultures (though they may be in some cultures)\n- Dogs don't typically provide products like milk, eggs, wool, etc.\n- However, dogs have historically been used for work on farms as herding animals (herding sheep, cattle), guard animals, and for pest control\n- Working dogs on farms include border collies, Australian shepherds, etc. that help manage livestock\n- Dogs have also been used for hunting and other work purposes\n\nWhile dogs can serve working roles on farms, they aren't typically considered \"farm animals\" in the same category as livestock like cows, pigs, sheep, chickens, etc. that are primarily raised for food or products.\n\nDogs are mainly kept as companions/pets, though they can serve working roles.\n\nI think the most accurate answer is \"no\" because dogs are not \"commonly\" used as farm animals in the primary sense of the term (for food or products), though they can serve working roles on farms."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let's think about whether dogs are commonly kept primarily as indoor pets as opposed to outdoor pets.\n\nDogs can be kept both indoors and outdoors, but in many modern households, especially in urban and suburban areas, dogs are primarily kept indoors as family pets. They often live inside the home, sleep indoors, and are considered part of the family. \n\nHowever, there are also many dogs that are kept primarily outdoors, especially working dogs on farms or in rural areas, or guard dogs. Some breeds are more suited to outdoor living than others.\n\nSo while many dogs are kept indoors, it's not universal. I would say that in contemporary Western society, dogs are more commonly kept as indoor pets than outdoor pets, but there's enough variation that a definitive \"yes\" might be oversimplifying.\n\nGiven the context of the previous questions (indicating it's larger than a house cat but not a farm animal), the player seems to be narrowing down to common pets. In this context, I think it's fair to say that dogs are commonly kept primarily as indoor pets in many households, though not exclusively.\n\nI'll go with \"yes\" but add a brief clarification that while dogs are commonly kept indoors in many households, some are also kept primarily outdoors depending on their role and the setting."
+    },
+    {
+      "question_index": 12,
+      "thinking": "I'm thinking of 'dog', and the question is whether a dog is a rodent.\n\nDogs are mammals from the Canidae family. They are not rodents. Rodents belong to the order Rodentia, which includes animals like hamsters, guinea pigs, rats, mice, squirrels, etc.\n\nDogs are carnivores (order Carnivora), even though their diet can be omnivorous in practice. But taxonomically, they are not rodents at all.\n\nSo the answer is clearly \"no.\""
+    },
+    {
+      "question_index": 13,
+      "thinking": "I need to answer whether the thing I'm thinking of (dog) is a rabbit.\n\nDogs and rabbits are completely different animals:\n- Dogs are canines (family Canidae)\n- Rabbits are lagomorphs (family Leporidae)\n\nSo the answer is clearly no, a dog is not a rabbit.\n\nLet me provide just the answer in the required format."
+    },
+    {
+      "question_index": 14,
+      "thinking": "The player has asked if the object I'm thinking of is a dog. Let's check if this matches what I'm supposed to be thinking of:\n\nAccording to the initial instructions, I am indeed thinking of a 'dog'. Therefore, the player has correctly guessed what I'm thinking of.\n\nAccording to the instructions, if the player mentions exactly what I'm thinking of in their question, I should respond with '<answer>correct</answer> You've guessed dog' and the game will end immediately.\n\nSo my response should be:"
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 558,
+      "output_tokens": 147,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1180,
+      "output_tokens": 133,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1786,
+      "output_tokens": 152,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2418,
+      "output_tokens": 129,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3086,
+      "output_tokens": 136,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3767,
+      "output_tokens": 165,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4459,
+      "output_tokens": 153,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5177,
+      "output_tokens": 201,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 5943,
+      "output_tokens": 306,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6732,
+      "output_tokens": 285,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7553,
+      "output_tokens": 401,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8397,
+      "output_tokens": 351,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9270,
+      "output_tokens": 261,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10146,
+      "output_tokens": 343,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 269,
+      "output_tokens": 139,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 287,
+      "output_tokens": 178,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 309,
+      "output_tokens": 135,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 338,
+      "output_tokens": 119,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 359,
+      "output_tokens": 134,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 375,
+      "output_tokens": 117,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 396,
+      "output_tokens": 130,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 417,
+      "output_tokens": 256,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 439,
+      "output_tokens": 316,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 466,
+      "output_tokens": 288,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 491,
+      "output_tokens": 316,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 518,
+      "output_tokens": 148,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 533,
+      "output_tokens": 102,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 548,
+      "output_tokens": 137,
+      "total_tokens": 0
+    }
+  ]
+}

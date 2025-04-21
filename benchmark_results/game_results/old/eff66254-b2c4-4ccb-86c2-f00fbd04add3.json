@@ -1,0 +1,39 @@
+{
+  "game_id": "eff66254-b2c4-4ccb-86c2-f00fbd04add3",
+  "timestamp": "2025-03-21T12:16:44.011035",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "Marie Curie",
+  "category": "famous_people",
+  "questions": [
+    "I'll play 20 Questions strategically, asking one question at a time.\n\nIs it a physical object (as opposed to a concept, idea, or abstract entity)?",
+    "Since it's not a physical object, it's some kind of concept, idea, or abstract entity.\n\nQuestion 2: Is it something that can be experienced or felt emotionally?\n(For example, an emotion, a feeling, or something that evokes emotional responses)",
+    "Question 3: Is it a concept related to science or mathematics?",
+    "Question 4: Is it a concept from physics specifically?",
+    "I'll continue asking strategic questions to narrow down this scientific or mathematical concept.\n\nQuestion 5: Is it a concept from mathematics specifically (rather than other sciences like biology or chemistry)?",
+    "Let me continue narrowing down this scientific concept.\n\nQuestion 6: Is it a concept related to biology or medicine?\n(For example, evolution, genetics, cellular processes, disease, etc.)",
+    "Thank you for the update. Let me continue narrowing down this scientific concept.\n\nQuestion 7: Is it a concept related to chemistry?\n(For example, chemical reactions, elements, compounds, etc.)",
+    "Question 8: Is it a specific chemical element?",
+    "Thank you for the update. I'll continue narrowing down which chemical element this is.\n\nQuestion 9: Is it a metal on the periodic table?",
+    "Question 10: Is it a noble gas (helium, neon, argon, krypton, xenon, radon, or oganesson)?\nAnswer: No.",
+    "Based on the correction in the last answer, it seems the entity is actually a person (Marie Curie) rather than a chemical element as I was previously led to believe. There appears to have been some confusion in the game."
+  ],
+  "answers": [
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Unclear: Wait, I need to correct myself. There seems to be a misunderstanding. Marie Curie is not a chemical element but a famous scientist who discovered elements. Since my entity is \"Marie Curie\" (a person), I shoul"
+  ],
+  "question_count": 11,
+  "final_guess": "Marie Curie",
+  "success": true,
+  "max_questions": 20
+}

@@ -1,0 +1,40 @@
+{
+  "game_id": "9ff6fe0c-6c00-47c3-9e55-f43d92bce9d1",
+  "timestamp": "2025-03-21T13:12:34.938011",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll be your expert questioner for a game of 20 Questions. Let me start with my first question:\n\nIs it a physical object?",
+    "Question 2: Is this physical object something that can be found in a typical household?",
+    "Question 3: Is this object primarily used in the kitchen?",
+    "Question 4: Is this object used for food preparation (as opposed to food storage or cooking)?",
+    "Question 5: Is this object used for cooking food (like a pan, pot, or oven)?",
+    "Question 6: Is this object typically placed on a stovetop or burner to be used?",
+    "Question 7: Is this object powered by electricity?\nAnswer:",
+    "Question 8: Is this object primarily used to heat or cook food rather than blend, mix, or process it?",
+    "Question 9: Is this object typically placed on a countertop when in use?",
+    "Question 10: Does this object have a door that opens to put food inside?",
+    "Question 11: Is this object a microwave oven?"
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 11,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}

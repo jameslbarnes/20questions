@@ -1,0 +1,412 @@
+{
+  "game_id": "236c8037-2778-44ba-bf21-a5e319639590",
+  "timestamp": "2025-03-22T12:47:35.031090",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "blockchain technology",
+  "category": "complex",
+  "questions": [
+    "Is it a physical/tangible object?",
+    "Is it a concept or idea (rather than a specific event, action, or emotion)?",
+    "Is it a scientific or academic concept?",
+    "Is it related to human society or social organization (like government, law, economics, etc.)?",
+    "Is it related to a system of governance or political structure?",
+    "Is it related to economics or financial systems?",
+    "Is it a specific financial instrument or transaction type (like stocks, bonds, loans)?",
+    "Is it a broad economic system or theory (like capitalism, socialism, free market)?",
+    "Is it a concept related to personal finances or individual economic behavior?",
+    "Is it related to business operations or organizational finance?",
+    "Is it related to accounting or financial reporting?",
+    "Is it a specific type of financial statement or report (like balance sheet, income statement, cash flow statement)?",
+    "Is it an accounting principle or method (like depreciation, accrual accounting, FIFO/LIFO)?",
+    "Is it related to measuring or evaluating a company's financial performance?",
+    "Is it related to tax accounting or tax reporting?",
+    "Is it related to financial planning or budgeting?",
+    "Is it related to auditing or financial controls?",
+    "Is it specifically related to regulatory compliance or legal standards in accounting?",
+    "Is it a specific verification or checking process within auditing (like reconciliation, verification, validation)?",
+    "Is it related to fraud detection or prevention?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Maybe.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "No.",
+    "Yes.",
+    "No.",
+    "No.",
+    "Yes."
+  ],
+  "question_count": 20,
+  "final_guess": "Based on the pattern of answers, I believe the concept is:\n\n<guess>Internal Control</guess>",
+  "success": false,
+  "max_questions": 20,
+  "questioner_thinking": [],
+  "answerer_thinking": [
+    {
+      "question_index": 1,
+      "thinking": "I'm playing 20 Questions, and I'm thinking of \"blockchain technology\". I need to answer whether blockchain technology is a physical/tangible object.\n\nBlockchain technology is not a physical or tangible object. It's a digital technology or system for recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.\n\nWhile blockchain technology relies on physical hardware (computers, servers, etc.) to operate, the technology itself is not physical or tangible. It's conceptual and digital in nature.\n\nSo my answer should be \"no\"."
+    },
+    {
+      "question_index": 2,
+      "thinking": "I need to determine if blockchain technology can be classified as a concept or idea rather than an event, action, or emotion.\n\nBlockchain technology is:\n- A technological framework/system for recording and verifying transactions\n- A methodology for storing data in a distributed way\n- A conceptual approach to creating trust in digital systems without central authorities\n\nIt is definitely not:\n- A specific event (like the launch of Bitcoin, which was an implementation of blockchain)\n- An action (like mining, which is an activity within blockchain systems)\n- An emotion (it doesn't represent a feeling)\n\nBlockchain technology represents a conceptual approach to data management and digital trust. It's a technological concept or idea that has implementations, but at its core, it's a conceptual framework.\n\nSo the answer to whether blockchain technology is a concept or idea is yes."
+    },
+    {
+      "question_index": 3,
+      "thinking": "The player is asking if blockchain technology is a scientific or academic concept.\n\nBlockchain technology is:\n- A technological innovation or framework\n- A concept developed from computer science principles\n- Studied in academic fields like computer science, cryptography, and distributed systems\n- Has academic papers and research about it\n- Taught in academic courses at universities\n\nWhile blockchain has scientific and academic foundations (particularly in cryptography and computer science), it's more accurately described as a technological concept or innovation rather than purely a scientific or academic concept. It was developed for practical applications (initially for Bitcoin) and has become a technology with real-world implementations across various industries.\n\nBlockchain technology does have scientific underpinnings in cryptography, distributed systems, and computer science, and it is studied in academic contexts. However, it's now primarily known as a technological innovation rather than just an academic concept.\n\nGiven this context, I think the most accurate answer would be \"maybe\" with some clarification, or a qualified \"yes\" that acknowledges it has scientific roots but has expanded beyond academia."
+    },
+    {
+      "question_index": 4,
+      "thinking": "Let me think about whether blockchain technology is related to human society or social organization:\n\nBlockchain technology is definitely related to:\n- Economics: It underpins cryptocurrencies like Bitcoin and has economic implications related to finance, transactions, and monetary systems\n- Law: There are legal implications, regulations, and discussions about blockchain's use in contracts, property rights, etc.\n- Governance: Blockchain offers potential new models for organizational governance and decision-making\n- Social organization: It enables new forms of decentralized organizations and coordination\n\nSo blockchain technology absolutely has implications for and relationships with human society and social organization. It's being applied to transform how humans organize economic activity, contracts, record-keeping, voting, and many other social functions.\n\nI'll answer yes to this question."
+    },
+    {
+      "question_index": 5,
+      "thinking": "I need to determine if blockchain technology is related to a system of governance or political structure.\n\nBlockchain technology:\n- Is a distributed ledger technology that enables secure, transparent, and decentralized record-keeping\n- Is primarily associated with cryptocurrencies, smart contracts, and decentralized applications\n- Provides a way to record transactions without requiring a central authority\n- Is more directly related to technology, computer science, and economics\n\nWhile blockchain technology does have implications for governance in terms of:\n- Enabling decentralized autonomous organizations (DAOs)\n- Potentially changing how voting or other governmental functions could work\n- Offering alternatives to traditional centralized governance structures\n\nIt is not inherently or primarily a system of governance or political structure itself. It's a technological concept that can be applied to various domains, including potentially governance, but it's not primarily defined as a governance or political system.\n\nSo my answer should be \"no\" since blockchain technology itself is not a system of governance or political structure, though it may have applications or implications for governance."
+    },
+    {
+      "question_index": 6,
+      "thinking": "The question is asking whether blockchain technology is related to economics or financial systems.\n\nLet me consider the facts about blockchain technology:\n\n1. Blockchain technology is fundamentally a distributed ledger technology that records transactions across many computers.\n\n2. While blockchain has many applications beyond finance, its first and still most prominent implementation is Bitcoin and other cryptocurrencies, which are definitely financial systems.\n\n3. Blockchain technology enables financial transactions without intermediaries like banks or financial institutions.\n\n4. Many blockchain applications involve tokenization of assets, smart contracts for financial agreements, and other economically relevant activities.\n\n5. Central banks and traditional financial institutions are exploring blockchain for various financial applications.\n\n6. Blockchain technology has significant implications for economic systems in terms of how value is transferred and recorded.\n\nBased on these facts, blockchain technology is clearly related to economics and financial systems, even though it also has applications in other domains like supply chain management, voting systems, identity verification, etc.\n\nThe correct answer is yes."
+    },
+    {
+      "question_index": 7,
+      "thinking": "I need to consider whether blockchain technology is a \"specific financial instrument or transaction type\" like stocks, bonds, or loans.\n\nBlockchain technology is not a financial instrument itself, nor is it a specific transaction type. Rather, it's a technology or system that can facilitate financial transactions and can be used as the underlying technology for various financial applications.\n\nBlockchain is:\n- A distributed ledger technology\n- A system for recording information in a way that makes it difficult to change or hack\n- The underlying technology behind cryptocurrencies like Bitcoin\n- A technology with applications in finance, supply chain, healthcare, etc.\n\nIt is not:\n- A financial instrument (like stocks or bonds)\n- A transaction type (like loans)\n- A specific financial product\n\nWhile blockchain technology has significant applications in finance, including enabling cryptocurrencies and smart contracts, it's not itself a financial instrument or transaction type. It's the technology that can support these things.\n\nSo the answer should be no."
+    },
+    {
+      "question_index": 8,
+      "thinking": "Let me think about whether blockchain technology is considered a \"broad economic system or theory\":\n\nBlockchain technology is:\n- A specific technology for maintaining a distributed, decentralized ledger\n- A way to record transactions and data in a secure, transparent manner\n- An innovation that enables cryptocurrencies and decentralized applications\n- A technical infrastructure that can support various economic activities\n\nHowever, blockchain technology is not:\n- A comprehensive economic system (like capitalism or socialism)\n- An economic theory that explains how resources should be allocated\n- A broad philosophical framework for organizing society's economic activities\n\nWhile blockchain technology does have economic implications and can enable new economic models (like decentralized finance), it's fundamentally a technology rather than a broad economic system or theory. It's a tool or infrastructure that can be used within various economic systems.\n\nSo the answer should be \"no\" - blockchain technology is not a broad economic system or theory like capitalism, socialism, or free market economics."
+    },
+    {
+      "question_index": 9,
+      "thinking": "Let me think about whether blockchain technology is related to personal finances or individual economic behavior.\n\nBlockchain technology:\n- Is a distributed, decentralized ledger technology\n- Powers cryptocurrencies like Bitcoin and Ethereum\n- Enables smart contracts and decentralized applications\n- Has applications in finance, supply chain, voting systems, etc.\n\nIs blockchain related to personal finances or individual economic behavior?\n- Many individuals do use blockchain for personal financial transactions through cryptocurrencies\n- People can store value, make payments, and invest using blockchain-based systems\n- Individuals can participate in blockchain networks (mining, staking, etc.)\n- However, blockchain technology itself is broader than just personal finance applications\n- It's a technological infrastructure that can be used for personal finance but isn't exclusively or primarily about personal financial behavior\n\nWhile blockchain can be used for personal finances, it's not specifically or exclusively about personal finances or individual economic behavior. It's a technology that can enable certain types of personal financial activities, but it's broader than that category.\n\nSo my answer should be:"
+    },
+    {
+      "question_index": 10,
+      "thinking": "The question is asking if blockchain technology is related to business operations or organizational finance.\n\nBlockchain technology is indeed related to business operations and organizational finance in several ways:\n\n1. Many businesses are adopting blockchain for supply chain management, contract execution (smart contracts), accounting, and other operational functions.\n\n2. Organizational finance can leverage blockchain for more transparent financial records, faster cross-border payments, trade finance, and other financial applications.\n\n3. Businesses are using blockchain for asset tokenization, creating new financial models, and improving existing business processes.\n\nBlockchain has significant applications in business and organizational finance, though it's also used in many other contexts (government, personal finance, art/NFTs, etc.). But the question is asking if it's \"related to\" these areas, not if it's exclusively used there.\n\nSo my answer should be yes."
+    },
+    {
+      "question_index": 11,
+      "thinking": "Let's analyze the question: \"Is it related to accounting or financial reporting?\"\n\nI'm thinking of blockchain technology. Let's consider whether blockchain is related to accounting or financial reporting:\n\nBlockchain technology does have applications in accounting and financial reporting. Some key points:\n- Blockchain can be used for transparent and immutable record-keeping of financial transactions\n- There are implementations of blockchain for audit trails and financial reporting\n- Some accounting firms and financial institutions are exploring blockchain for improving accounting processes\n- The concept of \"triple-entry accounting\" is enabled by blockchain technology\n\nHowever, blockchain technology itself is much broader than just accounting or financial reporting. It's a distributed ledger technology with applications across many domains including:\n- Cryptocurrencies\n- Supply chain management\n- Digital identity\n- Smart contracts\n- Many other use cases\n\nWhile blockchain can be applied to accounting and financial reporting, it isn't inherently or primarily an accounting or financial reporting technology. It's more accurate to describe it as a foundational technology that can be applied to those areas among many others.\n\nSo, is blockchain technology related to accounting or financial reporting? There is a relationship, but it's not primarily or exclusively related to these areas. I think the most accurate answer is \"yes\" with a clarification that while blockchain has applications in accounting/financial reporting, it extends far beyond these domains."
+    },
+    {
+      "question_index": 12,
+      "thinking": "Let me think about whether blockchain technology is a specific type of financial statement or report.\n\nBlockchain technology is:\n- A distributed ledger technology that provides a secure way to record transactions across multiple computers\n- Used for cryptocurrencies, smart contracts, supply chain management, etc.\n- A way to store and verify data in a decentralized manner\n- Related to business operations and can be used in accounting/financial systems\n\nHowever, blockchain is NOT:\n- A specific type of financial statement (like balance sheet, income statement)\n- A financial report\n- A reporting format\n\nBlockchain technology might be used to record transactions that eventually appear on financial statements, or even to create more transparent financial reporting systems, but the technology itself is not a type of financial statement or report.\n\nSo my answer should be \"no\"."
+    },
+    {
+      "question_index": 13,
+      "thinking": "Let me think about whether blockchain technology is an accounting principle or method like depreciation, accrual accounting, or FIFO/LIFO.\n\nBlockchain technology is:\n- A distributed ledger technology that enables secure, transparent, and immutable record-keeping\n- A way to store and verify transactions across a network\n- Used in cryptocurrencies, smart contracts, supply chain management, etc.\n\nAccounting principles or methods like depreciation, accrual accounting, and FIFO/LIFO are specific methodologies used within traditional accounting frameworks to represent financial information.\n\nWhile blockchain can be used for accounting purposes and does involve ledgers (a fundamental accounting concept), blockchain itself is not an accounting principle or method in the traditional sense. It's a technological innovation that can be applied to accounting systems, but it's not a specific accounting methodology like depreciation or accrual accounting.\n\nSo the answer should be \"no\" - blockchain technology is not an accounting principle or method."
+    },
+    {
+      "question_index": 14,
+      "thinking": "The question asks if blockchain technology is related to measuring or evaluating a company's financial performance.\n\nLet's think about blockchain technology and its relationship to a company's financial performance:\n\nBlockchain technology is a distributed ledger technology that allows for secure, transparent, and immutable record-keeping. While blockchain has applications in finance, including:\n\n1. Cryptocurrency transactions\n2. Smart contracts\n3. Supply chain tracking\n4. Secure recordkeeping\n5. Financial transactions\n\nIt's not primarily or directly a tool for measuring or evaluating a company's financial performance. Financial performance measurement typically involves metrics like:\n- Profitability ratios\n- Return on investment\n- Revenue growth\n- Earnings per share\n- Cash flow metrics\n\nWhile blockchain could potentially be used to record financial transactions that would later be used in financial analysis, the technology itself is not primarily designed for financial performance evaluation. It's more about the secure recording and verification of transactions or data.\n\nSome companies might use blockchain implementations to improve operational efficiency or to create new revenue streams, which could indirectly affect their financial performance, but the technology itself is not a financial performance measurement tool.\n\nSo the answer should be \"no\" - blockchain technology is not directly related to measuring or evaluating a company's financial performance."
+    },
+    {
+      "question_index": 15,
+      "thinking": "Let's think about whether blockchain technology is related to tax accounting or tax reporting:\n\nBlockchain technology is a decentralized, distributed ledger technology that records transactions across many computers so that records cannot be altered retroactively. While blockchain has many applications including:\n- Cryptocurrencies like Bitcoin\n- Smart contracts\n- Supply chain management\n- Voting systems\n- Digital identity verification\n\nWhen it comes to tax accounting or tax reporting:\n- Blockchain can be used to enhance tax systems and reporting through its transparent and immutable record-keeping\n- Some tax authorities are exploring blockchain for tax administration\n- Cryptocurrencies built on blockchain require tax reporting in many jurisdictions\n- Companies using blockchain may have special tax considerations\n\nHowever, blockchain technology itself is not fundamentally or primarily a tax accounting or tax reporting technology. It's a much broader technology with applications across many domains. While it can be applied to tax reporting, that's not its primary purpose or most common application.\n\nTherefore, the answer should be \"no\" - blockchain technology is not specifically related to tax accounting or tax reporting, though it can have applications in this area."
+    },
+    {
+      "question_index": 16,
+      "thinking": "Let's analyze whether blockchain technology is related to financial planning or budgeting:\n\nBlockchain technology:\n- Is a distributed ledger technology that allows for secure, transparent, and immutable record-keeping\n- Is most famously used as the underlying technology for cryptocurrencies like Bitcoin\n- Has applications in finance, supply chain, healthcare, voting systems, etc.\n- Provides a way to record transactions and track assets in a business network\n\nFinancial planning or budgeting:\n- Financial planning involves setting financial goals and creating plans to achieve them\n- Budgeting refers to creating plans for how to allocate and spend money\n\nWhile blockchain technology can be used in financial applications, it is not specifically or primarily a financial planning or budgeting tool. Blockchain is a record-keeping technology, not a planning or budgeting methodology.\n\nSome organizations might use blockchain-based systems as part of their financial infrastructure, but blockchain itself is not inherently related to the planning or budgeting process. It's more about transaction verification, record-keeping, and asset tracking.\n\nSo, blockchain technology is not directly related to financial planning or budgeting in its core function and purpose."
+    },
+    {
+      "question_index": 17,
+      "thinking": "I need to determine if blockchain technology is related to auditing or financial controls.\n\nBlockchain technology does have applications in auditing and financial controls:\n- It provides an immutable, transparent ledger that can help with audit trails\n- It enables verification of transactions without requiring a central authority\n- It can enhance financial controls through smart contracts and automated verification\n- It offers potential for improved transparency and traceability in financial records\n\nHowever, blockchain technology itself is not primarily an auditing or financial control system - it's a distributed ledger technology that has applications in many areas beyond auditing, including cryptocurrency, supply chain management, digital identity, etc.\n\nWhile blockchain does have applications in auditing and can enhance financial controls, I would say it's related but not specifically designed just for auditing or financial controls. It's more accurate to describe it as a technology that can be applied to these areas among many others.\n\nSo while there is a relationship, I think \"yes\" with a clarification is the most accurate answer."
+    },
+    {
+      "question_index": 18,
+      "thinking": "Let me think about whether blockchain technology is specifically related to regulatory compliance or legal standards in accounting.\n\nBlockchain technology certainly has applications in accounting and can be used to enhance the transparency and auditability of financial records. However, blockchain itself is not specifically or primarily about regulatory compliance or legal standards in accounting.\n\nWhile blockchain can be used to help with compliance and create immutable audit trails that may satisfy certain regulatory requirements, it is a broader technology with many applications beyond just compliance. Blockchain is a distributed ledger technology that can be used in various fields including finance, supply chain, healthcare, etc.\n\nSo blockchain technology is not specifically or primarily about regulatory compliance or legal standards in accounting, though it can be used to help with those things."
+    },
+    {
+      "question_index": 19,
+      "thinking": "Let me think about whether blockchain technology is a specific verification or checking process within auditing:\n\nBlockchain technology is:\n- A distributed ledger technology that records transactions across multiple computers\n- Provides transparency, immutability, and security for transaction records\n- Used in cryptocurrencies and increasingly in business applications\n- Can be used for audit trails and verification\n\nHowever, blockchain itself is not specifically a verification or checking process within traditional auditing. Rather, it's a broader technology that can facilitate verification and has applications in auditing and financial controls. Blockchain is a technology that enables new approaches to verification, rather than being a specific auditing process itself.\n\nWhile blockchain can be used to create immutable audit trails and can support verification processes, it's not correct to classify it as \"a specific verification or checking process within auditing\" - it's a much broader technological concept that spans many applications beyond just auditing.\n\nSo my answer should be \"No\" - blockchain technology is not a specific verification or checking process within auditing."
+    },
+    {
+      "question_index": 20,
+      "thinking": "Let me think about whether blockchain technology is related to fraud detection or prevention.\n\nBlockchain technology is indeed related to fraud detection and prevention in several ways:\n\n1. Immutability: Once data is recorded on a blockchain, it cannot be altered retroactively, which helps prevent fraudulent changes to records.\n\n2. Transparency: Transactions on a public blockchain are visible to all participants, making it difficult to engage in fraudulent activities without detection.\n\n3. Decentralization: The distributed nature of blockchain makes it resistant to single points of failure or attack.\n\n4. Consensus mechanisms: These ensure that transactions are verified by multiple parties before being added to the blockchain.\n\n5. Smart contracts: These can automate processes according to predefined rules, reducing the opportunity for human intervention and potential fraud.\n\nMany organizations are exploring or implementing blockchain specifically for fraud prevention purposes, particularly in supply chain management, financial services, and identity verification.\n\nSo the answer to whether blockchain technology is related to fraud detection or prevention is clearly yes."
+    }
+  ],
+  "questioner_token_usage": [
+    {
+      "question_index": 0,
+      "input_tokens": 530,
+      "output_tokens": 33,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 1,
+      "input_tokens": 1134,
+      "output_tokens": 27,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 1760,
+      "output_tokens": 17,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 2394,
+      "output_tokens": 29,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 3070,
+      "output_tokens": 21,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 3760,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 4466,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 5207,
+      "output_tokens": 26,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 6002,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 6816,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 7647,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 8496,
+      "output_tokens": 31,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 9390,
+      "output_tokens": 34,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 10322,
+      "output_tokens": 23,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 11267,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 12228,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 13211,
+      "output_tokens": 19,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 14213,
+      "output_tokens": 22,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 15241,
+      "output_tokens": 29,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 16306,
+      "output_tokens": 18,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 17406,
+      "output_tokens": 25,
+      "thinking_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "answerer_token_usage": [
+    {
+      "question_index": 1,
+      "input_tokens": 273,
+      "output_tokens": 182,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 2,
+      "input_tokens": 301,
+      "output_tokens": 216,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 3,
+      "input_tokens": 319,
+      "output_tokens": 270,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 4,
+      "input_tokens": 349,
+      "output_tokens": 204,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 5,
+      "input_tokens": 371,
+      "output_tokens": 271,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 6,
+      "input_tokens": 390,
+      "output_tokens": 252,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 7,
+      "input_tokens": 417,
+      "output_tokens": 253,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 8,
+      "input_tokens": 444,
+      "output_tokens": 249,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 9,
+      "input_tokens": 467,
+      "output_tokens": 273,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 10,
+      "input_tokens": 487,
+      "output_tokens": 220,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 11,
+      "input_tokens": 506,
+      "output_tokens": 327,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 12,
+      "input_tokens": 538,
+      "output_tokens": 190,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 13,
+      "input_tokens": 573,
+      "output_tokens": 251,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 14,
+      "input_tokens": 597,
+      "output_tokens": 287,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 15,
+      "input_tokens": 617,
+      "output_tokens": 276,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 16,
+      "input_tokens": 638,
+      "output_tokens": 266,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 17,
+      "input_tokens": 658,
+      "output_tokens": 253,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 18,
+      "input_tokens": 681,
+      "output_tokens": 199,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 19,
+      "input_tokens": 711,
+      "output_tokens": 261,
+      "total_tokens": 0
+    },
+    {
+      "question_index": 20,
+      "input_tokens": 730,
+      "output_tokens": 259,
+      "total_tokens": 0
+    }
+  ]
+}

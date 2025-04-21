@@ -1,0 +1,40 @@
+{
+  "game_id": "438febb2-2731-405a-8119-9839a9fb0294",
+  "timestamp": "2025-03-21T11:35:12.038744",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "honor",
+  "category": "abstract_concepts",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nQuestion 1: Is it a physical object (something you can touch)?",
+    "Question 2: Is it a concept or an abstract idea (like love, freedom, justice, etc.)?",
+    "Question 3: Is it related to human emotions or feelings?",
+    "Question 4: Is it generally considered a positive emotion or feeling?",
+    "Question 5: Is it considered one of the basic or primary emotions (like happiness, sadness, fear, etc.)?",
+    "Question 6: Is this emotion typically felt toward or in relation to other people (social emotion)?",
+    "Question 7: Is this emotion focused on caring for others' wellbeing or concerns (like compassion, empathy, sympathy)?",
+    "Question 8: Is this emotion related to appreciating or acknowledging others' qualities, achievements, or actions (like admiration, gratitude, or respect)?",
+    "Question 9: Is this emotion specifically related to feeling thankful or appreciative for something someone has done for you (like gratitude)?",
+    "Question 10: Is this emotion specifically related to looking up to someone because of their qualities, achievements, or abilities (like admiration or respect)?",
+    "Question 11: Is this emotion specifically about honoring or acknowledging someone's authority, position, or wisdom (like respect) rather than their achievements or talents?"
+  ],
+  "answers": [
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: honor"
+  ],
+  "question_count": 11,
+  "final_guess": "honor",
+  "success": true,
+  "max_questions": 20
+}

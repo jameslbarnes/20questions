@@ -1,0 +1,28 @@
+{
+  "game_id": "e81ff9f6-db1a-4f0d-872e-b8cfbfb3c40f",
+  "timestamp": "2025-03-21T10:30:16.674614",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "table",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow down the possibilities.\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it a living thing (person, animal, or plant)?",
+    "Question 3: Is it a man-made object (as opposed to a naturally occurring object)?",
+    "Question 4: Is it typically found in homes?",
+    "Question 5: Is it a furniture item (like a chair, table, bed, etc.)?"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "CORRECT! You've guessed the entity: table"
+  ],
+  "question_count": 5,
+  "final_guess": "table",
+  "success": true,
+  "max_questions": 20
+}

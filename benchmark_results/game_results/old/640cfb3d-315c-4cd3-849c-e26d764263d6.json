@@ -1,0 +1,43 @@
+{
+  "game_id": "640cfb3d-315c-4cd3-849c-e26d764263d6",
+  "timestamp": "2025-03-21T13:21:41.473875",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-high",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "# 20 Questions Game\n\nI'll ask yes/no questions to figure out what you're thinking of.\n\nLet's start:\n\nIs it a physical object (something you can touch)?",
+    "Question 2: Is it a man-made object (as opposed to something that occurs in nature)?",
+    "Question 3: Is it commonly found in households?",
+    "Question 4: Is it an electronic device or does it use electricity?",
+    "Question 5: Is it primarily used for entertainment purposes (like watching, listening, or playing)?",
+    "Question 6: Is it primarily used in the kitchen?",
+    "Question 7: Is it primarily used for cooking or heating food?",
+    "Question 8: Is it a countertop appliance (as opposed to a large built-in appliance like an oven/stove)?",
+    "Question 9: Is it designed to cook a wide variety of different foods (as opposed to being specialized for one specific type of food)?",
+    "Question 10: Does this appliance primarily cook food using radiation or heat (as opposed to using pressure or steam)?",
+    "Question 11: Does this appliance have a door that you open to put food inside?",
+    "Question 12: Does this appliance primarily cook food using microwave radiation?\nAnswer:",
+    ""
+  ],
+  "answers": [
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "a microwave oven.",
+  "success": true,
+  "max_questions": 20
+}

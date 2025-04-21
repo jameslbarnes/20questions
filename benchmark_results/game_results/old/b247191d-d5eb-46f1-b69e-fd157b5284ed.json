@@ -1,0 +1,43 @@
+{
+  "game_id": "b247191d-d5eb-46f1-b69e-fd157b5284ed",
+  "timestamp": "2025-03-21T21:09:46.770179",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "apple",
+  "category": "simple",
+  "questions": [
+    "Is it a physical, tangible object?",
+    "Is it man-made (created by humans)?",
+    "Is it something that is alive or was once alive (like a plant, animal, or part of a living organism)?",
+    "Is it an animal (rather than a plant, fungus, or microorganism)?",
+    "Is it a plant (as opposed to a fungus, microorganism, or other living organism)?",
+    "Is it a tree (as opposed to a shrub, flower, grass, or other plant type)?",
+    "Is it a flowering plant that produces edible fruits, vegetables, or grains that humans commonly consume?",
+    "Is it a plant primarily grown for its fruit (as opposed to vegetables, grains, or other edible parts)?",
+    "Is it a commonly cultivated fruit plant found worldwide (rather than a rare or regionally specific fruit)?",
+    "Does this fruit plant grow on a tree?",
+    "Is the fruit commonly red when ripe?",
+    "Is the fruit known for having a crunchy texture when eaten fresh?",
+    "<guess>Apple tree</guess>"
+  ],
+  "answers": [
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "No.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes.",
+    "Yes."
+  ],
+  "question_count": 13,
+  "final_guess": "Apple tree",
+  "success": true,
+  "max_questions": 20
+}

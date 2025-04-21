@@ -1,0 +1,26 @@
+{
+  "game_id": "e93244bc-9839-4b0f-9105-4a14952ad230",
+  "timestamp": "2025-03-21T10:16:51.811266",
+  "questioner_provider": "anthropic",
+  "questioner_model": "claude-3-7-sonnet-20250219-reasoning-low",
+  "answerer_provider": "anthropic",
+  "answerer_model": "claude-3-7-sonnet-20250219",
+  "entity": "microwave",
+  "category": "common_objects",
+  "questions": [
+    "I'll start with a broad question to narrow things down.\n\nQuestion 1: Is it a living thing?",
+    "Question 2: Is it a physical object that can be touched?",
+    "Question 3: Is it a man-made object?",
+    "Question 4: Is it smaller than a microwave oven?"
+  ],
+  "answers": [
+    "No",
+    "Yes",
+    "Yes",
+    "CORRECT! You've guessed the entity: microwave"
+  ],
+  "question_count": 4,
+  "final_guess": "microwave",
+  "success": true,
+  "max_questions": 20
+}
