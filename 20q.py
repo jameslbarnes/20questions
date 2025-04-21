@@ -18,8 +18,8 @@ from anthropic import Anthropic
 
 # ================ HARDCODED API KEYS ================
 # Replace these with your actual API keys
-OPENAI_API_KEY = ""
-ANTHROPIC_API_KEY = ""
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 # ====================================================
 
 class TwentyQuestionsGame:
@@ -31,12 +31,13 @@ class TwentyQuestionsGame:
     # Categories and sample entities - expand these as needed
     ENTITIES = {
         "complex": [
-            "quantum entanglement", "cultural diaspora", 
-            "blockchain technology", "collective unconscious",
+             "burning man temple",
             "dark matter gravitational lensing", "existential nihilism",
             "neuromorphic computing", "symbiotic mutualism",
             "geopolitical sovereignty", "epistemological relativism",
-            "recursive neural networks", "post-colonial discourse"
+            "recursive neural networks", "post-colonial discourse",
+            "quantum entanglement", "cultural diaspora", 
+            "blockchain technology", "collective unconscious",
         ],
 
         "simple": [
@@ -170,15 +171,20 @@ class TwentyQuestionsGame:
             game_name = f"{self.max_questions} Questions"
         
         base_prompt = (
-            f"You are playing {game_name}, a deduction game where you must identify what the answerer is thinking of through strategic yes/no questions. They could be thinking of absolutely anything.\n\n"
+            f"Let's play {game_name}, a deduction game where you must identify what the I am thinking of through strategic yes/no questions. They could be thinking of absolutely anything.\n\n"
             "GAMEPLAY STRATEGY:\n"
             "1. START WITH FUNDAMENTAL DIVISIONS: Begin with the broadest possible questions that divide the universe of possibilities (e.g., 'Is it physical/tangible?', 'Is it alive/organic?', 'Is it something that exists in the present day?')\n\n"
-            "2. USE BINARY TREE THINKING: Each question should efficiently split your remaining search space roughly in half\n\n" 
-            "3. ASK SPECIFIC, CLEAR QUESTIONS that can be answered with Yes, No, or I don't know\n\n"
+            "2. USE BINARY TREE THINKING:  Each question should efficiently split your remaining search space roughly in half. Example sequence:\n"
+        "   - Is it physical/tangible? → Yes\n"
+        "   - Is it alive/organic? → No\n"
+        "   - Is it manufactured by humans? → Yes\n"
+        "   - Is it primarily used indoors? → Yes\n\n"
+            "3. ASK SPECIFIC, CLEAR QUESTIONS that can be answered with Yes, or No. Assume 'maybe' means the answerer cannot choose between yes and no."
             "4. AVOID THESE MISTAKES:\n"
             "   - Don't list multiple examples in one question (e.g., 'Is it a dog, cat, or horse?')\n"
             "   - Don't assume any category or domain initially - it could be from any domain\n"
             "   - Don't waste questions on low-information details before establishing basic categories\n\n"
+            "   - Don't go down rabbit holes - if an answer doesn't seem to be narrowing the possibilities, change direction\n\n"
             "5. TRACK YOUR PROGRESS: Build a mental model of what you know and don't know\n\n"
             "6. BE DECISIVE AND EFFICIENT: If you're reasonably confident (70% or more) about the answer, make your guess! Don't waste questions just to be certain. Guessing correctly with fewer questions is better than using all 20 questions.\n\n"
             "7. NAVIGATE UNCERTAINTY: Sometimes the answerer may give inconsistent or slightly misleading answers due to different interpretations or misconceptions. If you suspect you're going down a wrong path:\n"
@@ -222,7 +228,7 @@ class TwentyQuestionsGame:
             f"\n\nRespond with ONLY one of these formats:"
             f"\n- <answer>yes</answer> (if the answer is affirmative)"
             f"\n- <answer>no</answer> (if the answer is negative)"
-            f"\n- <answer>maybe</answer> (if you're uncertain)"
+            f"\n- <answer>maybe</answer> (if you're uncertain, cannot choose between yes or no, or feel that either answer could be misleading to the questioner)"
             f"\n- <answer>correct</answer> (if they've guessed {self.entity})"
             f"\nYou may add a brief factual clarification AFTER your tagged answer when necessary for accuracy."
             f"\nIf the player mentions exactly what you're thinking of in their question, respond with '<answer>correct</answer> You've guessed {self.entity}' and the game will end immediately.\n\n"
@@ -345,7 +351,7 @@ class TwentyQuestionsGame:
                 if reasoning_level == "low":
                     budget_tokens = 2000
                 elif reasoning_level == "high":
-                    budget_tokens = 20000
+                    budget_tokens = 40000
                 
                 # For answerer, always enable reasoning if not explicitly specified
                 if not is_questioner and budget_tokens is None:
@@ -694,6 +700,9 @@ class TwentyQuestionsGame:
             print(f"===================================\n")
         
         # Play until max questions or final guess
+        extended_game = False
+        original_max_questions = self.max_questions
+        
         while self.question_count < self.max_questions:
             # Get question from questioner
             questioner_prompt = self.get_questioner_prompt()
@@ -736,6 +745,28 @@ class TwentyQuestionsGame:
                     continue
                 else:
                     break
+            
+            # Checkpoint after original max questions (usually 20)
+            if self.question_count == original_max_questions and not extended_game:
+                if self.verbose:
+                    print(f"\n===== CHECKPOINT: {original_max_questions} QUESTIONS ASKED =====")
+                    print(f"Do you want the questioner to continue asking questions? (y/n)")
+                    user_choice = input(">> ").strip().lower()
+                    
+                    if user_choice == 'y' or user_choice == 'yes':
+                        # Extend the game
+                        self.max_questions += 30  # Add 10 more questions
+                        extended_game = True
+                        print(f"Game extended to {self.max_questions} questions total.")
+                        
+                        # Tell the questioner to keep going
+                        continuation_message = f"You've asked {self.question_count} questions, but haven't found the answer yet. Please continue asking questions."
+                        self.answers.append(continuation_message)
+                        
+                        # Skip getting an answer for this question since we're adding our own message
+                        continue
+                    else:
+                        print("Proceeding to final guess...")
             
             # Get answer from answerer
             answerer_prompt = self.get_answerer_prompt()
@@ -819,6 +850,8 @@ class TwentyQuestionsGame:
             "final_guess": self.final_guess,
             "success": self.success,
             "max_questions": self.max_questions,
+            "original_max_questions": original_max_questions,
+            "extended_game": extended_game,
             "questioner_thinking": self.questioner_thinking,
             "answerer_thinking": self.answerer_thinking,
             "questioner_token_usage": self.questioner_token_usage,
@@ -1138,19 +1171,12 @@ def main():
     
     # Define questioner models to benchmark (using a consistent answerer)
     questioner_models = [
-        # Claude models
-        {
-            "provider": "anthropic",
-            "model": "claude-3-7-sonnet-20250219"
-        },
-        {
-            "provider": "anthropic",
-            "model": "claude-3-7-sonnet-20250219-reasoning-low"
-        },
-        {
+
+            {
             "provider": "anthropic",
             "model": "claude-3-7-sonnet-20250219-reasoning-high"
         },
+
     ]
     
     # Run the benchmark
