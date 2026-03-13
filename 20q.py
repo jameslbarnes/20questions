@@ -129,9 +129,6 @@ class TwentyQuestionsGame:
         self.success = False
         self.question_count = 0
         
-        # Store conversation messages with thinking blocks
-        self.questioner_messages = []
-        
         # Store thinking content for logging
         self.questioner_thinking = []
         self.answerer_thinking = []
@@ -357,16 +354,8 @@ class TwentyQuestionsGame:
                 if not is_questioner and budget_tokens is None:
                     budget_tokens = 2000  # Default to "low" level for answerer
                 
-                # Build message history for the questioner
-                messages = []
-                if is_questioner and self.questioner_messages:
-                    # Use the stored message history that includes thinking blocks
-                    messages = self.questioner_messages.copy()
-                    # Append the new user message
-                    messages.append({"role": "user", "content": prompt})
-                else:
-                    # Just use the current prompt if no history or not questioner
-                    messages = [{"role": "user", "content": prompt}]
+                # Single-turn message — prompt already contains full game state
+                messages = [{"role": "user", "content": prompt}]
                 
                 # Build API call parameters
                 params = {
@@ -421,18 +410,6 @@ class TwentyQuestionsGame:
                                         })
                                         
                                         break
-                        
-                        # Store the message with all blocks for future requests
-                        if is_questioner:
-                            # Add the user message if not already in history
-                            if not self.questioner_messages or self.questioner_messages[-1]["role"] != "user":
-                                self.questioner_messages.append({"role": "user", "content": prompt})
-                            
-                            # Add the assistant response with all content blocks
-                            self.questioner_messages.append({
-                                "role": "assistant", 
-                                "content": collected_blocks
-                            })
                         
                         # Use the already collected content
                         result = response_content
@@ -679,7 +656,6 @@ class TwentyQuestionsGame:
         self.final_guess = None
         self.success = False
         self.question_count = 0
-        self.questioner_messages = []  # Reset messages history with thinking blocks
         self.questioner_thinking = []  # Reset thinking content
         self.answerer_thinking = []    # Reset thinking content
         self.questioner_token_usage = []  # Reset token usage tracking
