@@ -450,9 +450,9 @@ class TwentyQuestionsGame:
                                 "input_tokens": getattr(response.usage, "input_tokens", 0),
                                 "output_tokens": getattr(response.usage, "output_tokens", 0),
                                 "thinking_tokens": getattr(response.usage, "thinking_tokens", 0),
-                                "total_tokens": getattr(response.usage, "total_tokens", 0)
+                                "total_tokens": getattr(response.usage, "input_tokens", 0) + getattr(response.usage, "output_tokens", 0)
                             }
-                            
+
                             if self.verbose:
                                 print(f"Token usage: {token_usage['total_tokens']} total " +
                                     f"({token_usage['input_tokens']} input, " +
@@ -510,9 +510,9 @@ class TwentyQuestionsGame:
                                     "question_index": self.question_count,
                                     "input_tokens": getattr(response.usage, "input_tokens", 0),
                                     "output_tokens": getattr(response.usage, "output_tokens", 0),
-                                    "total_tokens": getattr(response.usage, "total_tokens", 0)
+                                    "total_tokens": getattr(response.usage, "input_tokens", 0) + getattr(response.usage, "output_tokens", 0)
                                 }
-                                
+
                                 if self.verbose:
                                     print(f"Token usage: {token_usage['total_tokens']} total " +
                                         f"({token_usage['input_tokens']} input, {token_usage['output_tokens']} output)")
