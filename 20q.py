@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import math
 import random
 import pandas as pd
 import numpy as np
@@ -82,7 +83,9 @@ class TwentyQuestionsGame:
         anthropic_api_key: Optional[str] = None,
         max_questions: int = 20,
         output_dir: str = "results",
-        verbose: bool = True
+        verbose: bool = True,
+        judge_provider: str = "anthropic",
+        judge_model: str = "claude-sonnet-4-6",
     ):
         """
         Initialize a 20 Questions game.
@@ -97,25 +100,43 @@ class TwentyQuestionsGame:
             max_questions: Maximum number of questions allowed
             output_dir: Directory to save results
             verbose: Whether to print game progress
+            judge_provider: API provider for the independent adjudicator
+            judge_model: Model used to adjudicate whether a guess identifies the
+                entity. Kept separate from the answerer so the model that answers
+                never grades itself (eliminates the self-judging confound).
         """
         self.questioner_provider = questioner_provider
         self.questioner_model = questioner_model
         self.answerer_provider = answerer_provider
         self.answerer_model = answerer_model
+        self.judge_provider = judge_provider
+        self.judge_model = judge_model
         self.max_questions = max_questions
         self.output_dir = output_dir
         self.verbose = verbose
-        
+
         # Create clients with explicit API keys
         if questioner_provider == "openai":
             self.questioner_client = OpenAI(api_key=openai_api_key)
         elif questioner_provider == "anthropic":
             self.questioner_client = Anthropic(api_key=anthropic_api_key)
-        
+
         if answerer_provider == "openai":
             self.answerer_client = OpenAI(api_key=openai_api_key)
         elif answerer_provider == "anthropic":
             self.answerer_client = Anthropic(api_key=anthropic_api_key)
+
+        # Independent judge client (separate from the answerer).
+        if judge_provider == "openai":
+            self.judge_client = OpenAI(api_key=openai_api_key)
+        elif judge_provider == "anthropic":
+            self.judge_client = Anthropic(api_key=anthropic_api_key)
+        else:
+            self.judge_client = None
+
+        # Size of the full hypothesis space this benchmark defines, used to
+        # compute an information-theoretic ideal (log2(N)) for efficiency scoring.
+        self.entity_space_size = sum(len(v) for v in self.ENTITIES.values())
         
         # Create output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
@@ -229,9 +250,8 @@ class TwentyQuestionsGame:
             f"\n- <answer>yes</answer> (if the answer is affirmative)"
             f"\n- <answer>no</answer> (if the answer is negative)"
             f"\n- <answer>maybe</answer> (if you're uncertain, cannot choose between yes or no, or feel that either answer could be misleading to the questioner)"
-            f"\n- <answer>correct</answer> (if they've guessed {self.entity})"
             f"\nYou may add a brief factual clarification AFTER your tagged answer when necessary for accuracy."
-            f"\nIf the player mentions exactly what you're thinking of in their question, respond with '<answer>correct</answer> You've guessed {self.entity}' and the game will end immediately.\n\n"
+            f"\n\nAnswer every question truthfully, INCLUDING direct guesses: if the player asks 'Is it {self.entity}?' the truthful answer is still simply <answer>yes</answer>. Do NOT try to declare a winner or end the game yourself — a separate judge decides when the entity has been correctly identified. Your only job is to answer accurately.\n\n"
         )
         
         # Add conversation history
@@ -264,10 +284,7 @@ class TwentyQuestionsGame:
         # Set max_tokens based on model and role
         if is_questioner:
             #  higher max_tokens for questioners, especially with reasoning
-            if model == "claude-3-5-sonnet-20241022":
-                max_tokens = 8192
-            else:
-                max_tokens = 64000
+            max_tokens = 64000
         else:
             max_tokens = 5000  # Increased from 50 to give the answerer more room for accurate responses
         
@@ -332,30 +349,23 @@ class TwentyQuestionsGame:
             
             elif provider == "anthropic":
                 # Extract reasoning level from model name if present
-                # Format: "claude-3-7-sonnet-20250219-reasoning-{none|low|high}"
+                # Format: "claude-opus-4-8-reasoning-{none|low|medium|high|max}"
                 reasoning_level = None
                 actual_model = model
-                
+
                 if "-reasoning-" in model:
                     parts = model.split("-reasoning-")
                     actual_model = parts[0]
                     reasoning_level = parts[1]
-                
+
                 if self.verbose and False:  # Disable verbose API logging
                     print(f"Calling Anthropic API with model: {actual_model}, max_tokens: {max_tokens}")
                     if reasoning_level:
                         print(f"Using reasoning level: {reasoning_level}")
-                
-                # Set budget_tokens based on reasoning level
-                budget_tokens = None
-                if reasoning_level == "low":
-                    budget_tokens = 2000
-                elif reasoning_level == "high":
-                    budget_tokens = 40000
-                
+
                 # For answerer, always enable reasoning if not explicitly specified
-                if not is_questioner and budget_tokens is None:
-                    budget_tokens = 2000  # Default to "low" level for answerer
+                if not is_questioner and reasoning_level is None:
+                    reasoning_level = "low"
                 
                 # Build message history for the questioner
                 messages = []
@@ -375,21 +385,15 @@ class TwentyQuestionsGame:
                     "messages": messages
                 }
                 
-                # Add thinking with budget_tokens if specified
-                if budget_tokens is not None and is_questioner:
-                    params["thinking"] = {
-                        "type": "enabled",
-                        "budget_tokens": budget_tokens
-                    }
-                
-                # Enable reasoning for answerer as well if resoning level is specified
-                elif budget_tokens is not None and not is_questioner:
-                    # Use a smaller budget for answerer since responses are shorter
-                    answerer_budget = min(budget_tokens, 2000)
-                    params["thinking"] = {
-                        "type": "enabled",
-                        "budget_tokens": answerer_budget
-                    }
+                # Adaptive thinking replaces the removed budget_tokens API;
+                # the effort parameter controls reasoning depth instead.
+                if reasoning_level and reasoning_level != "none":
+                    params["thinking"] = {"type": "adaptive"}
+                    # Opus 4.7+ and Fable omit thinking text unless a summary
+                    # is requested; older 4.6 models don't accept "display".
+                    if any(m in actual_model for m in ("fable", "opus-4-7", "opus-4-8")):
+                        params["thinking"]["display"] = "summarized"
+                    params["output_config"] = {"effort": reasoning_level}
                 
                 # Use streaming for questioner to avoid long-request timeouts
                 if is_questioner:
@@ -603,64 +607,138 @@ class TwentyQuestionsGame:
         Returns:
             Tuple of (questioner_answer, entity_guessed flag, full_answer_for_logging)
         """
-        # Look for XML tags
-        match = re.search(r'<answer>(yes|no|maybe|correct)</answer>', response.lower())
-        
+        # Look for XML tags. "correct" is no longer a valid answer — adjudication
+        # is handled independently by judge_guess(), not self-reported by the answerer.
+        match = re.search(r'<answer>(yes|no|maybe)</answer>', response.lower())
+
         if match:
             answer_type = match.group(1)
-            
+
             # Extract any explanation after the tag
             explanation = response.split('</answer>', 1)
             explanation = explanation[1].strip() if len(explanation) > 1 else ""
-            
-            # Clean version for questioner (no explanation)
-            if answer_type == "correct":
-                questioner_answer = "CORRECT!"
-                entity_guessed = True
-            else:
-                questioner_answer = answer_type.capitalize() + "."
-                entity_guessed = False
-            
+
+            questioner_answer = answer_type.capitalize() + "."
+
             # Full version for logging
             full_answer = f"{questioner_answer}{' ' + explanation if explanation else ''}"
-            
-            return questioner_answer, entity_guessed, full_answer
-        
+
+            return questioner_answer, False, full_answer
+
         # If no XML tags found, return unclear response
         if self.verbose:
             print(f"WARNING: Answer not properly formatted with XML tags: {response}")
-        
+
         return "Unclear.", False, f"Missing proper format: {response}"
-    
-    def check_success(self, guess: str) -> bool:
+
+    @staticmethod
+    def _normalize(s: str) -> str:
+        """Lowercase, strip punctuation/articles, collapse whitespace."""
+        s = re.sub(r'[^a-z0-9 ]', ' ', s.lower())
+        s = re.sub(r'\b(a|an|the)\b', ' ', s)
+        return re.sub(r'\s+', ' ', s).strip()
+
+    def judge_guess(self, text: str, is_explicit_guess: bool = False) -> bool:
         """
-        Check if the final guess is correct.
-        
+        Independent adjudication: does `text` correctly and explicitly identify
+        the secret entity?
+
+        This is deliberately separate from the answerer — the model that answers
+        yes/no never decides whether a guess wins, which eliminates the
+        self-judging confound (e.g. ruling "Is its purpose energy-related, like a
+        wind turbine?" correct merely because the entity string appears as an
+        example).
+
+        Strategy:
+          1. Deterministic normalized exact match -> True with no API call.
+          2. Otherwise, only when the text is plausibly a guess, ask an independent
+             judge model to decide, with an explicit instruction NOT to count the
+             entity appearing as one example among several.
+
         Args:
-            guess: Final guess
-            
+            text: A question or final guess from the questioner.
+            is_explicit_guess: True if extract_question already classified this as
+                a final guess (forces judge invocation even without a string match).
+
         Returns:
-            Whether the guess is correct
+            Whether the entity has been correctly identified.
         """
-        # Clean up the guess
-        clean_guess = guess.lower().strip()
-        if clean_guess.endswith('.'):
-            clean_guess = clean_guess[:-1]
-            
-        # Clean up the entity
-        clean_entity = self.entity.lower().strip()
-        
-        # Direct match
-        if clean_guess == clean_entity:
+        norm_text = self._normalize(text)
+        norm_entity = self._normalize(self.entity)
+        if not norm_entity:
+            return False
+
+        # 1. Deterministic exact match (fast path, no API call).
+        if norm_text == norm_entity:
             return True
-        
-        # Check if entity is contained in guess or vice versa
-        if clean_entity in clean_guess or clean_guess in clean_entity:
-            return True
-            
-        # TODO: Could add more sophisticated matching here, like checking for synonyms
-        
+
+        # Does the entity appear as a standalone phrase (word-boundary), not just a
+        # substring of a longer word? Used only to decide whether to invoke the judge.
+        appears = re.search(r'\b' + re.escape(norm_entity) + r'\b', norm_text) is not None
+
+        # Skip the LLM judge when there's no plausible signal of a guess at all.
+        if not appears and not is_explicit_guess:
+            return False
+
+        if self.judge_client is None:
+            # No judge configured: fall back to a strict standalone-phrase match
+            # (still avoids the substring-of-a-word problem, but cannot catch the
+            # example-list trap — so warn).
+            if self.verbose and appears:
+                print("WARNING: no judge client; using strict phrase match for adjudication.")
+            return appears
+
+        judge_prompt = (
+            f"You are an impartial judge for a game of 20 Questions. The secret "
+            f"answer is exactly: \"{self.entity}\".\n\n"
+            f"The questioner just said:\n\"{text}\"\n\n"
+            f"Decide whether this counts as the questioner correctly and explicitly "
+            f"GUESSING the secret answer.\n"
+            f"- Answer <verdict>yes</verdict> ONLY if the questioner is directly "
+            f"guessing/naming \"{self.entity}\" (or an exact, unambiguous synonym) "
+            f"as their answer.\n"
+            f"- Answer <verdict>no</verdict> if \"{self.entity}\" is merely mentioned "
+            f"as one example among several, or as part of a broader category question, "
+            f"or if the guess is a near-miss (right category, wrong specific thing).\n\n"
+            f"Respond with ONLY <verdict>yes</verdict> or <verdict>no</verdict>."
+        )
+
+        try:
+            verdict_text = self._judge_call(judge_prompt)
+        except Exception as e:
+            if self.verbose:
+                print(f"WARNING: judge call failed ({e}); falling back to phrase match.")
+            return appears
+
+        m = re.search(r'<verdict>(yes|no)</verdict>', (verdict_text or "").lower())
+        if m:
+            return m.group(1) == "yes"
+        # Couldn't parse a verdict — be conservative.
         return False
+
+    def _judge_call(self, prompt: str) -> str:
+        """
+        Minimal, no-thinking model call for adjudication. Kept separate from
+        get_model_response so judge calls don't enable thinking or count against
+        the answerer's token-usage tracking.
+        """
+        if self.judge_provider == "openai":
+            resp = self.judge_client.chat.completions.create(
+                model=self.judge_model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=20,
+            )
+            return resp.choices[0].message.content or ""
+        # anthropic
+        resp = self.judge_client.messages.create(
+            model=self.judge_model,
+            max_tokens=20,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        for block in resp.content:
+            if getattr(block, "type", None) == "text":
+                return block.text
+        return ""
     
     def play_game(self, entity: Optional[str] = None, category: Optional[str] = None) -> Dict[str, Any]:
         """
@@ -699,140 +777,99 @@ class TwentyQuestionsGame:
             print(f"Answerer: {self.answerer_provider} - {self.answerer_model}")
             print(f"===================================\n")
         
-        # Play until max questions or final guess
+        # Play until max questions or a correct identification
         extended_game = False
         original_max_questions = self.max_questions
-        
+        self.failed_guesses = 0  # specific-entity guesses adjudicated wrong (endgame thrash)
+
         while self.question_count < self.max_questions:
             # Get question from questioner
             questioner_prompt = self.get_questioner_prompt()
             question_response = self.get_model_response(
-                self.questioner_provider, 
+                self.questioner_provider,
                 self.questioner_model,
                 questioner_prompt,
                 self.questioner_client,
                 is_questioner=True
             )
-            
+
             question, guess = self.extract_question(question_response)
             self.questions_asked.append(question)
             self.question_count += 1
-            
+
             if self.verbose:
                 print(f"Q{self.question_count}: {question}")
-            
-            # Check if there's a final guess
-            if guess:
-                self.final_guess = guess
-                self.success = self.check_success(guess)
-                
+
+            # Independent adjudication of EVERY turn — the judge, not the answerer,
+            # decides whether the entity has been correctly identified. A guess may
+            # be embedded in a question ("Is it a pencil?"), so we always check.
+            won = self.judge_guess(question, is_explicit_guess=bool(guess))
+
+            if won:
+                self.success = True
+                self.final_guess = guess or question
                 if self.verbose:
-                    result = "CORRECT! 🎉" if self.success else "INCORRECT ❌"
-                    print(f"Final guess: {guess} - {result}")
-                    print(f"Actual entity was: {self.entity}")
+                    print(f"JUDGE: correct identification of '{self.entity}' "
+                          f"after {self.question_count} questions. 🎉")
                     print("===================================\n")
-                
-                # End the game immediately if the guess is correct
-                if self.success:
-                    break
-                
-                # If the guess is wrong, continue asking questions until max_questions is reached
-                if not self.success and self.question_count < self.max_questions:
-                    if self.verbose:
-                        print("Incorrect guess. Continuing with more questions...")
-                    self.questions_asked.append(f"(Incorrect guess: {guess})")
-                    self.answers.append("That's not correct. Keep asking questions.")
-                    continue
-                else:
-                    break
-            
-            # Checkpoint after original max questions (usually 20)
-            if self.question_count == original_max_questions and not extended_game:
-                if self.verbose:
-                    print(f"\n===== CHECKPOINT: {original_max_questions} QUESTIONS ASKED =====")
-                    print(f"Do you want the questioner to continue asking questions? (y/n)")
-                    user_choice = input(">> ").strip().lower()
-                    
-                    if user_choice == 'y' or user_choice == 'yes':
-                        # Extend the game
-                        self.max_questions += 30  # Add 10 more questions
-                        extended_game = True
-                        print(f"Game extended to {self.max_questions} questions total.")
-                        
-                        # Tell the questioner to keep going
-                        continuation_message = f"You've asked {self.question_count} questions, but haven't found the answer yet. Please continue asking questions."
-                        self.answers.append(continuation_message)
-                        
-                        # Skip getting an answer for this question since we're adding our own message
-                        continue
-                    else:
-                        print("Proceeding to final guess...")
-            
-            # Get answer from answerer
+                break
+
+            # Not a win. The answerer answers the question truthfully (yes/no/maybe).
             answerer_prompt = self.get_answerer_prompt()
             answer_response = self.get_model_response(
-                self.answerer_provider, 
+                self.answerer_provider,
                 self.answerer_model,
                 answerer_prompt,
                 self.answerer_client,
                 is_questioner=False
             )
-            
-            # Extract both the clean answer for the questioner and full answer for logging
-            questioner_answer, entity_guessed, full_answer = self.extract_answer(answer_response)
-            
-            # Store only the clean answer in the conversation history for the questioner
+
+            questioner_answer, _, full_answer = self.extract_answer(answer_response)
             self.answers.append(questioner_answer)
-            
+
+            # A wrong explicit guess is a low-information probe — track it as thrash.
+            if guess:
+                self.failed_guesses += 1
+                self.final_guess = guess
+
             if self.verbose:
-                # But log the full answer with explanation
                 print(f"A: {full_answer}")
                 print("---")
-            
-            # If the answerer indicates the questioner mentioned the correct entity
-            if entity_guessed:
-                self.success = True
-                self.final_guess = self.entity  # Use the actual entity as the guess
-                
-                if self.verbose:
-                    print(f"The questioner mentioned the correct entity in their question!")
-                    print(f"Game ended with success after {self.question_count} questions.")
-                    print("===================================\n")
-                
-                break
-        
-        # If we've reached max questions without a guess, force a guess
-        if self.final_guess is None:
+
+        # If we've reached max questions without ever winning, force a final guess.
+        if not self.success and self.final_guess is None:
             if self.verbose:
                 print(f"Reached maximum questions ({self.max_questions}). Forcing final guess...")
-                
+
             force_guess_prompt = (
                 f"{self.get_questioner_prompt()}\n\n"
                 f"You have used all {self.max_questions} questions. "
                 f"You must make your final guess now. What is your best guess for the entity?"
             )
-            
+
             final_response = self.get_model_response(
-                self.questioner_provider, 
+                self.questioner_provider,
                 self.questioner_model,
                 force_guess_prompt,
                 self.questioner_client,
                 is_questioner=True
             )
-            
-            # Extract guess from response
+
             guess = final_response
             if "My guess is:" in final_response:
                 guess = final_response.split("My guess is:")[1].strip()
-            
+
             self.final_guess = guess
-            self.success = self.check_success(guess)
-            
+            self.success = self.judge_guess(guess, is_explicit_guess=True)
+
             if self.verbose:
                 result = "CORRECT! 🎉" if self.success else "INCORRECT ❌"
                 print(f"Final forced guess: {guess} - {result}")
                 print(f"Actual entity was: {self.entity}")
                 print("===================================\n")
+
+        # Information-theoretic efficiency metrics
+        efficiency = self.compute_efficiency_metrics()
         
         # Compile results
         results = {
@@ -852,6 +889,7 @@ class TwentyQuestionsGame:
             "max_questions": self.max_questions,
             "original_max_questions": original_max_questions,
             "extended_game": extended_game,
+            "efficiency": efficiency,
             "questioner_thinking": self.questioner_thinking,
             "answerer_thinking": self.answerer_thinking,
             "questioner_token_usage": self.questioner_token_usage,
@@ -860,9 +898,48 @@ class TwentyQuestionsGame:
         
         # Save results
         self.save_results(results)
-        
+
         return results
-    
+
+    def compute_efficiency_metrics(self) -> Dict[str, Any]:
+        """
+        Information-theoretic efficiency metrics for a finished game.
+
+        Win/loss saturates quickly once models are strong, so the discriminating
+        signal lives in *how efficiently* the space was searched:
+
+        - ideal_questions: log2(N) where N is the size of this benchmark's full
+          entity pool — the number of perfectly-bisecting questions needed if the
+          questioner knew the answer was one of our N entities. A fixed reference
+          point that makes `efficiency` comparable across games.
+        - efficiency: ideal_questions / questions_used for solved games (1.0 == it
+          matched the information-theoretic optimum; <1 means it spent extra
+          questions). None for unsolved games.
+        - yes_ratio: share of decisive (yes/no) answers that were "yes". A good
+          bisecting strategy splits the space ~50/50 and trends toward 0.5; a
+          guess-heavy strategy gets mostly "no" and trends toward 0 — a direct,
+          model-free proxy for search quality.
+        - failed_guesses: count of specific-entity guesses adjudicated wrong. This
+          is the endgame-thrash signal (e.g. guessing coral species one by one).
+        """
+        decisive = sum(1 for a in self.answers if a in ("Yes.", "No."))
+        yes = sum(1 for a in self.answers if a == "Yes.")
+        no = sum(1 for a in self.answers if a == "No.")
+        maybe = sum(1 for a in self.answers if a == "Maybe.")
+
+        ideal = math.log2(self.entity_space_size) if self.entity_space_size > 1 else 1.0
+        efficiency = (ideal / self.question_count) if (self.success and self.question_count) else None
+
+        return {
+            "solved": self.success,
+            "questions_used": self.question_count,
+            "ideal_questions": round(ideal, 2),
+            "efficiency": round(efficiency, 3) if efficiency is not None else None,
+            "yes_ratio": round(yes / decisive, 3) if decisive else None,
+            "failed_guesses": getattr(self, "failed_guesses", 0),
+            "answer_counts": {"yes": yes, "no": no, "maybe": maybe},
+        }
+
     def save_results(self, results: Dict[str, Any]) -> None:
         """
         Save game results to a JSON file.
@@ -1122,29 +1199,44 @@ class TwentyQuestionsBenchmark:
                         total += usage['total_tokens']
             return total
         
+        # Pull the information-theoretic efficiency metrics out of the nested dict.
+        def eff_field(field):
+            def getter(row):
+                e = row.get('efficiency') if hasattr(row, 'get') else None
+                return e.get(field) if isinstance(e, dict) else None
+            return getter
+
         # Apply these functions to create new columns
         results_df['total_thinking_tokens'] = results_df.apply(total_thinking_tokens, axis=1)
         results_df['total_tokens'] = results_df.apply(total_tokens, axis=1)
-        
-        # Include token statistics in the grouped aggregation
+        results_df['efficiency_ratio'] = results_df.apply(eff_field('efficiency'), axis=1)
+        results_df['yes_ratio'] = results_df.apply(eff_field('yes_ratio'), axis=1)
+        results_df['failed_guesses'] = results_df.apply(eff_field('failed_guesses'), axis=1)
+
+        # Include token + efficiency statistics in the grouped aggregation. Efficiency
+        # and yes_ratio are averaged over games where they're defined (NaNs skipped).
         summary = grouped.agg({
             'success': ['mean', 'count'],
             'question_count': ['mean', 'median', 'min', 'max'],
+            'efficiency_ratio': 'mean',
+            'yes_ratio': 'mean',
+            'failed_guesses': 'mean',
             'total_thinking_tokens': ['mean', 'sum'],
             'total_tokens': ['mean', 'sum']
         })
-        
+
         # Rename columns for clarity
         summary.columns = [
-            'success_rate', 'num_games', 
+            'success_rate', 'num_games',
             'avg_questions', 'median_questions', 'min_questions', 'max_questions',
+            'avg_efficiency', 'avg_yes_ratio', 'avg_failed_guesses',
             'avg_thinking_tokens', 'total_thinking_tokens',
             'avg_total_tokens', 'total_tokens'
         ]
-        
-        # Sort by success rate (descending)
-        summary = summary.sort_values('success_rate', ascending=False)
-        
+
+        # Sort by success rate, then efficiency (both descending)
+        summary = summary.sort_values(['success_rate', 'avg_efficiency'], ascending=False)
+
         return summary
 
 
@@ -1160,7 +1252,7 @@ def main():
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--answerer_provider", type=str, default="anthropic", 
                         help="Provider for answerer model (openai or anthropic)")
-    parser.add_argument("--answerer_model", type=str, default="claude-3-7-sonnet-20250219", 
+    parser.add_argument("--answerer_model", type=str, default="claude-sonnet-4-6",
                         help="Model name for answerer")
     parser.add_argument("--max_workers", type=int, default=4, 
                         help="Maximum number of concurrent games to run")
@@ -1171,12 +1263,10 @@ def main():
     
     # Define questioner models to benchmark (using a consistent answerer)
     questioner_models = [
-
-            {
+        {
             "provider": "anthropic",
-            "model": "claude-3-7-sonnet-20250219-reasoning-high"
+            "model": "claude-opus-4-8-reasoning-high"
         },
-
     ]
     
     # Run the benchmark
